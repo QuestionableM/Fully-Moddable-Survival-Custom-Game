@@ -1,0 +1,28 @@
+
+{
+	"968de65c-75f3-471b-954e-6165a4b6d3d6":	//obj_harvest_wood
+	{
+		"itemId": "1fc74a28-addb-451a-878d-c3c605d63811", //blk_scrapwood
+		"quantity": 10
+	},
+	"f99ebc34-4821-4b39-a625-b839c5802ed5":	//obj_harvest_wood2
+	{
+		"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71", //blk_wood1
+		"quantity": 10
+	},
+	"5cb39ea5-554d-4c40-9d9a-6b2dd59de953":	//obj_harvest_metal
+	{
+		"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39", //blk_scrapmetal
+		"quantity": 10
+	},
+	"7468db55-b29d-4ce0-82b9-2414f493a376":	//obj_harvest_metal2
+	{
+		"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e", //blk_metal1
+		"quantity": 10
+	},
+	"02ee2a98-bd8d-4a09-bb69-38edaf66b8e1":	//obj_harvest_stone
+	{
+		"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac", //blk_scrapstone
+		"quantity": 10
+	}
+}

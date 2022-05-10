@@ -387,6 +387,8 @@ end
 
 function CarryTool.cl_updateCarryRenderables( self, activeUid, activeColor )
 
+	print(activeUid, activeColor)
+
 	local carryRenderables = {}
 	local animationRenderablesTp = {}
 	local animationRenderablesFp = {}

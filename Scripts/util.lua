@@ -148,7 +148,7 @@ end
 
 function isHarvest( shapeUuid )
 
-	local harvests = sm.json.open("$SURVIVAL_DATA/Objects/Database/ShapeSets/harvests.json")
+	local harvests = sm.json.open("$CONTENT_DATA/Objects/Database/ShapeSets/harvests.json")
 	for i, harvest in ipairs(harvests.partList) do
 		local harvestUuid = sm.uuid.new( harvest.uuid )
 		if harvestUuid == shapeUuid then
