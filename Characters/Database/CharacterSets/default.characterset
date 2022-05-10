@@ -1,0 +1,121 @@
+{
+	"characters": [
+		{
+			"uuid": "00000000-0000-0000-0000-000000000000",
+			"renderables":
+			[
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_swim.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_head.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_chest.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hands.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_feet.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_legs.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hair.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_backpack.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Male/char_male_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_stand_col.obj",
+					"offset": [0.0, 0.0, 0.7]
+				},
+				"crouch":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_crouch_col.obj",
+					"offset": [0.0, 0.0, 0.4]
+				}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/characters/MechanicCharacter.lua",
+				"scriptClass": "MechanicCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 1.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 4.0,
+				"jumpImpulse": 7.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight": 0.8
+			},
+			"mass": 120.0
+		},
+		{
+			"uuid": "387dd285-9258-4b4e-9906-5c8e937e6704",
+			"renderables":
+			[
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_swim.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_dramatics.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_head.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_chest.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hands.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_feet.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_legs.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hair.rend",
+				"$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_backpack.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Male/char_male_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_stand_col.obj",
+					"offset": [0.0, 0.0, 0.7]
+				},
+				"crouch":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_crouch_col.obj",
+					"offset": [0.0, 0.0, 0.4]
+				}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/characters/DramaticsCharacter.lua",
+				"scriptClass": "DramaticsCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 1.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 4.0,
+				"jumpImpulse": 7.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight": 0.8
+			},
+			"mass": 120.0
+		}
+	]
+}
