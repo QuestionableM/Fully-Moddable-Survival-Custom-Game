@@ -822,7 +822,7 @@
             },
             "col": "$SURVIVAL_DATA/Terrain/Collision/Hideout/hvs_hideout_signarrow01_col.obj", 
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
                 "class": "EmptyHarvestable"
             },
             "renderable": {
@@ -861,7 +861,7 @@
             },
             "col": "$SURVIVAL_DATA/Terrain/Collision/Hideout/hvs_hideout_signarrow02_col.obj",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
                 "class": "EmptyHarvestable"
             },
             "renderable": {
@@ -900,7 +900,7 @@
             },
             "col": "$SURVIVAL_DATA/Terrain/Collision/Hideout/hvs_hideout_signarrow03_col.obj",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/EmptyHarvestable.lua", 
                 "class": "EmptyHarvestable"
             },
             "renderable": {

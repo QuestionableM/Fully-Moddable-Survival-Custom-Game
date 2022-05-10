@@ -1,5 +1,5 @@
 -- HarvestCore.lua --
-dofile("$SURVIVAL_DATA/Scripts/game/survival_units.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_units.lua")
 
 HarvestCore = class( nil )
 HarvestCore.resetStateOnInteract = false

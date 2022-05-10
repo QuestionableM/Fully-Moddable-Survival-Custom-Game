@@ -1,5 +1,5 @@
-dofile( "$SURVIVAL_DATA/Scripts/terrain/random_generation.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/terrain/random_generation.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
 
 
 -- Version history:

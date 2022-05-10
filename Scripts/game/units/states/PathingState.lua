@@ -1,6 +1,6 @@
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/units/states/FollowPathState2.lua" )
-dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/units/states/FollowPathState2.lua" )
+dofile "$CONTENT_DATA/Scripts/game/survival_constants.lua"
 
 PathingState = class( nil )
 

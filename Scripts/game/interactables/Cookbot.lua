@@ -1,4 +1,4 @@
-dofile "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+dofile "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua"
 
 local nameToIdx = {}
 nameToIdx["Pizza"]   = 1

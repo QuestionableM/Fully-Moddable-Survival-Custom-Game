@@ -15,7 +15,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GlowstickRemains.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GlowstickRemains.lua", 
 				"class": "GlowstickRemains", 
 				"data": {} 
 			}

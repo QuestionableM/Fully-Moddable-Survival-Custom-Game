@@ -1,6 +1,6 @@
-dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_units.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/util/Timer.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_constants.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_units.lua"
+dofile "$CONTENT_DATA/Scripts/game/util/Timer.lua"
 dofile "$CHALLENGE_DATA/Scripts/challenge/world_util.lua"
 
 -- Server side

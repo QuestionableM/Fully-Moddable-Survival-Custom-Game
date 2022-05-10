@@ -1,7 +1,7 @@
 -- Seat.lua --
-dofile("$SURVIVAL_DATA/Scripts/game/survival_constants.lua")
-dofile("$SURVIVAL_DATA/Scripts/game/survival_shapes.lua")
-dofile("$SURVIVAL_DATA/Scripts/game/survival_units.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_constants.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_shapes.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_units.lua")
 
 Seat = class()
 Seat.maxChildCount = 10

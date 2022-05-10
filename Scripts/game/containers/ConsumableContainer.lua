@@ -1,5 +1,5 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_items.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_projectiles.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_items.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_projectiles.lua" )
 
 ConsumableContainer = class( nil )
 ConsumableContainer.maxChildCount = 255

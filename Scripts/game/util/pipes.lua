@@ -1,4 +1,4 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_shapes.lua" )
 
 ContainerUuids = {
 	obj_container_gas,

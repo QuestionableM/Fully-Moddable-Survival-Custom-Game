@@ -18,7 +18,7 @@
                 "material": "Wood"
             },
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
 				"class": "Fence", 
 				"data": { "effectName": "Fence - PlankLongDestruction" } 
 			},
@@ -61,7 +61,7 @@
                 "material": "Wood"
             },
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
 				"class": "Fence", 
 				"data": { "effectName": "Fence - PlankShortDestruction" } 
 			},
@@ -103,7 +103,7 @@
                 "material": "Wood"
             },
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
 				"class": "Fence", 
 				"data": { "effectName": "Fence - PlankCornerDestruction" } 
 			},
@@ -146,7 +146,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - FarmPlank01Destruction" } 
             },
@@ -188,7 +188,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - FarmPlank02Destruction" } 
             },
@@ -230,7 +230,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - FarmPlank03Destruction" } 
             },
@@ -272,7 +272,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - FarmPlank04Destruction" } 
             },
@@ -315,7 +315,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Sign - HideoutSign03 Destruction" } 
             },
@@ -356,7 +356,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Sign - HideoutSign04 Destruction" } 
             },			
@@ -397,7 +397,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Sign - HideoutSign07 Destruction" } 
             },	
@@ -439,7 +439,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - HideoutFence01 Destruction" } 
             },
@@ -480,7 +480,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - HideoutFence02 Destruction" } 
             },
@@ -521,7 +521,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - HideoutFence04 Destruction" } 
             },
@@ -563,7 +563,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - HideoutFence05 Destruction" } 
             },
@@ -605,7 +605,7 @@
                 "material": "Wood"
             },
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/Fence.lua", 
                 "class": "Fence", 
                 "data": { "effectName": "Fence - HideoutFence06 Destruction" } 
             },

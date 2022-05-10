@@ -1,13 +1,13 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua")
-dofile( "$SURVIVAL_DATA/Scripts/game/worlds/BaseWorld.lua")
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_units.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_loot.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/SurvivalGame.lua")
+dofile( "$CONTENT_DATA/Scripts/game/worlds/BaseWorld.lua")
+dofile( "$CONTENT_DATA/Scripts/game/survival_units.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_shapes.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_constants.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_loot.lua" )
 
 WarehouseWorld = class( BaseWorld )
-WarehouseWorld.terrainScript = "$SURVIVAL_DATA/Scripts/terrain/terrain_warehouse.lua"
+WarehouseWorld.terrainScript = "$CONTENT_DATA/Scripts/terrain/terrain_warehouse.lua"
 WarehouseWorld.enableSurface = false
 WarehouseWorld.enableAssets = true
 WarehouseWorld.enableClutter = false

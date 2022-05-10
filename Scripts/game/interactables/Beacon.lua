@@ -1,4 +1,4 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/BeaconManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/BeaconManager.lua" )
 
 Beacon = class()
 Beacon.maxParentCount = 0

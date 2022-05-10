@@ -47,7 +47,7 @@ function QuestManager.server_onCreate( self )
 	self.sv.eventSubs = {}
 	self.sv.quests = {}
 
-	LoadQuestSet( "$SURVIVAL_DATA/ScriptableObjects/scriptableObjectSets/sob_quests.sobset", self.sv.quests )
+	LoadQuestSet( "$CONTENT_DATA/ScriptableObjects/scriptableObjectSets/sob_quests.sobset", self.sv.quests )
 
 
 

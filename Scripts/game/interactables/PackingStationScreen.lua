@@ -1,7 +1,7 @@
 -- Shared
-dofile( "$SURVIVAL_DATA/Scripts/game/util/Curve.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_projectiles.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/util/Curve.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_projectiles.lua" )
 
 PackingStationScreen = class( nil )
 PackingStationScreen.poseWeightCount = 2

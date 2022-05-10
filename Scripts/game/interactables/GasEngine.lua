@@ -1,6 +1,6 @@
 -- GasEngine.lua --
-dofile("$SURVIVAL_DATA/Scripts/game/survival_constants.lua")
-dofile("$SURVIVAL_DATA/Scripts/game/survival_items.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_constants.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_items.lua")
 
 GasEngine = class()
 GasEngine.maxParentCount = 2

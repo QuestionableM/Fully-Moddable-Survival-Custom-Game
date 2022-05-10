@@ -1,10 +1,10 @@
 dofile( "$GAME_DATA/Scripts/game/BasePlayer.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/QuestManager.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_camera.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/util/Timer.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/scripts/game/quest_util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/QuestManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_camera.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_constants.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/util/Timer.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/quest_util.lua" )
 
 
 SurvivalPlayer = class( BasePlayer )

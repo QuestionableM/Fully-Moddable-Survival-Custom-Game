@@ -1,6 +1,6 @@
 	
-dofile "$SURVIVAL_DATA/Scripts/util.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/util/pipes.lua"
+dofile "$CONTENT_DATA/Scripts/util.lua"
+dofile "$CONTENT_DATA/Scripts/game/util/pipes.lua"
 
 Refinery = class( nil )
 local StackSize = 256

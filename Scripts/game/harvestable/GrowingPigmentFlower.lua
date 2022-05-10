@@ -1,4 +1,4 @@
-dofile("$SURVIVAL_DATA/Scripts/game/survival_loot.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_loot.lua")
 
 GrowingPigmentFlower = class()
 

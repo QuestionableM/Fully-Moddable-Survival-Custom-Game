@@ -1,8 +1,8 @@
 
 dofile "$GAME_DATA/Scripts/game/AnimationUtil.lua"
-dofile "$SURVIVAL_DATA/Scripts/util.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_harvestable.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua"
+dofile "$CONTENT_DATA/Scripts/util.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_harvestable.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_shapes.lua"
 
 Fertilizer = class()
 

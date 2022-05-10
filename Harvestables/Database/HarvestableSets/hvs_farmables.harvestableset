@@ -7,7 +7,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_beehive_col.obj",
             "color":"c5a100",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BeeHive.lua",
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/BeeHive.lua",
                 "class": "BeeHive",
 				"data": {}
             }
@@ -20,7 +20,7 @@
             "col": null,
             "color":"c5a100",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenBeeHive.lua",
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/BrokenBeeHive.lua",
                 "class": "BrokenBeeHive",
 				"data": {}
             }
@@ -32,7 +32,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_col.obj",
             "color":"a0253e",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/SlimyClam.lua",
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/SlimyClam.lua",
                 "class": "SlimyClam",
                 "data": {}
             }
@@ -45,7 +45,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_broken_col.obj",
             "color":"a0253e",
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenSlimyClam.lua",
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/BrokenSlimyClam.lua",
                 "class": "BrokenSlimyClam",
                 "data": {}
             }
@@ -80,7 +80,7 @@
 			},
             "removable": true,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/CottonPlant.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/CottonPlant.lua", 
                 "class": "CottonPlant", 
                 "data": {} 
             }
@@ -114,7 +114,7 @@
 				"projectile": false
 			},
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingCottonPlant.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingCottonPlant.lua", 
                 "class": "GrowingCottonPlant", 
                 "data": {} 
             }
@@ -148,7 +148,7 @@
 				"melee": true
 			},
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/CornPlant.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/CornPlant.lua", 
                 "class": "CornPlant", 
                 "data": {} 
             }
@@ -177,7 +177,7 @@
             },
 			"col": null,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenCornPlant.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/BrokenCornPlant.lua", 
                 "class": "BrokenCornPlant", 
                 "data": {} 
             }
@@ -218,7 +218,7 @@
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_oilgeyser_col.obj",
             "removable": true,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/OilGeyser.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/OilGeyser.lua", 
                 "class": "OilGeyser", 
                 "data": {} 
             }
@@ -259,7 +259,7 @@
 			},
 			"col": null,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingOilGeyser.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingOilGeyser.lua", 
                 "class": "GrowingOilGeyser", 
                 "data": {} 
             }
@@ -277,7 +277,7 @@
             },
             "removable": true,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/PigmentFlower.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/PigmentFlower.lua", 
                 "class": "PigmentFlower", 
                 "data": {} 
             }
@@ -289,7 +289,7 @@
             "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_pigmentflower_broken.rend",
             "col": null,
             "script": { 
-                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingPigmentFlower.lua", 
+                "file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingPigmentFlower.lua", 
                 "class": "GrowingPigmentFlower", 
                 "data": {} 
             }

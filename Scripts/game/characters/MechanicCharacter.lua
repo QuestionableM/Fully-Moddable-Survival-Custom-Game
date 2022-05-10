@@ -1,4 +1,4 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/characters/BaseCharacter.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/characters/BaseCharacter.lua" )
 
 MechanicCharacter = class( BaseCharacter )
 

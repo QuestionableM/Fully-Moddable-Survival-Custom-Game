@@ -1,4 +1,4 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/BeaconManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/BeaconManager.lua" )
 
 
 
@@ -695,7 +695,7 @@ function SurvivalGame.sv_recreateWorld( self, player )
 	local character = player:getCharacter()
 	if character:getWorld() == self.sv.saved.overworld then
 		self.sv.saved.overworld:destroy()
-		self.sv.saved.overworld = sm.world.createWorld( "$SURVIVAL_DATA/Scripts/game/worlds/Overworld.lua", "Overworld", { dev = g_survivalDev }, self.sv.saved.data.seed )
+		self.sv.saved.overworld = sm.world.createWorld( "$CONTENT_DATA/Scripts/game/worlds/Overworld.lua", "Overworld", { dev = g_survivalDev }, self.sv.saved.data.seed )
 		self.storage:save( self.sv.saved )
 
 		local params = { pos = character:getWorldPosition(), dir = character:getDirection() }
@@ -1021,7 +1021,7 @@ function SurvivalGame.sv_e_createElevatorDestination( self, params )
 
 
 
-	local world = sm.world.createWorld( "$SURVIVAL_DATA/Scripts/game/worlds/WarehouseWorld.lua", "WarehouseWorld", worldData )
+	local world = sm.world.createWorld( "$CONTENT_DATA/Scripts/game/worlds/WarehouseWorld.lua", "WarehouseWorld", worldData )
 	print( "Created WarehouseWorld "..world.id )
 
 	-- Use the same restrictions for the new floor as the other floors

@@ -15,7 +15,7 @@
 			"destroyTime": 0.35,
 			"col_box": { "x": 2, "y": 2, "z": 2 },
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/QuestItemWaterBucket.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/QuestItemWaterBucket.lua", 
 				"class": "QuestItemWaterBucket", 
 				"data": {}
 			},

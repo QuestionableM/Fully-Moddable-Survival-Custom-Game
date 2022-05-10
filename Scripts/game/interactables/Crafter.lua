@@ -1,8 +1,8 @@
 -- Crafter.lua --
 
-dofile "$SURVIVAL_DATA/Scripts/game/survival_items.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_survivalobjects.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/util/pipes.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_items.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_survivalobjects.lua"
+dofile "$CONTENT_DATA/Scripts/game/util/pipes.lua"
 
 Crafter = class( nil )
 Crafter.colorNormal = sm.color.new( 0x84ff32ff )

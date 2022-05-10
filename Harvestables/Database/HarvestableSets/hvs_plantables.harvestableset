@@ -16,7 +16,7 @@
 			"destroyTime": 1.0,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestableSoil.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/HarvestableSoil.lua",
 				"class": "HarvestableSoil",
 				"data": {}
 			},
@@ -56,7 +56,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "80cd6e60-154f-46da-8f26-ff30f2961fa2", //hvs_mature_banana
@@ -80,7 +80,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "aa4c9c5e-7fc6-4c27-967f-c550e551c872", //banana part
@@ -104,7 +104,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "9b031ec3-bc91-47b9-93fb-df79a8ef3026", //hvs_mature_blueberry
@@ -128,7 +128,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "6a43fff2-8c6d-4460-9f44-e5483b5267dd", //blueberry part
@@ -152,7 +152,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "133ae17a-c038-4a55-ab79-f40f6840ab2b", //hvs_mature_orange
@@ -176,7 +176,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "f5098301-1693-457b-8efc-83b3504105ac", //orange part
@@ -200,7 +200,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "2cedbc23-92c5-4fba-8a08-ecbae23a28e5", //hvs_mature_pineapple
@@ -224,7 +224,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "4ec64cda-1a5b-4465-88b4-5ea452c4a556", //pineapple part
@@ -248,7 +248,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "18990ae9-62d1-41f7-aab9-5199b31e3e89", //hvs_mature_carrot
@@ -272,7 +272,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "47ece75a-bfca-4e8a-b618-4f609fcea0da", //carrot part
@@ -296,7 +296,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "1a167796-8162-4990-97a7-b3810b3f94ca", //hvs_mature_redbeet
@@ -320,7 +320,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "4ce00048-f735-4fab-b978-5f405e60f48f", //redbeet part
@@ -344,7 +344,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "534b13a0-3ec1-4558-a77a-cfccf6c3cb3e", //hvs_mature_tomato
@@ -368,7 +368,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "6d92d8e7-25e9-4698-b83d-a64dc97978c8", //tomato part
@@ -392,7 +392,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "b166b142-792a-4c8f-9d06-f277dab6dba6", //hvs_mature_broccoli
@@ -416,7 +416,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f", //broccoli part
@@ -440,7 +440,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "c42ad18d-797b-4196-ab79-86e222d8f767", //hvs_mature_potato
@@ -464,7 +464,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", //potato part
@@ -488,7 +488,7 @@
 			},
 			"disableClutter": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "4d923a91-0c98-40f9-ae3f-ef386362ab1c", //hvs_mature_cotton
@@ -512,7 +512,7 @@
 			"disableClutter": true,
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "3440440b-d362-4473-aa03-b7c41e1fe7ad", //cotton part

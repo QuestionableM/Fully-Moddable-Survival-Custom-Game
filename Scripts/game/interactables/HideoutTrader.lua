@@ -1,5 +1,5 @@
 -- HideoutTrader.lua --
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
 
 HideoutTrader = class( nil )
 HideoutTrader.maxParentCount = 1

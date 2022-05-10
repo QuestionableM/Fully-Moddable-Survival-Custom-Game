@@ -7,7 +7,7 @@
 			"col": "$GAME_DATA/Terrain/Collision/Rocks/env_rocks_rock05_col.obj",
 			"type": "stone",
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua",
 				"class": "StoneHarvestable",
 				"data": {
 					"parts": [

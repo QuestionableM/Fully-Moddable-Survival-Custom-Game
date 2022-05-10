@@ -1,13 +1,13 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/worlds/BaseWorld.lua")
+dofile( "$CONTENT_DATA/Scripts/game/worlds/BaseWorld.lua")
 
 
 
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/WaterManager.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/PackingStationManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/WaterManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/PackingStationManager.lua" )
 
 Overworld = class( BaseWorld )
 
-Overworld.terrainScript = "$SURVIVAL_DATA/Scripts/terrain/terrain_overworld.lua"
+Overworld.terrainScript = "$CONTENT_DATA/Scripts/terrain/terrain_overworld.lua"
 Overworld.groundMaterialSet = "$GAME_DATA/Terrain/Materials/gnd_standard_materialset.json"
 Overworld.enableSurface = true
 Overworld.enableAssets = true

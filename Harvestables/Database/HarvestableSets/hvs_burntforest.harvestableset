@@ -11,7 +11,7 @@
             },
 			"script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -31,7 +31,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -51,7 +51,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -72,7 +72,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -92,7 +92,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -112,7 +112,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -132,7 +132,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{
@@ -152,7 +152,7 @@
             },
             "script" :
 			{
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/BurntTree.lua",
 				"class": "BurntTree",
 				"data": 
 				{

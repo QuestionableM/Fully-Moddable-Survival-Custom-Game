@@ -32,7 +32,7 @@
 			},
 			"color": "ffffff",
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootCrate.lua",
 				"class": "LootCrate",
 				"data": {
 					"destroyEffect": "LootCrate - Destroy",
@@ -72,7 +72,7 @@
 			},
 			"color": "ffffff",
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootCrate.lua",
 				"class": "LootCrate",
 				"data": {
 					"destroyEffect": "LootCrate - EpicDestroy",
@@ -95,7 +95,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}
@@ -115,7 +115,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}
@@ -135,7 +135,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}
@@ -155,7 +155,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}
@@ -178,7 +178,7 @@
 			"material": "Wood",
 			"mass": 15000,		
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LogbookLoot.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LogbookLoot.lua", 
 				"class": "LogbookLoot", 
 				"data": {} 
 			}
@@ -198,7 +198,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}
@@ -218,7 +218,7 @@
 			},
 			"removable": true,
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/LootHarvestable.lua", 
 				"class": "LootHarvestable", 
 				"data": {} 
 			}

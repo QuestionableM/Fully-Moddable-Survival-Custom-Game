@@ -1,4 +1,4 @@
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_projectiles.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_projectiles.lua" )
 
 MountedWaterGun = class()
 MountedWaterGun.maxParentCount = 2

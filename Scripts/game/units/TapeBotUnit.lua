@@ -1,10 +1,10 @@
-dofile "$SURVIVAL_DATA/Scripts/game/units/unit_util.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/util/Ticker.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/util/Timer.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/units/states/PathingState.lua"
-dofile "$SURVIVAL_DATA/Scripts/util.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
+dofile "$CONTENT_DATA/Scripts/game/units/unit_util.lua"
+dofile "$CONTENT_DATA/Scripts/game/util/Ticker.lua"
+dofile "$CONTENT_DATA/Scripts/game/util/Timer.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_shapes.lua"
+dofile "$CONTENT_DATA/Scripts/game/units/states/PathingState.lua"
+dofile "$CONTENT_DATA/Scripts/util.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_constants.lua"
 
 TapebotUnit = class( nil )
 

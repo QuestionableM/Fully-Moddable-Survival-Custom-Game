@@ -1,5 +1,5 @@
 -- TreeLog.lua --
-dofile("$SURVIVAL_DATA/Scripts/game/survival_shapes.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_shapes.lua")
 
 TreeLog = class( nil )
 

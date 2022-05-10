@@ -7,7 +7,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch01.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch01_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "small",
@@ -28,7 +28,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch02.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "small",
@@ -49,7 +49,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch03.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch03_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "small",
@@ -70,7 +70,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy01.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy01_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",
@@ -91,7 +91,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy02.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",
@@ -112,7 +112,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy03.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy03_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",
@@ -133,7 +133,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine01.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine01_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "large",
@@ -154,7 +154,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine02.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "large",
@@ -175,7 +175,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine03.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine03_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "large",
@@ -196,7 +196,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce01.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",
@@ -217,7 +217,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce02.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",
@@ -238,7 +238,7 @@
 			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce03.rend",
 			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
 				"class": "WoodHarvestable", 
 				"data": { 
 					"type": "medium",

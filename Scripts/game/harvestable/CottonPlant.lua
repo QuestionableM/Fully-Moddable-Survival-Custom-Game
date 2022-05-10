@@ -1,6 +1,6 @@
 -- CottonPlant.lua --
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_harvestable.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_projectiles.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_harvestable.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_projectiles.lua" )
 
 CottonPlant = class( nil )
 

@@ -1,7 +1,7 @@
 dofile "$GAME_DATA/Scripts/game/AnimationUtil.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/managers/BeaconManager.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/managers/QuestManager.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_logs.lua"
+dofile "$CONTENT_DATA/Scripts/game/managers/BeaconManager.lua"
+dofile "$CONTENT_DATA/Scripts/game/managers/QuestManager.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_logs.lua"
 
 local renderables =   {"$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/char_logbook.rend" }
 local renderablesTp = {"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_logbook.rend", "$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/char_logbook_tp_animlist.rend"}

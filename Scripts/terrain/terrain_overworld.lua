@@ -1,6 +1,6 @@
-dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
-dofile "$SURVIVAL_DATA/Scripts/terrain/random_generation.lua"
-dofile "$SURVIVAL_DATA/Scripts/terrain/overworld/generate_cells.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_constants.lua"
+dofile "$CONTENT_DATA/Scripts/terrain/random_generation.lua"
+dofile "$CONTENT_DATA/Scripts/terrain/overworld/generate_cells.lua"
 
 -- Versions
 -- 1: Adds 'mechanicStation'

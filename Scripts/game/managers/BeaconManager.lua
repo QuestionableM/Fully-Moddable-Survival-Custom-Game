@@ -1,5 +1,5 @@
-dofile("$SURVIVAL_DATA/Scripts/game/survival_constants.lua")
-dofile "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua"
+dofile("$CONTENT_DATA/Scripts/game/survival_constants.lua")
+dofile "$CONTENT_DATA/Scripts/game/survival_shapes.lua"
 
 BEACON_COLORS = {
 	sm.color.new( "4F6CFF" ),

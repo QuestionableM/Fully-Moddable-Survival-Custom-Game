@@ -15,7 +15,7 @@
 			},
 			"removable": true,
 			"script": {
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "6a43fff2-8c6d-4460-9f44-e5483b5267dd", //blueberry part

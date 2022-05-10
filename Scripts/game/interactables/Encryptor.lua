@@ -1,5 +1,5 @@
-dofile("$SURVIVAL_DATA/Scripts/util.lua")
-dofile"$SURVIVAL_DATA/Scripts/game/survival_survivalobjects.lua"
+dofile("$CONTENT_DATA/Scripts/util.lua")
+dofile"$CONTENT_DATA/Scripts/game/survival_survivalobjects.lua"
 
 Encryptor = class()
 Encryptor.maxChildCount = 255

@@ -1,6 +1,6 @@
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/util/Stack.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/units/states/FollowPathState.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/util/Stack.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/units/states/FollowPathState.lua" )
 
 CombatPathingState = class( nil )
 

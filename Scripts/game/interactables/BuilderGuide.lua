@@ -1,4 +1,4 @@
-dofile("$SURVIVAL_DATA/Scripts/blueprint_util.lua")
+dofile("$CONTENT_DATA/Scripts/blueprint_util.lua")
 
 BuilderGuide = class( nil )
 

@@ -1,5 +1,5 @@
 -- NoteTerminal.lua --
-dofile( "$SURVIVAL_DATA/Scripts/game/managers/QuestManager.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/managers/QuestManager.lua" )
 
 NoteTerminal = class( nil )
 NoteTerminal.maxParentCount = 1

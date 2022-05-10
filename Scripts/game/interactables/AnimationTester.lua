@@ -1,5 +1,5 @@
 
-dofile "$SURVIVAL_DATA/Scripts/util.lua"
+dofile "$CONTENT_DATA/Scripts/util.lua"
 
 AnimationTester = class( nil )
 

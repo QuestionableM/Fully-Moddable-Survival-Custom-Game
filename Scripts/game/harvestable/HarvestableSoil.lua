@@ -1,6 +1,6 @@
 -- HarvestableSoil.lua --
-dofile "$SURVIVAL_DATA/Scripts/game/survival_harvestable.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_harvestable.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_shapes.lua"
 
 HarvestableSoil = class( nil )
 HarvestableSoil.SoilFrames = 10

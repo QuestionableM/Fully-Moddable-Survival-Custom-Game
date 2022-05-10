@@ -1,4 +1,4 @@
-dofile("$SURVIVAL_DATA/Scripts/game/survival_constants.lua")
+dofile("$CONTENT_DATA/Scripts/game/survival_constants.lua")
 
 Fence = class( nil )
 

@@ -1,5 +1,5 @@
 -- OilGeyser.lua --
-dofile "$SURVIVAL_DATA/Scripts/game/survival_harvestable.lua"
+dofile "$CONTENT_DATA/Scripts/game/survival_harvestable.lua"
 
 OilGeyser = class( nil )
 

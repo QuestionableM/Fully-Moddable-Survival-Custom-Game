@@ -1,8 +1,8 @@
 
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_projectiles.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_shapes.lua" )
+dofile( "$CONTENT_DATA/Scripts/util.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_constants.lua" )
+dofile( "$CONTENT_DATA/Scripts/game/survival_projectiles.lua" )
 
 -- A chance of 100 makes the item 100 times more likely than with a chance of 1
 

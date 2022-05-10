@@ -8,7 +8,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small01_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small01.blueprint",
@@ -28,7 +28,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small02_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small02.blueprint",
@@ -48,7 +48,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small03_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small03.blueprint",
@@ -68,7 +68,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium01_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium01.blueprint",
@@ -88,7 +88,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium02_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium02.blueprint",
@@ -108,7 +108,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium03_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium03.blueprint",
@@ -128,7 +128,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large01_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large01.blueprint",
@@ -148,7 +148,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large02_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large02.blueprint",
@@ -168,7 +168,7 @@
             "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large03_col.obj",    
 
 			"script": { 
-				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"file": "$CONTENT_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
 				"class": "StoneHarvestable", 
 				"data": { 
 					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large03.blueprint",
