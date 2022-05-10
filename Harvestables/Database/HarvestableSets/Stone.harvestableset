@@ -1,0 +1,181 @@
+{
+	"harvestableList": [
+		{
+			"name": "harvestable_stone",
+			"uuid": "fa059f9d-7919-4961-a471-63641e84e639",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Harvestable/Stone/harvestable_stone.rend",
+			"col": "$GAME_DATA/Terrain/Collision/Rocks/env_rocks_rock05_col.obj",
+			"type": "stone",
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua",
+				"class": "StoneHarvestable",
+				"data": {
+					"parts": [
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 0,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 0,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": -2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": -2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": -2,
+							"z": 0
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 0,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 0,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 0,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": -2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": -2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": -2,
+							"z": -2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 0,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 0,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 0,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": 2,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 0,
+							"y": -2,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": 2,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": 2,
+							"y": -2,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": 2,
+							"z": 2
+						},
+						{
+							"uuid": "f0cb9cf0-2b8f-421b-8a21-1a9a0236550f",
+							"x": -2,
+							"y": -2,
+							"z": 2
+						}
+					]
+				} 
+			}
+		}
+	]
+}

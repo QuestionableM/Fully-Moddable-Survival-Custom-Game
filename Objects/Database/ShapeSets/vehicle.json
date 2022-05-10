@@ -1,0 +1,199 @@
+{
+	"partList": [
+		{
+			"uuid": "6f38a734-571f-4c3d-97b9-c0aa480973af",
+			"name": "obj_vehicle_concavewedge",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_concavewedge.fbx"
+					}
+				]
+			},
+			"color": "518d3c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.025,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_vehicle_concavewedge.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y-X+X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a7fb4293-f623-4a0f-9465-8bc640f0038b",
+			"name": "obj_vehicle_license_plate",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_license_plate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_license_plate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_license_plate_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_license_plate.mesh"
+					}
+				]
+			},
+			"color": "808080",
+			"hull": {
+				"x": 4,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_vehicle_license_plate.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "eabc9e68-6172-4719-ace5-5d64333233c0",
+			"name": "obj_vehicle_mediumpipe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_mediumpipe.fbx"
+					}
+				]
+			},
+			"color": "808080",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 2,
+				"margin": 0.2,
+				"axis": "Y"
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "eb608c5d-c418-49db-a2c5-1c8186b3d314",
+			"name": "obj_vehicle_mediumpipebent",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_mediumpipebent.fbx"
+					}
+				]
+			},
+			"color": "808080",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 2,
+				"margin": 0.025,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_vehicle_mediumpipebent.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "64fdc73f-259a-49df-94ac-24db25a4dc42",
+			"name": "obj_vehicle_wheelhousecorner",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_atlas_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_wheelhousecorner.fbx"
+					}
+				]
+			},
+			"color": "808080",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.025,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_vehicle_wheelhousecorner.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		}
+	]
+}

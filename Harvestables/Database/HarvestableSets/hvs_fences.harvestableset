@@ -1,0 +1,632 @@
+{
+    "harvestableList": [
+        {            
+            "uuid": "c0f19413-6d8e-4b20-819a-949553242259",
+            "name": "hvs_plank_long",
+            "type": "filler",
+            "color": "865938",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_plank_long.obj",
+            "slope": "rotate",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"class": "Fence", 
+				"data": { "effectName": "Fence - PlankLongDestruction" } 
+			},
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_plank_long.fbx",
+                        "subMeshMap": {
+                            "plank": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_long_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {            
+            "uuid": "144b5e79-483e-4da6-86ab-c575d0fdcd11",
+            "name": "hvs_plank_short",
+            "type": "filler",
+            "color": "865938",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_plank_short.obj",
+            "slope": "rotate",
+
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"class": "Fence", 
+				"data": { "effectName": "Fence - PlankShortDestruction" } 
+			},
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_plank_short.fbx",
+                        "subMeshMap": {
+                            "plank": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_short_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {            
+            "uuid": "ead875db-59d0-45f5-861e-b3075e1f8434",
+            "name": "hvs_plank_corner",
+            "type": "filler",
+            "color": "865938",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_plank_corner.obj",
+            "slope": "rotate",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+				"class": "Fence", 
+				"data": { "effectName": "Fence - PlankCornerDestruction" } 
+			},
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_plank_corner.fbx",
+                        "subMeshMap": {
+                            "plank": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_plank_corner_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		//////////////////////////////////////Farm Fence//////////////////////////////////////
+		{            
+            "uuid": "59cf7d6a-63d3-4db8-a8ba-fe1f14523f56",
+            "name": "hvs_FarmFence_01",
+            "type": "filler",
+            "color": "a9a09bff",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_farmfence_01.obj",
+            "slope": "rotate",
+            "collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - FarmPlank01Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_FarmFence_01.fbx",
+                        "subMeshMap": {
+                            "hvs_FarmFence_mat": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_01_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {            
+            "uuid": "20ce1efe-577b-4649-a2f6-f9a2c914a1c0",
+            "name": "hvs_FarmFence_02",
+            "type": "filler",
+            "color": "a9a09bff",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_farmfence_02.obj",
+            "collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - FarmPlank02Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_FarmFence_02.fbx",
+                        "subMeshMap": {
+                            "hvs_FarmFence_mat": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_02_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {            
+            "uuid": "4b416c42-030c-49a8-bbdc-826b05c58929",
+            "name": "hvs_FarmFence_03",
+            "type": "filler",
+            "color": "a9a09bff",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_farmfence_03.obj",
+            "collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - FarmPlank03Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_FarmFence_03.fbx",
+                        "subMeshMap": {
+                            "hvs_FarmFence_mat": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_03_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {            
+            "uuid": "f7170f6d-de51-41c5-97f8-8118e30829de",
+            "name": "hvs_FarmFence_04",
+            "type": "filler",
+            "color": "a9a09bff",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_farmfence_04.obj",
+            "collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - FarmPlank04Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_FarmFence_04.fbx",
+                        "subMeshMap": {
+                            "hvs_FarmFence_mat": {
+                                "material": "DifAsgNorAo",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_nor.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fences/hvs_farmfence_04_ao.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		//////////////////////////////////////Hideout Signs//////////////////////////////////////
+		{
+            "uuid": "f1f6de00-33de-4e81-8d4f-a4f1baf3d30a",
+            "name": "hvs_hideout_sign03",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_sign03.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Sign - HideoutSign03 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_sign03.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                                
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "f3daa59e-6411-45ee-bfa2-35fd59a95394",
+            "name": "hvs_hideout_sign04",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_sign04.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Sign - HideoutSign04 Destruction" } 
+            },			
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_sign04.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                               
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "215becae-cef0-44b5-a24f-29c03a771191",
+            "name": "hvs_hideout_sign07",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_sign07.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Sign - HideoutSign07 Destruction" } 
+            },	
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_sign07.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                         
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		//////////////////////////////////////Hideout Fence//////////////////////////////////////
+        {
+            "uuid": "bc716090-91df-4cab-aa16-304309791a94",
+            "name": "hvs_hideout_fence01",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_fence01.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - HideoutFence01 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_fence01.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                        
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "uuid": "474554d4-a37f-4732-bd26-5714369e139a",
+            "name": "hvs_hideout_fence02",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_fence02.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - HideoutFence02 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_fence02.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                         
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "uuid": "0c130b14-5813-409b-a99b-7f8d0e025358", 
+            "name": "hvs_hideout_fence04",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_fence04.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - HideoutFence04 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_fence04.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                         
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "uuid": "8521b05a-29b0-4892-9a65-6457de3e47cb",
+            "name": "hvs_hideout_fence05",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_fence05.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - HideoutFence05 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_fence05.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                        
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "uuid": "c1ede49b-7f79-4586-b3ed-a13289ff0071",
+            "name": "hvs_hideout_fence06",
+            "color": "4dbcb3",
+            "type": "filler",
+            "slope": "rotate",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fences/col_hvs_hideout_fence06.obj",
+			"collides": {
+                "character": true,
+                "body": false,
+                "projectile": true,
+                "melee": true
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Fence - HideoutFence06 Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fences/hvs_hideout_fence06.fbx",
+                        "subMeshMap": {
+                            "sign_atlas": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_hideoutsigns_nor.tga"                                                                         
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

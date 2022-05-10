@@ -1,0 +1,352 @@
+{
+	"partList": [
+		{
+			"uuid": "056e5ff1-f030-40df-946a-b830bf494c92",
+			"name": "obj_container_gas",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"containergas": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gas_nor.tga"
+								]
+							},
+							"connectionpoint": {
+								"material": "2PoseAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+								]
+							},
+							"screen": {
+								"material": "UVAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_nor.tga"
+								],
+								"custom": {
+									"uv0": {
+										"v": 0.167,
+										"u": 1
+									}
+								}
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_gas.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_gas_pose0.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_gas_pose1.fbx"
+					}
+				]
+			},
+			"color": "c52319",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/containers/ConsumableContainer.lua",
+				"classname": "GasolineContainer",
+				"data": {
+					"stackSize": 20,
+					"filterUid": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
+				}
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			},
+			"pipe": {
+				"openings": [
+					{
+						"side": "-X",
+						"x": -2.0,
+						"y": 0,
+						"z": 0
+					},
+					{
+						"side": "Y",
+						"x": 0.5,
+						"y": 1.5,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "da4833fd-f981-4e08-a9f7-48e630a7c146",
+			"name": "obj_container_battery",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"containerbattery": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_battery_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_battery_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_battery_nor.tga"
+								]
+							},
+							"connectionpoint": {
+								"material": "2PoseAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+								]
+							},
+							"screen": {
+								"material": "UVAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_nor.tga"
+								],
+								"custom": {
+									"uv0": {
+										"v": 0.167,
+										"u": 1
+									}
+								}
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_battery.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_battery_pose0.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_battery_pose1.fbx"
+					}
+				]
+			},
+			"color": "f1a400",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/containers/ConsumableContainer.lua",
+				"classname": "BatteryContainer",
+				"data": {
+					"stackSize": 20,
+					"filterUid": "910a7f2c-52b0-46eb-8873-ad13255539af"
+				}
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			},
+			"pipe": {
+				"openings": [
+					{
+						"side": "-X",
+						"x": -2.0,
+						"y": 0,
+						"z": 0
+					},
+					{
+						"side": "Y",
+						"x": 0.5,
+						"y": 1.5,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
+			"name": "obj_container_water",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"containerwater": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_water_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_water_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_water_nor.tga"
+								]
+							},
+							"connectionpoint": {
+								"material": "2PoseAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+								]
+							},
+							"screen": {
+								"material": "UVAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_nor.tga"
+								],
+								"custom": {
+									"uv0": {
+										"v": 0.167,
+										"u": 1
+									}
+								}
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_water.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_water_pose0.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_water_pose1.fbx"
+					}
+				]
+			},
+			"color": "008ae1",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/containers/ConsumableContainer.lua",
+				"classname": "WaterContainer",
+				"data": {
+					"stackSize": 20,
+					"filterUid": "869d4736-289a-4952-96cd-8a40117a2d28"
+				}
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			},
+			"pipe": {
+				"openings": [
+					{
+						"side": "-X",
+						"x": -2.0,
+						"y": 0,
+						"z": 0
+					},
+					{
+						"side": "Y",
+						"x": 0.5,
+						"y": 1.5,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "096d4daf-639e-4947-a1a6-1890eaa94464",
+			"name": "obj_container_ammo",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"containerammo": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_ammo_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_ammo_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_ammo_nor.tga"
+								]
+							},
+							"connectionpoint": {
+								"material": "2PoseAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+								]
+							},
+							"screen": {
+								"material": "UVAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_screen_nor.tga"
+								],
+								"custom": {
+									"uv0": {
+										"v": 0.167,
+										"u": 1
+									}
+								}
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_ammo.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_ammo_pose0.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_ammo_pose1.fbx"
+					}
+				]
+			},
+			"color": "505c30",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/containers/ConsumableContainer.lua",
+				"classname": "AmmoContainer",
+				"data": {
+					"stackSize": 50,
+					"filterUid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+				}
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			},
+			"pipe": {
+				"openings": [
+					{
+						"side": "-X",
+						"x": -2.0,
+						"y": 0,
+						"z": 0
+					},
+					{
+						"side": "Y",
+						"x": 0.5,
+						"y": 1.5,
+						"z": 0
+					}
+				]
+			}
+		}
+	]
+}

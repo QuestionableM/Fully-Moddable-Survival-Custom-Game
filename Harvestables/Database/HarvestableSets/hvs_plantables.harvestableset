@@ -1,0 +1,525 @@
+{
+	"harvestableList": [
+		{
+			"name": "harvestable_farming_soil",
+			"type": "farm",
+			"uuid": "b39349ae-9b7e-48e2-8e9d-6f9dc6472fd6",
+			"color": "ee9e28",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_soil.obj",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": false
+			},
+			"disableClutter": true,
+			"destroyTime": 1.0,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestableSoil.lua",
+				"class": "HarvestableSoil",
+				"data": {}
+			},
+			"renderable": {
+				"lodList": [
+					{
+						 "subMeshMap": {
+							"Soil": {
+								"material": "UVAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+								],
+								"custom":{
+									"uv0": { "u": 1, "v": 0.1 }
+								}
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farming/hvs_farming_soil.fbx"
+					}
+				]
+			}
+		},
+		{
+			"name": "hvs_growing_banana",
+			"type": "farm",
+			"uuid": "d3fdedca-7e1c-45cc-a1db-f0deee381a71",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_banana_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"b5fe55ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "80cd6e60-154f-46da-8f26-ff30f2961fa2", //hvs_mature_banana
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_banana",
+			"type": "mature",
+			"uuid": "80cd6e60-154f-46da-8f26-ff30f2961fa2",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_banana.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"e9bf04ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "aa4c9c5e-7fc6-4c27-967f-c550e551c872", //banana part
+					"amount": 1,
+					"seed": "22beade5-38ca-47b4-a2ee-32403f58a862" //banana seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_blueberry",
+			"type": "farm",
+			"uuid": "bb600268-cd29-4715-babe-5fd02645eb1c",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_blueberry_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"b5fe55ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "9b031ec3-bc91-47b9-93fb-df79a8ef3026", //hvs_mature_blueberry
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_blueberry",
+			"type": "mature",
+			"uuid": "9b031ec3-bc91-47b9-93fb-df79a8ef3026",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_blueberry.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "6a43fff2-8c6d-4460-9f44-e5483b5267dd", //blueberry part
+					"amount": 1,
+					"seed": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2" //blueberry seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_orange",
+			"type": "farm",
+			"uuid": "b1a17952-b6a2-436d-81e4-df8ffb552166",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_orange_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "133ae17a-c038-4a55-ab79-f40f6840ab2b", //hvs_mature_orange
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_orange",
+			"type": "mature",
+			"uuid": "133ae17a-c038-4a55-ab79-f40f6840ab2b",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_orange.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "f5098301-1693-457b-8efc-83b3504105ac", //orange part
+					"amount": 1,
+					"seed": "bee966b0-b5e5-41da-b992-5d363ab85ae4" //orange seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_pineapple",
+			"type": "farm",
+			"uuid": "1337f492-aa23-42d0-af7a-fae45b47e55f",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_pineapple_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"b5fe55ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "2cedbc23-92c5-4fba-8a08-ecbae23a28e5", //hvs_mature_pineapple
+					"daysToGrow": 1.75
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_pineapple",
+			"type": "mature",
+			"uuid": "2cedbc23-92c5-4fba-8a08-ecbae23a28e5",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_pineapple.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_mature.obj",
+			"color":"e3ae20",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "4ec64cda-1a5b-4465-88b4-5ea452c4a556", //pineapple part
+					"amount": 1,
+					"seed": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a" //pineapple seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_carrot",
+			"type": "farm",
+			"uuid": "6dd177f4-3312-4b1e-a986-4421b5e83bff",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_carrot_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"a64102",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "18990ae9-62d1-41f7-aab9-5199b31e3e89", //hvs_mature_carrot
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_carrot",
+			"type": "mature",
+			"uuid": "18990ae9-62d1-41f7-aab9-5199b31e3e89",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_carrot.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_mature.obj",
+			"color":"a64102",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "47ece75a-bfca-4e8a-b618-4f609fcea0da", //carrot part
+					"amount": 1,
+					"seed": "9c82a525-8a8b-4483-9595-505aaa042486" //carrot seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_redbeet",
+			"type": "farm",
+			"uuid": "18efedc5-8706-4ecb-afd4-e9294d3f1052",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_redbeet_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"5a9710",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "1a167796-8162-4990-97a7-b3810b3f94ca", //hvs_mature_redbeet
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_redbeet",
+			"type": "mature",
+			"uuid": "1a167796-8162-4990-97a7-b3810b3f94ca",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_redbeet.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_mature.obj",
+			"color": "a6274d",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "4ce00048-f735-4fab-b978-5f405e60f48f", //redbeet part
+					"amount": 1,
+					"seed": "64051718-a3f1-422b-bda3-277efa0c4545" //redbeet seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_tomato",
+			"type": "farm",
+			"uuid": "c6f80a93-5b16-45ef-a478-ca56a50f61ae",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_tomato_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "534b13a0-3ec1-4558-a77a-cfccf6c3cb3e", //hvs_mature_tomato
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_tomato",
+			"type": "mature",
+			"uuid": "534b13a0-3ec1-4558-a77a-cfccf6c3cb3e",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_tomato.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_mature.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "6d92d8e7-25e9-4698-b83d-a64dc97978c8", //tomato part
+					"amount": 1,
+					"seed": "38e41fb5-dd50-4294-829d-a517f0282fed" //tomato seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_broccoli",
+			"type": "farm",
+			"uuid": "1675314b-0dfc-4d34-b854-0bdf0476221d",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_broccoli_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"4fa732",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "b166b142-792a-4c8f-9d06-f277dab6dba6", //hvs_mature_broccoli
+					"daysToGrow": 1.75
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_broccoli",
+			"type": "mature",
+			"uuid": "b166b142-792a-4c8f-9d06-f277dab6dba6",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_broccoli.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"fd4671",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f", //broccoli part
+					"amount": 1,
+					"seed": "1c6756ca-3a60-4dcb-a5d1-353edf818308" //broccoli seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_potato",
+			"type": "farm",
+			"uuid": "ec1cf82f-e8f3-4ca6-8e35-a4bdf0e8e259",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_potato_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "c42ad18d-797b-4196-ab79-86e222d8f767", //hvs_mature_potato
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_potato",
+			"type": "mature",
+			"uuid": "c42ad18d-797b-4196-ab79-86e222d8f767",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_potato.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", //potato part
+					"amount": 5,
+					"seed": "eb1ef696-5c05-4662-9e47-fe1e0875ff84" //potato seed
+				}
+			}
+		},
+		{
+			"name": "hvs_growing_cotton",
+			"type": "farm",
+			"uuid": "779b5e09-7ce7-4a16-9817-02f5cb8e11f6",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_cotton_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_growing.obj",
+			"color":"b5fe55ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingHarvestable.lua",
+				"class": "GrowingHarvestable",
+				"data": {
+					"harvestable": "4d923a91-0c98-40f9-ae3f-ef386362ab1c", //hvs_mature_cotton
+					"daysToGrow": 0.875
+				}
+			}
+		},
+		{
+			"name": "hvs_mature_cotton",
+			"type": "mature",
+			"uuid": "4d923a91-0c98-40f9-ae3f-ef386362ab1c",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_plantables_cotton.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"e9bf04ff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"disableClutter": true,
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "3440440b-d362-4473-aa03-b7c41e1fe7ad", //cotton part
+					"amount": 1,
+					"seed": "93c27ab2-4930-4654-ba1c-bcfe35e966f6" //cotton seed
+				}
+			}
+		}
+	]
+}

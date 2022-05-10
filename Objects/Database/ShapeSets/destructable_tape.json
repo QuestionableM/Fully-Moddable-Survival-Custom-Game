@@ -1,0 +1,2004 @@
+{
+	"partList": [
+		{
+			"uuid": "89f446fa-ba6a-4728-93b5-6a1abda114fc",
+			"name": "obj_destructable_tape_doorwaytape01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "2PoseAnimDifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_doorwaytape01.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_doorwaytape01_bshape_01.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_doorwaytape01_bshape_02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 12,
+				"y": 10,
+				"z": 4
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 3,
+					"maxhp": 3,
+					"type": "doorwaytape",
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - DoorwayDestruction"
+				},
+				"tag": "OBSTACLE"
+			},
+			"rotationSet": "PropY",
+			"sticky": "+X-X-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "45b6f45a-9b47-40af-88d1-f1ad0d98e565",
+			"name": "obj_destructable_tape_doorwaytape01_destroyed",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_doorwaytape01_destroyed.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_doorwaytape01_destroyed_bshape.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"hull": {
+				"x": 12,
+				"y": 10,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_destructable_tape_doorwaytape01_destroyed.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Poser.lua",
+				"classname": "Poser",
+				"data": {
+					"poseTime": 0.25,
+					"poseInverted": true
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "3de7e8ca-f7f4-4faf-b348-4848741528c1",
+			"name": "obj_destructable_tape_cornertape01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cornertape01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 5,
+				"y": 5,
+				"z": 5
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 2,
+					"maxhp": 2,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeCornerBig"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "46f4a939-b20c-4fae-bf37-8410796a05f2",
+			"name": "obj_destructable_tape_cornertape02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cornertape02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 5,
+				"y": 5,
+				"z": 5
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 2,
+					"maxhp": 2,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeCornerBig"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "50668b05-41de-4b48-abf2-6a576ab550fe",
+			"name": "obj_destructable_tape_cornertape03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cornertape03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 4,
+				"y": 5,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 2,
+					"maxhp": 2,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeCorner"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "dfcff000-e027-4f43-9bfb-f9a84b3b50c4",
+			"name": "obj_destructable_tape_cornertape04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cornertape04.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 4,
+				"y": 5,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 2,
+					"maxhp": 2,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeCorner"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "20e0b1f2-dd7b-4b69-9308-b6c26c0b0e6e",
+			"name": "obj_destructable_tape_corridor01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_corridor01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "94cf22f0-f0fb-4d1b-b5ce-f4b54e8e84d1",
+			"name": "obj_destructable_tape_corridor02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_corridor02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "a6524403-668d-4e41-93a7-6326e9205560",
+			"name": "obj_destructable_tape_corridor03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_corridor03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "c8d3b9ba-5bb1-49c5-aeb0-6c32f9b1e5c8",
+			"name": "obj_destructable_tape_taperoll01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_taperoll01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeRoll"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "ce1117c1-35d4-4c77-9a31-740078c6b1d8",
+			"name": "obj_destructable_tape_taperoll02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_taperoll02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeRoll"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "c5d4f725-0a67-4902-b6da-82a16aafd36a",
+			"name": "obj_destructable_tape_taperoll03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_taperoll03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeRoll"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "1503a160-bf1f-4b86-8406-b11250c71a28",
+			"name": "obj_destructable_tape_taperoll04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_taperoll04.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - TapeRoll"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "df4724fa-b3ea-438d-b07f-75af46af4bfd",
+			"name": "obj_destructable_tape_tape01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "1bdc2111-691c-465f-84d1-0e5faeca9897",
+			"name": "obj_destructable_tape_tape02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "7ba75948-640c-4563-9501-800cbddbeb6d",
+			"name": "obj_destructable_tape_tape03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "55597dd3-44b6-4fd5-81da-bb56d2ec59d9",
+			"name": "obj_destructable_tape_tape04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape04.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "3db622ee-112b-4b72-97fc-5bf49c3edf15",
+			"name": "obj_destructable_tape_tape05",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape05.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZNegY",
+			"sticky": "+Y-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "189aabd7-a3a4-4ba1-886e-e2e21dd1772b",
+			"name": "obj_destructable_tape_tape06",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_tape06.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "c3b7163e-02d4-4b00-96ad-c15860be9419",
+			"name": "obj_destructable_tape_cocoon01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cocoon01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"hull": {
+				"x": 4,
+				"y": 5,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_destructable_tape_cocoon01.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 3,
+					"maxhp": 3,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - cocoon01"
+				},
+				"tag": "OBSTACLE"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "286faea5-83db-4f53-8813-1ce81309a059",
+			"name": "obj_destructable_tape_cocoon02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_cocoon02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_cocoon02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_cocoon02_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_cocoon02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"hull": {
+				"x": 7,
+				"y": 2,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_destructable_tape_cocoon02.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 3,
+					"maxhp": 3,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - cocoon02"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "48a0b91a-1edb-4695-ba61-c702570563ce",
+			"name": "obj_destructable_tape_rooftape01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_rooftape01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "9b4a43c3-4950-49e2-858e-34768550a227",
+			"name": "obj_destructable_tape_rooftape02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_rooftape02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "2d503740-f2da-41a1-ae5c-3c49d44e3bb2",
+			"name": "obj_destructable_tape_rooftape03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_rooftape03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "1bace005-426c-4b44-8530-ef8698210a6f",
+			"name": "obj_destructable_tape_rooftape04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_rooftape04.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "e8beb527-e470-4934-bc06-0d7f6312e49c",
+			"name": "obj_destructable_tape_acrosstheroom01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_acrosstheroom01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "109d044d-6002-4779-be04-34501d78408f",
+			"name": "obj_destructable_tape_acrosstheroom02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_acrosstheroom02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "960c9498-f76a-4ffc-a608-218dc6909de8",
+			"name": "obj_destructable_tape_acrosstheroom03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_acrosstheroom03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "ed8cb110-bf48-43f6-9e86-273cfc0a7080",
+			"name": "obj_destructable_tape_big_walltape01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_big_walltape01.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "e9a7a26a-6e72-4bd4-8a44-7d5ab8b83f4b",
+			"name": "obj_destructable_tape_big_walltape02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_big_walltape02.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "e086d2de-6224-4ebc-8152-add18793ee58",
+			"name": "obj_destructable_tape_big_walltape03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_big_walltape03.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "265bf568-a801-4ce6-8ac3-d20526443bc5",
+			"name": "obj_destructable_tape_big_walltape04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_big_walltape04.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "ea16ec2e-5135-49e9-9543-9bdcd818d90a",
+			"name": "obj_destructable_tape_big_walltape05",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_tape_big_walltape05.fbx"
+					}
+				]
+			},
+			"color": "ffea00",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "20b3577f-a2f1-44f3-a22c-83f792732771",
+			"name": "obj_destructable_taperolls_big",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_taperolls_big_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_taperolls_big_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_taperolls_big.fbx"
+					}
+				]
+			},
+			"color": "ffa000",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"axis": "Y"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "8365cf6a-af1a-41aa-a8c9-34313dce1f55",
+			"name": "obj_destructable_taperolls_small",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_taperolls_small_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_tape_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/destructable_tape/obj_destructable_taperolls_small_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/destructable_tape/obj_destructable_taperolls_small.fbx"
+					}
+				]
+			},
+			"color": "ffb400",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"axis": "Y"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Obstacle.lua",
+				"classname": "Obstacle",
+				"data": {
+					"hp": 1,
+					"maxhp": 1,
+					"projectileDamage": 1,
+					"sledgehammerDamage": 2,
+					"explosionDamage": 3,
+					"destroyEffect": "DestructableTape - Tape"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Tape",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"buildable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		}
+	]
+}

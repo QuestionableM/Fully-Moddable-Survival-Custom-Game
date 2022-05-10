@@ -1,0 +1,371 @@
+{
+	"partList": [
+		{
+			"uuid": "c76b89a3-7731-4ae1-99d4-788a29319360",
+			"name": "obj_containers_haycrate",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_haycrate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_haycrate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_haycrate_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_haycrate.fbx"
+					}
+				]
+			},
+			"color": "902513",
+			"hull": {
+				"x": 7,
+				"y": 6,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_containers_haycrate.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3bd4430f-75bc-452c-9e80-1bd639898689",
+			"name": "obj_containers_stonecrate",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stonecrate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stonecrate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stonecrate_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_stonecrate.fbx"
+					}
+				]
+			},
+			"color": "902513",
+			"hull": {
+				"x": 7,
+				"y": 6,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_containers_stonecrate.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f8b984da-4b24-4e36-b440-86ead126b6dc",
+			"name": "obj_containers_treecrate",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_treecrate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_treecrate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_treecrate_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_treecrate.fbx"
+					}
+				]
+			},
+			"color": "902513",
+			"hull": {
+				"x": 7,
+				"y": 6,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_containers_treecrate.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8a4a55b0-0228-4839-933b-0716cedb3f96",
+			"name": "obj_containers_cardboardstack_small",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_small_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_small_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_small_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_cardboardstack_small.mesh"
+					}
+				]
+			},
+			"color": "83a633",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 4
+			},
+			"rotationSet": "PropYX",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f8da6b41-03d7-4bc1-ba94-011a351b1569",
+			"name": "obj_containers_cardboardstack_medium",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_medium_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_medium_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_medium_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_cardboardstack_medium.mesh"
+					}
+				]
+			},
+			"color": "bc8543",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 4
+			},
+			"rotationSet": "PropYX",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "71665314-db59-4c43-bfe2-2746baa8ffe9",
+			"name": "obj_containers_cardboardstack_large",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_large_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_large_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cardboard_stack_large_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_cardboardstack_large.mesh"
+					}
+				]
+			},
+			"color": "73adb7",
+			"box": {
+				"x": 5,
+				"y": 2,
+				"z": 6
+			},
+			"rotationSet": "PropYX",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "d296c1ad-e893-4866-ba73-1cbbb38ebd37",
+			"name": "obj_containers_humidifier",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gastank_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gastank_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_gastank_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_humidifier.mesh"
+					}
+				]
+			},
+			"color": "981e11",
+			"hull": {
+				"x": 5,
+				"y": 5,
+				"z": 8,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_containers_humidifier.obj"
+			},
+			"rotationSet": "PropYmZm",
+			"sticky": "-Y+Y-Z+Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 8,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "10590ecd-7d2f-4ff9-a6de-e749870ae8b8",
+			"name": "obj_containers_stack",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stack_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stack_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_stack_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_stack.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 5,
+				"y": 8,
+				"z": 5
+			},
+			"rotationSet": "PropYZm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "7e2b1dcb-4853-43ed-a7c5-0eb1a24b49d0",
+			"name": "obj_containers_barrel_blueberry",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_blueberry_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_blueberry_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_blueberry_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_barrel_blueberry.fbx"
+					}
+				]
+			},
+			"color": "655dd5",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 4,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a0654dd8-f36a-4c41-bafd-18d9e5f0df2e",
+			"name": "obj_containers_barrel_tomato",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_tomato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_tomato_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_barrel_tomato_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_barrel_tomato.fbx"
+					}
+				]
+			},
+			"color": "d33520",
+			"box": {
+				"x": 3,
+				"y": 4,
+				"z": 3
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		}
+	]
+}

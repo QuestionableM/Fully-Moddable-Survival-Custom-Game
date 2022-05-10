@@ -1,0 +1,103 @@
+{
+	"characters": [
+		{
+			// Woc
+			"uuid": "264a563a-e304-430f-a462-9963c77624e9",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Cow/char_cow.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Cow/char_cow_ragdoll.json",
+			"tumble": {
+				"col": "$SURVIVAL_DATA/Character/Char_Cow/char_cow_tumble_col.obj",
+				"offset": [0.0, 0.0, 0.825]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Cow/char_cow_hit_col.obj",
+					"offset": [0.0, 0.0, 0.848]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/units/WocUnit.lua",
+				"scriptClass": "WocUnit",
+				"data": {}
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/characters/WocCharacter.lua",
+				"scriptClass": "WocCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 1.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.8,
+				"height": 1.65
+			},
+			"mass": 1000.0
+		},
+		{
+			// Glow Worm
+			"uuid": "48c03f69-3ec8-454c-8d1a-fa09083363b1",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp.rend"
+			],
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_col.obj",
+					"offset": [0.0, 0.0, 0.0]
+				}
+			},
+			"tumble": {
+				"col": "$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_col.obj",
+				"offset": [0.0, 0.0, 0.0]
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/units/GlobUnit.lua",
+				"scriptClass": "GlobUnit",
+				"data": {}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/game/characters/GlobCharacter.lua",
+				"scriptClass": "GlobCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 0.2,
+				"slowDownSpeed": 0.1,
+				"crouchSpeed": 0.1,
+				"sprintSpeed": 1.8,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.2,
+				"height": 0.45
+			},
+			"mass": 60.0,
+			"characterShapeUuid": "f2aa1e44-aea8-4431-9b7e-f7e35163dd7c"
+		}
+	]
+}

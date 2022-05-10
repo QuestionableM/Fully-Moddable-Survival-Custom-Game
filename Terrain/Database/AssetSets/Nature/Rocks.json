@@ -1,0 +1,88 @@
+{
+	"assetListRenderable": [
+		{
+			"uuid": "68ce1275-ba81-42a7-bba2-aebe5b8426bc",
+			"name": "env_nature_rocks_large01",
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_large01.rend", 
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_large01_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		},
+		{
+			"uuid": "e31ed236-f5f9-43fe-83c2-9b5a2c7412d4",
+			"name": "env_nature_rocks_large02",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_large02.rend",
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_large02_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		},
+		{
+			"uuid": "eacb2d0a-75eb-4c01-ba95-821606bec1fe",
+			"name": "env_nature_rocks_large03",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_large03.rend",
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_large03_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		},
+		{
+			"uuid": "33232a2d-8495-4fd8-a44b-6f505eec9b5c",
+			"name": "env_nature_rocks_large04",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_large04.rend",
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_large04_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		},
+		{
+			"uuid": "0bba131a-806e-44ce-81e5-152063cca140",
+			"name": "env_nature_rocks_waterrock01",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_waterrock01.rend",
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_waterrock01_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		},
+		{
+			"uuid": "6459d904-f9d5-4549-a6bc-853da63a056d",
+			"name": "env_nature_rocks_waterrock02",
+			"renderable": "$SURVIVAL_DATA/Terrain/Renderable/Nature/Rocks/env_nature_rocks_waterrock02.rend",
+			"col": "$SURVIVAL_DATA/Terrain/Collision/Nature/Rocks/env_nature_rocks_waterrock02_col.obj",
+			"physics": {
+				"mass": 10000,
+				"material": "Rock"
+			},
+			"defaultColors": {
+				"rock": "6e7569"
+			},
+			"slope": "skew"
+		}
+	]
+}

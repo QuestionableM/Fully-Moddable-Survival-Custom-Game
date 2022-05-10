@@ -1,0 +1,165 @@
+{
+	"harvestableList": [
+		{
+			"uuid": "9ef210c0-ea30-4442-a1fe-924b5609b0cc",
+            "name": "hvs_burntforest_spiketree01",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_burntforest_spiketree01_col.obj",
+			"color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+			"script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spiketree01"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spiketree01.rend"
+        },
+        {
+            "uuid": "2bae67d4-c8ef-4c6e-a1a7-42281d0b7489",
+            "name": "hvs_burntforest_spiketree02",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_burntforest_spiketree02_col.obj",
+			"color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spiketree02"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spiketree02.rend"
+        },
+        {
+        	"uuid": "8f7a8108-2712-47b3-bce2-f25315165094",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_Burntforest_spruce01_col.obj",
+            "color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "name": "hvs_burntforest_spruce01",
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spruce01"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spruce01.rend"
+
+        },
+        {
+            "uuid": "515aed88-0594-42b6-a352-617e5f5a3e45",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_Burntforest_spruce02_col.obj",
+            "color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "name": "hvs_burntforest_spruce02",
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spruce02"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spruce02.rend"
+        },
+        {
+            "uuid": "2d5aa53d-eb9c-478c-a70f-c57a43753814",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_Burntforest_spruce03_col.obj",
+            "color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "name": "hvs_burntforest_spruce03",
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spruce03"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spruce03.rend"
+        },
+        {
+            "uuid": "c08b553a-a917-4e26-bbb6-7b8523789cad",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_burntforest_spruce04_col.obj",
+            "name": "hvs_burntforest_spruce04",
+			"color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spruce04"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_burntforest_spruce04.rend"
+        },
+		{
+			"uuid": "d3fcfc06-a6b6-4598-99b1-9a6445b976b3",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_burntforest_spruce05_col.obj",
+            "name": "hvs_burntforest_spruce05",
+			"color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - spruce05"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_Burntforest_spruce05.rend"
+        },
+        {
+        	"uuid": "b5f90719-fbca-4c59-89c3-187cdb5553d4",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Burntforest/hvs_burntforest_birch01_col.obj",
+            "name": "hvs_burntforest_birch01",
+			"color":["3b3b38ff","28281cff" ,"6a6f64ff"],
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "script" :
+			{
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/BurntTree.lua",
+				"class": "BurntTree",
+				"data": 
+				{
+					"destroyEffect": "Treeparts_burntforest - birch01"
+				}
+			},
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Burntforest/hvs_burntforest_birch01.rend"  
+        }
+	]
+}

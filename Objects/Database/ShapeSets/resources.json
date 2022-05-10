@@ -1,0 +1,258 @@
+{
+	"partList": [
+		{
+			"uuid": "267e0c93-62e3-45ad-9470-a14035cb9ca4",
+			"name": "obj_resource_ember",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_ember.rend",
+			"color": "808080",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 4,
+				"margin": 0.1,
+				"axis": "X"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y+Y-Z+Z-X+X",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10
+		},
+		{
+			"uuid": "fcf0958c-084d-4854-9b1b-b06594b4262a",
+			"name": "obj_resource_beewax",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_beewax.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 2,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYZX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10
+		},
+		{
+			"uuid": "40e8bd0d-04a0-4e95-b593-4038b54b156f",
+			"name": "obj_resources_slimyclam",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_slimyclam.rend",
+			"color": "aaa8ef",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_harvest_resource_slimyclam_col.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Stone",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "3440440b-d362-4473-aa03-b7c41e1fe7ad",
+			"name": "obj_resource_cotton",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_cotton.rend",
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 1,
+				"z": 1
+			},
+			"itemStack": {},
+			"rotationSet": "PropYZ",
+			"sticky": "+Y-Y-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 20
+		},
+		{
+			"uuid": "fe8bfeba-850b-4827-9785-10e2468c9c23",
+			"name": "obj_resource_corn",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_corn.rend",
+			"color": "1c8687",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_consumable_corn_col.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10,
+			"restrictions": {
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
+			"name": "obj_resource_circuitboard",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_cuircuitboard.rend",
+			"color": "4bffb5",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_resources_circuitboard.obj"
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e",
+			"name": "obj_resource_steak",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_steak.rend",
+			"color": "4bffb5",
+			"hull": {
+				"x": 4,
+				"y": 3,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_resource_steak.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10
+		},
+		{
+			"uuid": "388adeab-67e5-4901-afe8-c56217754510",
+			"name": "obj_resource_glowpoop",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_glowpoop.rend",
+			"color": "4bffb5",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_resource_glowpoop.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10
+		},
+		{
+			"uuid": "c9396a42-67c3-4fa3-b682-31428ff9eced",
+			"name": "obj_resource_flower",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_pigmentflower.rend",
+			"color": "4bffb5",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 2,
+				"margin": 0.1,
+				"axis": "Y"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 20
+		},
+		{
+			"uuid": "36335664-6e61-4d44-9876-54f9660a8565",
+			"name": "obj_consumable_glue",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_glue.rend",
+			"color": "3da851",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 10
+		},
+		{
+			"uuid": "1147e59d-6940-42b4-840b-07f05054f5e0",
+			"name": "obj_resource_crudeoil",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_crudeoil.rend",
+			"color": "495975",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"stackSize": 20
+		}
+	]
+}

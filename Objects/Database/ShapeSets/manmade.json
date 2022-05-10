@@ -1,0 +1,224 @@
+{
+	"partList": [
+		{
+			"uuid": "2aa8cb2c-2311-440c-8162-829ee394fbc2",
+			"name": "obj_manmade_scrapwall01",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scrapwall01.rend",
+			"color": "0a4444",
+			"box": {
+				"x": 8,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "PropFull",
+			"destroyTime": 2.0,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "b94a113d-ddd4-45db-844c-1d97ca0e1d61",
+			"name": "obj_manmade_scrapwallsmall",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scrapwallsmall.rend",
+			"color": "0a4444",
+			"box": {
+				"x": 8,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "PropFull",
+			"destroyTime": 1.0,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c8ca8731-3af2-4554-9019-6b941affcb16",
+			"name": "obj_manmade_scraproof01",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof01.rend",
+			"color": "0e8031",
+			"box": {
+				"x": 8,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "PropZNegZ",
+			"sticky": "+Z-Z",
+			"destroyTime": 2.0,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5",
+			"name": "obj_manmade_scraproof02",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof02.rend",
+			"color": "0e8031",
+			"hull": {
+				"x": 8,
+				"y": 2,
+				"z": 8,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_manmade_scraproof02.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Y-Z",
+			"destroyTime": 2.0,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "0c07dba0-be79-40fd-9ed8-5a1c34e2d196",
+			"name": "obj_manmade_scraproof03",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof03.rend",
+			"color": "3a5964",
+			"box": {
+				"x": 8,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "PropYmNegYmZX",
+			"destroyTime": 2.0,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ebefa387-fe4a-4839-bdd9-b6b4da39368f",
+			"name": "obj_manmade_shacklight",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_shacklight_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_shacklight_on.fbx"
+					}
+				]
+			},
+			"color": "e17f51",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_manmade_shacklight.obj"
+			},
+			"spotLight": {
+				"defaultLuminance": 50,
+				"effect": "ShackLight"
+			},
+			"rotationSet": "PropNegY",
+			"sticky": "+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "27c00cfb-4e7f-45fc-a037-f9a941464ce6",
+			"name": "obj_manmade_freshsign",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_freshsign.rend",
+			"color": "19f088",
+			"hull": {
+				"x": 5,
+				"y": 8,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_manmade_signFresh.obj"
+			},
+			"spotLight": {
+				"defaultLuminance": 40,
+				"effect": "FreshLight"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "20bd2885-d184-44ae-b72b-f90b786f8664",
+			"name": "obj_manmade_holidayposter",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_holidayposter.rend",
+			"color": "eb6a90",
+			"hull": {
+				"x": 8,
+				"y": 5,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_manmade_holidayposter.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "2289e96f-f9c6-440c-b7c9-ce9474da8264",
+			"name": "obj_manmade_salesign",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_salesign.rend",
+			"color": "e9e9e9",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropZNegZ",
+			"sticky": "-Z+Z-X+X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": true
+		}
+	]
+}

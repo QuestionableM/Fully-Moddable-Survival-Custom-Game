@@ -1,0 +1,544 @@
+{
+	"blockList": [
+		{
+			"uuid": "1fc74a28-addb-451a-878d-c3c605d63811",
+			"name": "blk_scrapwood",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapwood_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapwood_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapwood_nor.tga",
+			"tiling": 8,
+			"color": "cd9d71",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "1897ee42-0291-43e4-9645-8c5a5d310398",
+			"name": "blk_wood2",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood02_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood02_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood02_nor.tga",
+			"tiling": 8,
+			"color": "dc9153",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
+			"name": "blk_wood3",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood03_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood03_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wood03_nor.tga",
+			"tiling": 8,
+			"color": "f2ad74",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 5,
+				"buoyancy": 9
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
+			"name": "blk_scrapmetal",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapmetal_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapmetal_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapmetal_nor.tga",
+			"tiling": 16,
+			"color": "df6226",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "1016cafc-9f6b-40c9-8713-9019d399783f",
+			"name": "blk_metal2",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal02_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal02_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal02_nor.tga",
+			"tiling": 8,
+			"color": "869499",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c0dfdea5-a39d-433a-b94a-299345a5df46",
+			"name": "blk_metal3",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal03_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal03_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metal03_nor.tga",
+			"tiling": 8,
+			"color": "88a5ac",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 8,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "30a2288b-e88e-4a92-a916-1edbfc2b2dac",
+			"name": "blk_scrapstone",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapstone_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapstone_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_scrapstone_nor.tga",
+			"tiling": 8,
+			"color": "848484",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 6,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ff234e42-5da4-43cc-8893-940547c97882",
+			"name": "blk_concrete2",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete02_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete02_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete02_nor.tga",
+			"tiling": 8,
+			"color": "8d8f89",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 8,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e281599c-2343-4c86-886e-b2c1444e8810",
+			"name": "blk_concrete3",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete03_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete03_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concrete03_nor.tga",
+			"tiling": 8,
+			"color": "c9d7dc",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 9,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e",
+			"name": "blk_crackedconcrete",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crackedconcrete01_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crackedconcrete01_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crackedconcrete01_nor.tga",
+			"tiling": 8,
+			"color": "8d8f89",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 6,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": true,
+				"erasable": false,
+				"liftable": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "cd0eff89-b693-40ee-bd4c-3500b23df44e",
+			"name": "blk_concretetiles",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concretetiles_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concretetiles_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_concretetiles_nor.tga",
+			"tiling": 16,
+			"color": "af967b",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "220b201e-aa40-4995-96c8-e6007af160de",
+			"name": "blk_metalbricks",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalbricks_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalbricks_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalbricks_nor.tga",
+			"tiling": 8,
+			"color": "738192",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
+			"name": "blk_beam",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_beam2_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_beam2_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_beam2_nor.tga",
+			"tiling": 8,
+			"color": "858795",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
+			"name": "blk_bubblewrap",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_bubblewrap_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_bubblewrap_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_bubblewrap_nor.tga",
+			"tiling": 2,
+			"color": "9acfd2",
+			"glass": true,
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "628b2d61-5ceb-43e9-8334-a4135566df7a",
+			"name": "blk_plastic",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plastic_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plastic_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plastic_nor.tga",
+			"tiling": 4,
+			"color": "0b9ade",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20",
+			"name": "blk_insulation",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_insulation_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_insulation_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_insulation_nor.tga",
+			"tiling": 8,
+			"color": "fff063",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "b145d9ae-4966-4af6-9497-8fca33f9aee3",
+			"name": "blk_drywall",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_drywall_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_drywall_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_drywall_nor.tga",
+			"tiling": 8,
+			"color": "979797",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "febce8a6-6c05-4e5d-803b-dfa930286944",
+			"name": "blk_carpet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_carpet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_carpet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_carpet_nor.tga",
+			"tiling": 4,
+			"color": "368085",
+			"physicsMaterial": "Grass",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "e981c337-1c8a-449c-8602-1dd990cbba3a",
+			"name": "blk_plasticwall",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plasticwall_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plasticwall_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_plasticwall_nor.tga",
+			"tiling": 8,
+			"color": "eeeeee",
+			"physicsMaterial": "Grass",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
+			"name": "blk_metalnet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalnet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalnet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_metalnet_nor.tga",
+			"tiling": 1,
+			"color": "435359",
+			"alpha": true,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
+			"name": "blk_crossnet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crossnet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crossnet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_crossnet_nor.tga",
+			"tiling": 1,
+			"color": "888888",
+			"alpha": true,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ea6864db-bb4f-4a89-b9ec-977849b6713a",
+			"name": "blk_tryponet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_tryponet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_tryponet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_tryponet_nor.tga",
+			"tiling": 1,
+			"color": "888888",
+			"alpha": true,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a479066d-4b03-46b5-8437-e99fec3f43ee",
+			"name": "blk_stripednet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_stripednet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_stripednet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_stripednet_nor.tga",
+			"tiling": 8,
+			"color": "888888",
+			"alpha": true,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b4fa180c-2111-4339-b6fd-aed900b57093",
+			"name": "blk_squarenet",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_squarenet_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_squarenet_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_squarenet_nor.tga",
+			"tiling": 1,
+			"color": "c36512",
+			"alpha": true,
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
+			"name": "blk_restroom",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_titanium_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_titanium_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_titanium_nor.tga",
+			"tiling": 8,
+			"color": "607b79",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f7d4bfed-1093-49b9-be32-394c872a1ef4",
+			"name": "blk_treadplate",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_nor.tga",
+			"tiling": 4,
+			"color": "43494d",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c",
+			"name": "blk_warehousefloor",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship03_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship03_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship03_nor.tga",
+			"tiling": 4,
+			"color": "727272",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d740a27d-cc0f-4866-9e07-6a5c516ad719",
+			"name": "blk_wornmetal",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wornmetal_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wornmetal_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_wornmetal_nor.tga",
+			"tiling": 8,
+			"color": "66837c",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
+			"name": "blk_spaceshipfloor",
+			"dif": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+			"asg": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+			"nor": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+			"tiling": 8,
+			"color": "dadada",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
+			"name": "blk_sand",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_sand_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_sand_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_sand_nor.tga",
+			"tiling": 8,
+			"color": "c69146",
+			"physicsMaterial": "Sand",
+			"ratings": {
+				"density": 6,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
+			"name": "blk_armoredglass",
+			"dif": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_armoredglass_dif.tga",
+			"asg": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_armoredglass_asg.tga",
+			"nor": "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_armoredglass_nor.tga",
+			"tiling": 4,
+			"color": "3abfb1",
+			"glass": true,
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 5
+			},
+			"flammable": false
+		}
+	]
+}

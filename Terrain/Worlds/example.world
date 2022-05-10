@@ -1,0 +1,261 @@
+{
+   "cellData" : [
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -2,
+         "y" : -2
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -1,
+         "y" : -2
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 0,
+         "y" : -2
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 1,
+         "y" : -2
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -2,
+         "y" : -1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -1,
+         "y" : -1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 0,
+         "y" : -1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 1,
+         "y" : -1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -2,
+         "y" : 0
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -1,
+         "y" : 0
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "$CONTENT_DATA/Terrain/Tiles/example.tile",
+         "rotation" : 0,
+         "x" : 0,
+         "y" : 0
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 1,
+         "y" : 0
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -2,
+         "y" : 1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : -1,
+         "y" : 1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 0,
+         "y" : 1
+      },
+      {
+         "offsetX" : 0,
+         "offsetY" : 0,
+         "path" : "",
+         "rotation" : 0,
+         "x" : 1,
+         "y" : 1
+      }
+   ],
+   "cornerData" : [
+      {
+         "type" : 0,
+         "x" : -2,
+         "y" : -2
+      },
+      {
+         "type" : 0,
+         "x" : -1,
+         "y" : -2
+      },
+      {
+         "type" : 0,
+         "x" : 0,
+         "y" : -2
+      },
+      {
+         "type" : 0,
+         "x" : 1,
+         "y" : -2
+      },
+      {
+         "type" : 0,
+         "x" : 2,
+         "y" : -2
+      },
+      {
+         "type" : 0,
+         "x" : -2,
+         "y" : -1
+      },
+      {
+         "type" : 0,
+         "x" : -1,
+         "y" : -1
+      },
+      {
+         "type" : 0,
+         "x" : 0,
+         "y" : -1
+      },
+      {
+         "type" : 0,
+         "x" : 1,
+         "y" : -1
+      },
+      {
+         "type" : 0,
+         "x" : 2,
+         "y" : -1
+      },
+      {
+         "type" : 0,
+         "x" : -2,
+         "y" : 0
+      },
+      {
+         "type" : 0,
+         "x" : -1,
+         "y" : 0
+      },
+      {
+         "type" : 0,
+         "x" : 0,
+         "y" : 0
+      },
+      {
+         "type" : 0,
+         "x" : 1,
+         "y" : 0
+      },
+      {
+         "type" : 0,
+         "x" : 2,
+         "y" : 0
+      },
+      {
+         "type" : 0,
+         "x" : -2,
+         "y" : 1
+      },
+      {
+         "type" : 0,
+         "x" : -1,
+         "y" : 1
+      },
+      {
+         "type" : 0,
+         "x" : 0,
+         "y" : 1
+      },
+      {
+         "type" : 0,
+         "x" : 1,
+         "y" : 1
+      },
+      {
+         "type" : 0,
+         "x" : 2,
+         "y" : 1
+      },
+      {
+         "type" : 0,
+         "x" : -2,
+         "y" : 2
+      },
+      {
+         "type" : 0,
+         "x" : -1,
+         "y" : 2
+      },
+      {
+         "type" : 0,
+         "x" : 0,
+         "y" : 2
+      },
+      {
+         "type" : 0,
+         "x" : 1,
+         "y" : 2
+      },
+      {
+         "type" : 0,
+         "x" : 2,
+         "y" : 2
+      }
+   ],
+   "dependencies" : [],
+   "version" : 1
+}

@@ -1,0 +1,68 @@
+{
+    "assetListRenderable": [
+        {
+            "uuid": "910c2af2-8689-4525-bf08-4e87dd8f0966",          
+            "name": "env_camping_tent",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Camping/env_camping_tent_col.obj",
+            "physics": {
+                "mass": 20000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Camping/env_camping_tent.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "791437dd-bdeb-40ea-a02a-bff7b23b7037",          
+            "name": "env_camping_raintent01",
+            "defaultColors": {
+                "cloth": "187a77ff"
+            },
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Camping/env_camping_raintent01_col.obj",
+            "physics": {
+                "mass": 20000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Camping/env_camping_raintent01.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "b4198b95-23df-45dd-a611-2002b2ebb676",          
+            "name": "env_camping_raintent02",
+            "defaultColors": {
+                "cloth": "187a77ff"
+            },
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Camping/env_camping_raintent02_col.obj",
+            "physics": {
+                "mass": 20000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Camping/env_camping_raintent02.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "b4582a30-fe8e-4b37-9197-360008e9be36",          
+            "name": "env_camping_raintent03",
+            "defaultColors": {
+                "cloth": "187a77ff"
+            },
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Camping/env_camping_raintent03_col.obj",
+            "physics": {
+                "mass": 20000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Camping/env_camping_raintent03.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "22bc0da9-19bf-40e0-b4b3-11a3a2eb52ab",          
+            "name": "env_camping_campfire",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Camping/env_camping_campfire_col.obj",
+            "physics": {
+                "mass": 200,
+                "material": "Rock"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Camping/env_camping_campfire.rend",
+			"slope": "rotate"
+        }
+    ]
+}

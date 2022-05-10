@@ -1,0 +1,922 @@
+{
+	"partList": [
+		{
+			"uuid": "f5670a5a-7782-4683-bed0-a6eda785a5e2",
+			"name": "obj_decor_poster01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_poster01.mesh"
+					}
+				]
+			},
+			"color": "4f4f4f",
+			"box": {
+				"x": 6,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "080ef1dd-07a7-4d31-86b8-ac907e1468bf",
+			"name": "obj_decor_poster02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_poster01.mesh"
+					}
+				]
+			},
+			"color": "4f4f4f",
+			"box": {
+				"x": 6,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4d54298c-93a0-4b6d-8719-7380430a27bb",
+			"name": "obj_decor_poster03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster03_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_poster01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_poster01.mesh"
+					}
+				]
+			},
+			"color": "4f4f4f",
+			"box": {
+				"x": 6,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4724913e-4f9b-4334-8408-4b0850a1c7de",
+			"name": "obj_decor_sign_warehouse",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_warehouse.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 8,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_warehouse.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "2bacc33e-60fb-40c3-b751-ef76f79392c7",
+			"name": "obj_decor_sign_elevator",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_elevator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_elevator.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 8,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_elevator.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e71b55c7-8547-4bef-bb77-e976c8abde0b",
+			"name": "obj_decor_sign_storage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_storage.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_storage.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "acc00050-d40e-42e9-9c2e-22ec2109dc3e",
+			"name": "obj_decor_sign_packaging",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_packaging.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_packaging.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "7728c105-1fd9-4aaa-95ec-1da45b425d89",
+			"name": "obj_decor_sign_office",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_office.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_office.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "884080be-c723-4e6e-828b-6019af8beed6",
+			"name": "obj_decor_sign_utility",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_warehouse_signs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_sign_utility.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sign_utility.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "221badef-0313-419c-9a7c-7469d26b0d5b",
+			"name": "obj_decor_wcsignmale",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_wcsignmale.fbx"
+					}
+				]
+			},
+			"color": "3495e8",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_wcsignmale.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e08d860d-650e-4b81-8cfa-411ea8e6e9c0",
+			"name": "obj_decor_wcsignfemale",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_wcsigns_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_wcsignfemale.fbx"
+					}
+				]
+			},
+			"color": "3495e8",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_wcsignfemale.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d053adac-e217-49de-b184-ad4bfbe1e52d",
+			"name": "obj_decor_lidbarrel",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_lidbarrel_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_lidbarrel_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_lidbarrel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_lidbarrel.fbx"
+					}
+				]
+			},
+			"color": "c8c628",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 6,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "da86d1c6-e29b-4741-8b65-eed067222dc7",
+			"name": "obj_decor_stackedpaper",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_stackedpaper_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_stackedpaper_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_stackedpaper_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_stackedpaper.fbx"
+					}
+				]
+			},
+			"color": "d2c6af",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_stackedpaper.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Cardboard",
+			"ratings": {
+				"density": 5,
+				"durability": 1,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "659488be-3d33-4244-b762-e7d77dcdcbbe",
+			"name": "obj_decor_mirror",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_mirror_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_mirror_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_mirror_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_mirror.fbx"
+					}
+				]
+			},
+			"color": "3495e8",
+			"hull": {
+				"x": 3,
+				"y": 4,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_mirror.obj"
+			},
+			"rotationSet": "PropYZmX",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c7772f74-f120-4008-8121-977e52a1d7c0",
+			"name": "obj_road_signcurve",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_road_signcurve.fbx"
+					}
+				]
+			},
+			"color": "323232",
+			"box": {
+				"x": 5,
+				"y": 7,
+				"z": 1
+			},
+			"rotationSet": "PropZY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ea64acf0-c0a8-44c4-a946-f358d232e965",
+			"name": "obj_road_signpost",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_road_signpost.fbx"
+					}
+				]
+			},
+			"color": "323232",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "7bc20d55-6b49-450c-830c-16282ce7fb2d",
+			"name": "obj_road_signfoundation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_road_signfoundation.fbx"
+					}
+				]
+			},
+			"color": "323232",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 3
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 6,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "31ada55e-7c79-4aee-86b6-809c0e5468df",
+			"name": "obj_decor_cashregister",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_cashregister_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_cashregister_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_cashregister_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_cashregister_closed.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_cashregister_open.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "005952",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"simpleInteractive": {
+				"sustainedAudio": "RaftShark",
+				"animationTime": 0.2
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "d4ae8963-40e9-4680-934d-5626a3bfc363",
+			"name": "obj_decor_openclosedsign",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_openclosedsign_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_openclosedsign_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_openclosedsign_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_openclosedsign.fbx"
+					}
+				]
+			},
+			"color": "005952",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "7540ef9a-5c84-4dd2-b111-176d8de66e47",
+			"name": "obj_decor_rottenfruit",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/decor/obj_decor_basket.rend",
+			"color": "5f7514",
+			"hull": {
+				"x": 4,
+				"y": 4,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_rottenfruit.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d361b477-69b2-4a3a-b119-ec99a3938f5b",
+			"name": "obj_decor_basketstack",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/decor/obj_decor_basketstack.rend",
+			"color": "5f7514",
+			"box": {
+				"x": 4,
+				"y": 5,
+				"z": 4
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "5ad298e4-f5ad-479c-9ec6-6c4f9d3fb8ae",
+			"name": "obj_decor_sunshakemachine",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/decor/obj_decor_sunshakemachine.rend",
+			"color": "fc949d",
+			"hull": {
+				"x": 5,
+				"y": 8,
+				"z": 5,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sunshakemachine.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "db2ce519-490e-4432-b329-c973ecc8f5d9",
+			"name": "obj_decor_sunshakeudder",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/decor/obj_decor_sunshakeudder.rend",
+			"color": "fc949d",
+			"hull": {
+				"x": 5,
+				"y": 3,
+				"z": 5,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_decor_sunshakeudder.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "23ac6823-51a4-4581-b8ca-061c76f093f6",
+			"name": "obj_decor_haybale",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_haybale.fbx"
+					}
+				]
+			},
+			"color": "0a956d",
+			"box": {
+				"x": 8,
+				"y": 4,
+				"z": 5
+			},
+			"rotationSet": "PropYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 5
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "74a3f240-65b2-4f52-9555-9b52173fca0a",
+			"name": "obj_decor_haybaleround",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_haybaleround.fbx"
+					}
+				]
+			},
+			"color": "0a956d",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 5,
+				"margin": 0.04,
+				"axis": "X"
+			},
+			"rotationSet": "PropYX",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 5
+			},
+			"flammable": true
+		}
+	]
+}

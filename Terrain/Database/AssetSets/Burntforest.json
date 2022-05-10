@@ -1,0 +1,268 @@
+{
+    "assetListRenderable": [
+        {
+           "uuid": "33d06c03-9985-4c0a-b193-076777d004c0",
+           "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_log01_col.obj",
+            "name": "env_forest_firelog01",
+			"defaultColors": {
+				"bark": ["53464666","8c7d7dff","646461ff"]
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_log01.rend",
+			"slope": "rotate"
+        },
+        {
+           "uuid": "704c08eb-303a-4a56-917e-42bc7aab0fbb",
+           "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_log02_col.obj",
+            "name": "env_forest_firelog02",
+            "defaultColors": {
+                "bark": ["3b3b38ff","28281cff" ,"6a6f64ff"]
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_log02.rend",
+			"slope": "rotate"
+        },
+        {
+           "uuid": "a9fcf19a-7ee5-4829-bae1-fabb80298057",
+           "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_firepile01_col.obj",
+            "name": "env_forest_firepile",
+            "defaultColors": {
+                "bark": ["3b3b38ff","28281cff" ,"6a6f64ff"]
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_firepile.rend",
+			"slope": "rotate"
+        },
+        {
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_stump02_col.obj",
+            "name": "env_forest_stump02",
+			"defaultColors": {
+				"bark": "3b3b38"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_stump02.rend",
+            "uuid": "dbb7ac93-022e-4326-9572-3a6150cd8674"
+        },
+        {
+            "name": "env_burntforest_bush01",
+			"defaultColors": {
+				"bark": "3b3b38"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_bush01.rend",
+            "uuid": "5d09c0f6-ebfd-4e9c-a544-83e64ce0f60b"
+        },
+        {
+            "defaultColors": {
+                "plant": "106167ff"
+            },
+            "name": "env_burntforest_fern",
+            "physics": {
+                "mass": 1000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_fern.rend",
+            "uuid": "ab62a3e1-3624-48fe-b0b1-56e1451d76c8"
+        },
+		{
+            "defaultColors": {
+                "leaves": "609218"
+            },
+            "name": "env_burntforest_perennial",
+            "physics": {
+                "mass": 1000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_perennial.rend",
+            "uuid": "0b92b618-fb80-4699-b092-cab082dccb45"
+        },
+        {
+            "defaultColors": {
+				"bark": "3b3b38"
+            },
+            "name": "env_burntforest_bush02",
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_bush02.rend",
+            "uuid": "749587a6-70d8-4342-b142-435790fbdda4"
+        },
+        {
+            "name": "env_burnforest_smallbush01",
+			"defaultColors": {
+				"bark": "3b3b38"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_smallbush01.rend",
+            "uuid": "dfb72907-2082-4a3a-9747-f8dd641cd590"
+        },
+        {
+            "name": "env_burnforest_smallbush02",
+			"defaultColors": {
+				"bark": "3b3b38"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Wood"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_smallbush02.rend",
+            "uuid": "f2ec5716-9008-4ae2-b881-5770cb5b1e71"
+        },
+        {
+            "defaultColors": {
+                "thorn": "a62c06"
+            },
+            "name": "env_burntforest_thorn02",
+            "physics": {
+                "mass": 1000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_thorn02.rend",
+            "uuid": "22230a24-1825-42d3-8233-1cc663b94c1e",
+			"slope": "rotate"
+        },
+		{
+            "defaultColors": {
+                "thorn": "a62c06"
+            },
+            "name": "env_burntforest_thorn01",
+            "physics": {
+                "mass": 1000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_thorn01.rend",
+            "uuid": "3ab8b4d7-e5cc-4102-8c74-a8269befabff",
+			"slope": "rotate"
+        },
+		{
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Forest/env_forest_dirtpatch01_col.obj",
+            "name": "env_burntforest_dirtpatch01",
+			"defaultColors": {
+                "grass": "0a0808",
+				"dirt": "746237"
+            },
+            "physics": {
+                "mass": 20000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_dirtpatch01.rend",
+            "uuid": "12255233-a414-4912-8ca7-b8597c673bb9",
+			"slope": "skew"
+        },
+        {
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Forest/env_forest_dirtpatch02_col.obj",
+            "name": "env_burntforest_dirtpatch02",
+			"defaultColors": {
+                "grass": "0a0808",
+				"dirt": "746237"
+            },
+            "physics": {
+                "mass": 20000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_dirtpatch02.rend",
+            "uuid": "51b626a7-4d86-4d04-836f-aed71fc1a547",
+			"slope": "skew"
+        },
+        {
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Forest/env_forest_dirtpatch03_col.obj",
+            "name": "env_burntforest_dirtpatch03",
+            "defaultColors": {
+                "grass": "0a0808",
+				"dirt": "746237"
+            },
+            "physics": {
+                "mass": 20000,
+                "material": "Grass"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_dirtpatch03.rend",
+            "uuid": "4668d420-7295-4169-bef0-af7f481d3dd9",
+			"slope": "skew"
+        },
+        {
+            "uuid": "9546fb19-ca48-4f92-8897-b501ea5c4534",
+            "name": "env_burntforest_meltedbot01",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot01_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot01.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "174bc659-e1ee-47da-a325-f7a576562553",
+            "name": "env_burntforest_meltedbot02",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot02_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot02.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "cf94d970-e526-453e-90f6-b0b7366ee285",
+            "name": "env_burntforest_meltedbot03",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot03_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot03.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "7f475049-9a22-444c-9fac-e47b714bde81",
+            "name": "env_burntforest_meltedbot04",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot04_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot04.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "73e173aa-b355-4ee9-93b2-24a40ff4cd35",
+            "name": "env_burntforest_meltedbot05",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot05_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot05.rend",
+			"slope": "rotate"
+        },
+        {
+            "uuid": "dc790c66-c6df-4185-8ad4-8b3ab22ed720",
+            "name": "env_burntforest_meltedbot06",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Burntforest/env_burntforest_meltedbot06_col.obj",
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Burntforest/env_burntforest_meltedbot06.rend",
+			"slope": "rotate"
+        }     
+    ]
+}

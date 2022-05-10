@@ -1,0 +1,22 @@
+{
+	"scriptableObjectList": [
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/quests/TutorialQuest.lua",
+			"classname": "TutorialQuest",
+			"name": "quest_tutorial",
+			"uuid": "8be0279e-28b6-4aab-b620-586f50162c6e"
+		},
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/quests/MechanicStationQuest.lua",
+			"classname": "MechanicStationQuest",
+			"name": "quest_mechanicstation",
+			"uuid": "98e440d7-89ca-4dcd-bc1e-7588e6240143"
+		},
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/quests/BuilderGuideQuest.lua",
+			"classname": "BuilderGuideQuest",
+			"name": "quest_builder_guide",
+			"uuid": "009fe136-aeee-45c4-9135-006b786cfc59"
+		}
+	]
+}

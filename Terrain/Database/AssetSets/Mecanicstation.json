@@ -1,0 +1,93 @@
+{
+    "assetListRenderable": [
+        {
+            "name": "env_mechanicstation_gasroof",
+            "uuid": "66cdee45-7e84-46e8-b986-a0d249adeb7b",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Mecanicstation/col_mechanicstation_gasroof_col.obj",
+            "defaultColors": {
+                "redmetal": "ca372dff",
+                "darkmetal": "282828ff",
+                "mechanicstationatlas": "60ff00ff",
+                "concrete": "808080ff",
+                "galvanizedmetal": "808080ff",
+                "billboard": "ffffffff",
+                "lightcone": "fff6c6ff"
+            },
+                        "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Mechanicstation/env_mechanicstation_gasroof.rend"
+        },
+        {
+            "uuid": "2cd68bd4-c145-4ef0-aabb-01191cbcfc7b",
+            "name": "env_mechanicstation_building",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Mecanicstation/env_mechanicstation_exterior_col.obj",
+            "defaultColors": {
+                "redmetal": "ca372dff",
+                "yellowmetal": "d6ad1dff",
+                "darkmetal": "282828ff",
+                "lightmetal": "6b6b6bff",
+                "mechanicstationatlas": "60ff00ff",
+                "concrete": "808080ff"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Mechanicstation/env_mechanicstation_building.rend"
+        },
+        {
+            "uuid": "77770676-917b-44ea-81a0-35613242af60",
+            "name": "env_mechanicstation_sleepcapsule01",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Mecanicstation/col_mechanicstation_sleepcapsule01_col.obj",
+            "defaultColors": {
+                "wallpaper": "334f8fff",
+                "redwallpaper": "ca372dff",
+                "darkmetal": "282828ff",
+                "lightmetal": "6b6b6bff",
+                "mechanicstationatlas": "60ff00ff",
+                "yellowmetal": "d6ad1dff",
+                "redmetal": "ca372dff"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Mechanicstation/env_mechanicstation_sleepcapsule01.rend"
+        },
+        {
+            "uuid": "2b28127e-62f6-46ef-bf3c-004672e7d76e",
+            "name": "env_mechanicstation_holder",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Mecanicstation/col_mechanicstation_holder.obj",
+            "defaultColors": {
+                 "yellowmetal": "d6ad1dff",
+                "darkmetal": "282828ff",
+                "lightmetal": "6b6b6bff",
+                "mechanicstationatlas": "60ff00ff"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Mechanicstation/env_mechanicstation_holder.rend"
+        },
+        {
+            "uuid": "16cc5e58-32d3-4d4c-a0ec-8c07a590672d",
+            "name": "env_mechanicstation_interior",
+            "col": "$SURVIVAL_DATA/Terrain/Collision/Mecanicstation/env_mechanicstation_interior_col.obj",
+            "defaultColors": {
+                "grey": "404040",
+                "blue_contrast": "414e93",
+                "blue": "4a69a2",
+                "yellow": "60ff00ff",
+                "red": "b42d2a"
+            },
+            "physics": {
+                "mass": 10000,
+                "material": "Metal"
+            },
+            "renderable": "$SURVIVAL_DATA/Terrain/Renderable/Mechanicstation/env_mechanicstation_interior.rend"
+        }
+    ]
+}

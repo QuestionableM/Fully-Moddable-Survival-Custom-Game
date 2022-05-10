@@ -1,0 +1,2298 @@
+{
+	"partList": [
+		{
+			"uuid": "47062936-5d28-43ec-81b5-8fdb619e97e4",
+			"name": "obj_spaceship_ceilinglight",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"ceilinglight": {
+								"material": "PoseAnimDifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilinglight_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilinglight_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilinglight_nor.tga"
+								]
+							},
+							"beamlight": {
+								"material": "PoseAnimLightCone",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+									"",
+									""
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilinglight_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilinglight_on.fbx"
+					}
+				]
+			},
+			"color": "df9a16",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 8
+			},
+			"spotlight": {
+				"defaultLuminance": 50,
+				"effect": "FluorescentLight"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "b3761216-dfc4-4679-960b-00f5ae5f8258",
+			"name": "obj_spaceship_interiorhandle",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorhandle.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "a1a1a1",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_spaceship_interiorhandle.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "+X-X-Y-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "1df6f1af-fd39-443a-9fd7-dd389e0ba5c8",
+			"name": "obj_spaceship_interiorcables",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcables_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcables_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcables_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorcables.mesh"
+					}
+				]
+			},
+			"color": "a1a1a1",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 4
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1aac8942-38ac-4a83-bc16-6d33436c0934",
+			"name": "obj_spaceship_interiorwedgelong",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorwedgelong.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "930000",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_spaceship_interiorwedgelong.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y-Z+X-X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "10079046-6400-42fd-bcd6-f66af6cfd8b8",
+			"name": "obj_spaceship_interiorboxmedium",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorboxmedium.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "930000",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropYZX",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "98ef8fca-d4a3-4b9a-8699-0630b003b9fa",
+			"name": "obj_spaceship_interiorboxlarge",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorboxlarge.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "930000",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYZmX",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "2c90e412-9476-40d9-a440-228c888186bd",
+			"name": "obj_spaceship_interiorlight",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorlight.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "ffc27a",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_spaceship_interiorlight.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "31c38d38-73f5-47ef-93c8-e10d4f579e1c",
+			"name": "obj_spaceship_interiornet",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiornet.mesh"
+					}
+				]
+			},
+			"color": "ce9e0c",
+			"box": {
+				"x": 3,
+				"y": 7,
+				"z": 1
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4f5092dd-e2e5-4d42-8ec9-c0337cf23e21",
+			"name": "obj_spaceship_interiornetlarge",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiornetcover_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiornetlarge.mesh"
+					}
+				]
+			},
+			"color": "ce9e0c",
+			"box": {
+				"x": 4,
+				"y": 7,
+				"z": 1
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "5f5926f5-1449-49b0-8997-2d5a0df37b21",
+			"name": "obj_spaceship_interiorshelf",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorshelf.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "930000",
+			"hull": {
+				"x": 4,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_spaceship_interiorshelf.obj"
+			},
+			"rotationSet": "PropZNegY",
+			"sticky": "+Y-Z-X+X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": true,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "5b628f22-ec0d-448f-a6be-3453950120a4",
+			"name": "obj_spaceship_interiorcalendar",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcalendar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcalendar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_interiorcalendar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_interiorcalendar.mesh"
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_spaceship_interiorcalendar.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 1,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c563df47-9a8a-4338-9fec-06da1218c573",
+			"name": "obj_spaceship_shipbed",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_shipbed_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_shipbed_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_shipbed_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_shipbed.mesh"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 7
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Bed.lua",
+				"classname": "Bed",
+				"data": {},
+				"seat": {
+					"bones": [
+						{
+							"name": "root_jnt",
+							"offset": {
+								"x": 0.0,
+								"y": 1.0,
+								"z": 0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.5,
+								"y": 1.1,
+								"z": 1.1
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.5,
+								"y": 1.1,
+								"z": 1.1
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$SURVIVAL_DATA/Character/bed_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"rotationSet": "PropFullMinusNegY",
+			"sticky": "-X+X-Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": true,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "d4e6c84c-a493-44b1-81aa-4f4741ea3ed8",
+			"name": "obj_spaceship_microwave",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_microwave_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_microwave_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_microwave_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_microwave.mesh"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"chest": {
+				"slots": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c4aa3807-0806-4202-a36d-b5fa254d3046",
+			"name": "obj_spaceship_cranewheel",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_cranewheel_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_cranewheel_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_cranewheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_cranewheel.fbx"
+					}
+				]
+			},
+			"color": "8a0000",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a7d719f5-e839-4a95-923c-981b4dc21125",
+			"name": "obj_spaceship_wall08",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall08_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall08.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "5d2cdb56-2be8-4a62-8f05-ce5c9c1510ac",
+			"name": "obj_spaceship_wall08_damaged",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall08_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall08_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall08_damaged.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "4053c30c-6717-47c7-b0a9-177f7b8b30bc",
+			"name": "obj_spaceship_wall02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall02_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall02.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "c807b38c-52b6-45cf-8cd3-1a46e6a9627f",
+			"name": "obj_spaceship_wall02_damaged",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall02_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall02_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall02_damaged.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "b3bb8083-d9b5-408d-b45c-49a444efba57",
+			"name": "obj_spaceship_wall01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall01_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall01_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall01.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "46ac20df-dfbc-434f-aaf3-f34ddc2afb42",
+			"name": "obj_spaceship_wall03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall03_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall03_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall03.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 13,
+				"z": 2
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "011c1ffd-7146-4e8d-8c18-17247d768ae2",
+			"name": "obj_spaceship_wall04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall04_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall04_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall04.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 13,
+				"z": 2
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "6159898f-beb8-4f49-825b-92b0774daa61",
+			"name": "obj_spaceship_wall12",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall12_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall12_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall12.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 4,
+				"y": 14,
+				"z": 4
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "2bc619a3-c884-4e60-9e78-6c04487a48c5",
+			"name": "obj_spaceship_wall12_damaged",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall12_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall12_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall12_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall12_damaged.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 4,
+				"y": 14,
+				"z": 4
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "2448a709-a8ec-4d69-a927-b9ab195cd83f",
+			"name": "obj_spaceship_wall06",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall06.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 1,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "84d8e6eb-948b-4dd4-ab23-55a64d33eff1",
+			"name": "obj_spaceship_wall05",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall05_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/wall05_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall05.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 3,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "f15b5fa7-6113-4af8-b3e1-b05560ed946a",
+			"name": "obj_spaceship_corner01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/corner01_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_corner01.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 12,
+				"z": 2
+			},
+			"rotationSet": "PropYZX",
+			"sticky": "-Y+Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "45ee9f5a-cfc0-4f3a-bbe8-09f2ce1dbc4c",
+			"name": "obj_spaceship_corner01_damaged",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/corner01_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							"vents": {
+								"textureList": [
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/corner01_damaged_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_corner01_damaged.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 12,
+				"z": 2
+			},
+			"rotationSet": "PropYZX",
+			"sticky": "-Y+Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "988b5592-9e53-4782-a058-d26be442bd49",
+			"name": "obj_spaceship_corner02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/corner02_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_corner02.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 1,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZX",
+			"sticky": "-Y+Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "90686663-1a3e-479a-b1c4-f81699274f50",
+			"name": "obj_spaceship_corner03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/corner03_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_corner03.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 1,
+				"y": 12,
+				"z": 1
+			},
+			"rotationSet": "PropYZX",
+			"sticky": "-Y+Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "5ba206c2-d10b-4815-b95b-04be4959ec31",
+			"name": "obj_spaceship_wall11",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall11.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": true,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "7fa4ecf6-d8fe-49eb-a950-db1fb4590c4d",
+			"name": "obj_spaceship_wall09",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall09.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": true,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "9bdb677f-8033-451f-8bc7-7ae71351c35c",
+			"name": "obj_spaceship_wall10",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_wall10.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": true,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "68d8eeb6-14e4-469b-9ee6-f80ebe1c4be6",
+			"name": "obj_spaceship_ceilingbeam03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilingbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilingbeam03.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 5
+			},
+			"rotationSet": "PropNegYX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "e8cadcb0-9cdf-49d8-bac2-00193e8ac3cc",
+			"name": "obj_spaceship_ceilingbeam01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilingbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilingbeam.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 8,
+				"y": 2,
+				"z": 5
+			},
+			"rotationSet": "PropNegYX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "def1fe25-a33d-405b-ac04-2c1707c2101b",
+			"name": "obj_spaceship_ceilingbeam02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilingbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilingbeam02.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 5
+			},
+			"rotationSet": "PropNegYXNegX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "4e084e1c-08e9-43de-bc6f-6fd73a9620aa",
+			"name": "obj_spaceship_frame01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame01.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYNegYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "aa3e38ef-21aa-4430-ab56-93c367f4f458",
+			"name": "obj_spaceship_frame02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame02.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYNegYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "29c5c1eb-a3bd-45ae-b823-aeb28d70593a",
+			"name": "obj_spaceship_frame05",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame05.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 5,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYNegYZ",
+			"sticky": "-Y+Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "22c526fc-b212-4e4e-af00-1cc69d9129e1",
+			"name": "obj_spaceship_frame03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame03.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYNegY",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "a79a2bc9-1015-4c25-ab4b-0d4cb715db47",
+			"name": "obj_spaceship_frame04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame04.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 2,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYNegYZNegX",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "c5bdb30e-9675-4f8a-8fb9-07e5b98039d4",
+			"name": "obj_spaceship_frame06",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"trimsheet": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"spaceship_metal": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_frame06.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 3
+			},
+			"rotationSet": "PropYNegYZX",
+			"sticky": "+Y-Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "196586b5-897f-40f3-926c-b5dfa4f772eb",
+			"name": "obj_spaceship_blinds",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_blinds_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_blinds.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 7,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "PropYXmNegXm",
+			"sticky": "+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "66c1ccc6-1a68-40f3-9e10-ee362c3c13bc",
+			"name": "obj_spaceship_ceilingvent01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilingvent_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilingvent01.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 6,
+				"y": 1,
+				"z": 6
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "275e4258-ff57-45ae-8e2f-b82204c56d16",
+			"name": "obj_spaceship_ceilingvent02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_ceilingvent_dif.tga",
+									"",
+									""
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_ceilingvent02.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 6
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "fc4f1fd8-2544-45f0-8e3b-4684bc45e5f9",
+			"name": "obj_spaceship_floor_panel",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"floor_panel": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"glass": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_floor_light_nor.tga"
+								],
+								"material": "Glass"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_floor_panel.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"box": {
+				"x": 10,
+				"y": 1,
+				"z": 36
+			},
+			"rotationSet": "PropZ",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 1000.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": true,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		},
+		{
+			"uuid": "1f5d8b77-183c-4f8b-83d7-a3940d090926",
+			"name": "obj_spaceship_infoboard",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_infoboard_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_infoboard_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_infoboard_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/spaceship/obj_spaceship_infoboard.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 7,
+				"y": 10,
+				"z": 1
+			},
+			"rotationSet": "PropYZNegZNegX",
+			"physicsMaterial": "Metal",
+			"ratings": {},
+			"density": 200.0,
+			"restrictions": {
+				"destructable": false,
+				"erasable": false,
+				"buildable": false,
+				"usable": false,
+				"connectable": false,
+				"liftable": false,
+				"convertibleToDynamic": false,
+				"paintable": false
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"toolList":
+	[
+		{
+			"uuid": "262aa73a-ca62-4d27-8c96-c3566352bd8a",
+			"previewRenderable": "$SURVIVAL_DATA/Character/Char_Tools/char_carrytool_preview.rend",
+			"previewRotation": [  -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/CarryTool.lua", "class": "CarryTool" },
+			"showInInventory": false
+		}
+	]
+}

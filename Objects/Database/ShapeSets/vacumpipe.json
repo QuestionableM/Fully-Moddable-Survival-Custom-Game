@@ -1,0 +1,306 @@
+{
+	"partList": [
+		{
+			"uuid": "97f449b6-c948-448b-b8b3-4448e3f6b956",
+			"name": "obj_pneumatic_pump",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipepump.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 4,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pump.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Vacuum.lua",
+				"classname": "Vacuum"
+			},
+			"rotationSet": "PropNegYmZX",
+			"sticky": "+Y+Z-Z+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+Y",
+						"x": 0,
+						"y": 2.0,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "59ea6ce8-239b-4eed-8847-a51b907d9b42",
+			"name": "obj_pneumatic_pipe_01",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipe1.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_01.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"baseUuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"pipe": {
+				"extendable": true,
+				"openings": [
+					{
+						"side": "Y",
+						"x": 0,
+						"y": 0.5,
+						"z": 0
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -0.5,
+						"z": 0
+					}
+				]
+			},
+			"showInInventory": false
+		},
+		{
+			"uuid": "a77a3c86-ba12-4f1f-986c-4bb532c5105d",
+			"name": "obj_pneumatic_pipe_02",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipe2.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 2,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_02.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"baseUuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"pipe": {
+				"extendable": true,
+				"openings": [
+					{
+						"side": "Y",
+						"x": 0,
+						"y": 1.0,
+						"z": 0
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -1.0,
+						"z": 0
+					}
+				]
+			},
+			"showInInventory": false
+		},
+		{
+			"uuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"name": "obj_pneumatic_pipe_03",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipe3.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_03.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"baseUuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"pipe": {
+				"extendable": true,
+				"openings": [
+					{
+						"side": "Y",
+						"x": 0,
+						"y": 1.5,
+						"z": 0
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -1.5,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "bf7b6484-8b8b-4846-8110-c5d9f0b9ada7",
+			"name": "obj_pneumatic_pipe_04",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipe4.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 4,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_04.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"baseUuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"pipe": {
+				"extendable": true,
+				"openings": [
+					{
+						"side": "Y",
+						"x": 0,
+						"y": 2.0,
+						"z": 0
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -2.0,
+						"z": 0
+					}
+				]
+			},
+			"showInInventory": false
+		},
+		{
+			"uuid": "7479ff7f-37fc-4304-93e9-aad7891c29f2",
+			"name": "obj_pneumatic_pipe_05",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipe5.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 5,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_05.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"baseUuid": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+			"pipe": {
+				"extendable": true,
+				"openings": [
+					{
+						"side": "Y",
+						"x": 0,
+						"y": 2.5,
+						"z": 0
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -2.5,
+						"z": 0
+					}
+				]
+			},
+			"showInInventory": false
+		},
+		{
+			"uuid": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
+			"name": "obj_pneumatic_pipe_bend",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/vacuumpipe/obj_vacuumpipe_pipebend.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pipe_bend.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/VacuumPipe.lua",
+				"classname": "VacuumPipe"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+Z",
+						"x": 0,
+						"y": 0.0,
+						"z": 1.5
+					},
+					{
+						"side": "-Y",
+						"x": 0,
+						"y": -1.5,
+						"z": 0
+					}
+				]
+			}
+		}
+	]
+}

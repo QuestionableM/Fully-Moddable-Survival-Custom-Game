@@ -1,0 +1,139 @@
+{
+	"partList": [
+		{
+			"uuid": "63695efd-0862-49f2-ace6-4d1758147fae",
+			"name": "obj_outfitpackage_common",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"package": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_nor.tga"
+								]
+							},
+							"icon": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_outfitpackage.fbx"
+					}
+				]
+			},
+			"color": "19e753",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+X-X-Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 9,
+				"friction": 3,
+				"buoyancy": 7
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "27a221b1-9809-4df1-901a-caafe119c9b6",
+			"name": "obj_outfitpackage_rare",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"package": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_nor.tga"
+								]
+							},
+							"icon": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_rare_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_outfitpackage.fbx"
+					}
+				]
+			},
+			"color": "a20fff",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+X-X-Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 9,
+				"friction": 3,
+				"buoyancy": 7
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
+			"name": "obj_outfitpackage_epic",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"package": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_nor.tga"
+								]
+							},
+							"icon": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_outfitpackage_legendary_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_outfitpackage.fbx"
+					}
+				]
+			},
+			"color": "f9b303",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+X-X-Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 9,
+				"friction": 3,
+				"buoyancy": 7
+			},
+			"flammable": false
+		}
+	]
+}

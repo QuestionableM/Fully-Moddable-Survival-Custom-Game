@@ -1,0 +1,1085 @@
+{
+	"partList": [
+		{
+			"uuid": "6661da68-74af-4425-ad63-d5b4631ee266",
+			"name": "obj_fittings_pipebigshort",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigshort.fbx"
+					}
+				]
+			},
+			"color": "b42119",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropZmYm",
+			"sticky": "-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "5888a6dd-59ab-4cd6-86b2-6e68f64674b5",
+			"name": "obj_fittings_pipebigholder",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigholder.fbx"
+					}
+				]
+			},
+			"color": "b42119",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "70a497d6-6bc2-4ee6-a381-0976d68ac980",
+			"name": "obj_fittings_pipebigholderbar",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigholderbar.fbx"
+					}
+				]
+			},
+			"color": "b42119",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "b2c933a8-2dfb-479f-a3d9-b87797d5e0c6",
+			"name": "obj_fittings_pipebigholderbarbend",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigholderbarbend.fbx"
+					}
+				]
+			},
+			"color": "b42119",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "3292878f-4d1e-49e3-a80f-16b710dad42e",
+			"name": "obj_fittings_pipebigwallconnector",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigwallconnector.mesh"
+					}
+				]
+			},
+			"color": "b42119",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "PropZmmYm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "49938942-fbb6-444d-bba6-1fb339ee5cf3",
+			"name": "obj_fittings_pipebiglid",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebiglid.mesh"
+					}
+				]
+			},
+			"color": "b42119",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "412dee88-996e-49c2-8b51-5644f659f9b2",
+			"name": "obj_fittings_pipebigtank",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_pipesbig2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_pipebigtank.mesh"
+					}
+				]
+			},
+			"color": "b42119",
+			"hull": {
+				"x": 5,
+				"y": 5,
+				"z": 8,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_pipebigtank.obj"
+			},
+			"rotationSet": "PropYmZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "40c5b3fd-1ac4-47f4-ae61-503e14baf20f",
+			"name": "obj_fittings_powerstation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_powerstation_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_powerstation_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_powerstation_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_powerstation.mesh"
+					}
+				]
+			},
+			"color": "0d7308",
+			"box": {
+				"x": 4,
+				"y": 7,
+				"z": 2
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "63cf0973-b81e-4fe1-ae44-654937e1b0e4",
+			"name": "obj_fittings_7x8",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 8,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "06fd0e52-f791-43a6-9fbd-5a8a6260f3f2",
+			"name": "obj_fittings_7x8_glass",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8_glass.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 8,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "41784077-0636-470f-a6df-b868f152af29",
+			"name": "obj_fittings_7x8_bend",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8_bend.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 7,
+				"y": 7,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_7x8_bend.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "16ed53cc-a45b-4f64-92d4-2db93bf33e1c",
+			"name": "obj_fittings_7x8_bend_glass",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8_bend_glass.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 7,
+				"y": 7,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_7x8_bend_glass.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8310f5b9-3394-4723-ac23-f59a21d6e3f3",
+			"name": "obj_fittings_7x8_T",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8_T.fbx"
+					}
+				]
+			},
+			"color": "d07500",
+			"hull": {
+				"x": 7,
+				"y": 7,
+				"z": 7,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_7x8_T.obj"
+			},
+			"rotationSet": "PropYZm",
+			"sticky": "+Y-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "9777f897-4cce-4c22-99ce-793aaca9f7c0",
+			"name": "obj_fittings_7x1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x1.fbx"
+					}
+				]
+			},
+			"color": "555e68",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "66c3a5cd-ce37-4b37-916d-ac39a67ad2f5",
+			"name": "obj_fittings_7x8_mount",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_7x8_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_7x8_mount.fbx"
+					}
+				]
+			},
+			"color": "c20000",
+			"hull": {
+				"x": 7,
+				"y": 2,
+				"z": 8,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_7x8_mount.obj"
+			},
+			"rotationSet": "PropYZm",
+			"sticky": "+Y-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "764e94d1-61c0-4fef-9719-5548889e4817",
+			"name": "obj_fittings_ventbig01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_ventbig01.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "PropYmNegYmZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "468650b4-5ff7-4be1-9e75-05ed86fd83e0",
+			"name": "obj_fittings_ventbig02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_ventbig02.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 6
+			},
+			"rotationSet": "PropYmNegYmZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "9e9280f7-c9bc-4b86-b788-43f9b48903dd",
+			"name": "obj_fittings_ventbig03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_ventbig03.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_ventbig03.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e846e3e7-b608-49c9-bbfd-e0bb859e6d3c",
+			"name": "obj_fittings_ventbig04",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_ventbig04.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "PropYZmNegZmX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "20821431-de44-4d54-8877-60833316104e",
+			"name": "obj_fittings_ventbig05",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_ventbig_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_ventbig05.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropYmZm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e0f8dc49-c418-403b-a7a1-44bea7ecd3d0",
+			"name": "obj_fittings_venthub",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_venthub_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_venthub_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_venthub_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_venthub.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"box": {
+				"x": 8,
+				"y": 6,
+				"z": 5
+			},
+			"rotationSet": "StaticYmZmNegXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "872ae33f-cf02-4959-91d0-ead1dacfd34b",
+			"name": "obj_fittings_generatorpipe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_generatorpipe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_generatorpipe.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "838c8d9a-8fc0-4b15-898b-b82bbf8bf2e0",
+			"name": "obj_fittings_generatorpipelong",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_generatorpipe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_generatorpipelong.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 3,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "85623170-074a-4663-8944-97d131aff495",
+			"name": "obj_fittings_generatorpipebend",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_generatorpipe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_generatorpipebend.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_generatorpipebend.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "1b47f36c-7c6e-451c-87b2-34fdf33d6989",
+			"name": "obj_fittings_generatorpipesplit",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_generatorpipe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_generatorpipesplit.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_fittings_generatorpipesplit.obj"
+			},
+			"rotationSet": "PropYZm",
+			"sticky": "-Y+Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "c85957a1-c393-4352-ba79-5004bb4f07a2",
+			"name": "obj_fittings_generatorpipemulti",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/fittings/obj_fittings_generatorpipe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/fittings/obj_fittings_generatorpipemulti.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-X+X-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"partList": [
+		{
+			"uuid": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
+			"name": "obj_interactive_watergun",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_mountablewatercanon.rend",
+			"color": "3e9ffe",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 4
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/MountedWaterGun.lua",
+				"classname": "MountedWaterGun"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z-Y-X+X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		}
+	]
+}

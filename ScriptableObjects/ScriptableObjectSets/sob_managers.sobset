@@ -1,0 +1,16 @@
+{
+	"scriptableObjectList": [
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/managers/QuestManager.lua",
+			"classname": "QuestManager",
+			"name": "mgr_quests",
+			"uuid": "83b0cc7e-b164-47b8-a83c-0d33ba5f72ec"
+		},
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/managers/QuestEntityManager.lua",
+			"classname": "QuestEntityManager",
+			"name": "mgr_questEntity",
+			"uuid": "c6988ecb-0fc1-4d45-afde-dc583b8b75ee"
+		}
+	]
+}

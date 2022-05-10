@@ -1,0 +1,875 @@
+{
+	"partList": [
+		{
+			"uuid": "9b4ea447-9cd9-4cd1-84d5-8c414890e523",
+			"name": "obj_building_barracksupport",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_barracksupport.fbx"
+					}
+				]
+			},
+			"color": "ee9e28",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e22c8acb-151f-4837-ba32-7c61896b4eec",
+			"name": "obj_building_barracksupportlong",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportlong_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportlong_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportlong_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_barracksupportlong.fbx"
+					}
+				]
+			},
+			"color": "ee9e28",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 5,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "109e1514-4f3b-4bd9-8d95-2d81fdb8fb25",
+			"name": "obj_building_barracksupportturn",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_barracksupportturn.fbx"
+					}
+				]
+			},
+			"color": "ee9e28",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1dc643c9-6f8e-478a-8ebb-4adf3cb9960f",
+			"name": "obj_building_barracksupportholder",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupport_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_barracksupportholder.fbx"
+					}
+				]
+			},
+			"color": "ee9e28",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 3
+			},
+			"rotationSet": "PropYZm",
+			"sticky": "-Z-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b1c6bac0-4055-4193-8490-7704d0ea7113",
+			"name": "obj_building_barracksupportbase",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportbase_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportbase_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_barracksupportbase_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_barracksupportbase.fbx"
+					}
+				]
+			},
+			"color": "ee9e28",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 3,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0dff60c2-f7ae-4c13-b9c4-962ec1039be8",
+			"name": "obj_building_mopbucket",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_mopbucket_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_mopbucket_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_mopbucket_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_mopbucket.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 2,
+				"y": 7,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_building_mopbucket.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "4c17571c-89b5-40f3-b13f-e9399591d0b4",
+			"name": "obj_building_stalldoor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_stalldoor_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_stalldoor_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_stalldoor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_stalldoor.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"hull": {
+				"x": 7,
+				"y": 8,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_building_stalldoor.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "ce66734b-2122-460e-94dc-ccc73d799e32",
+			"name": "obj_building_slippery",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_slippery_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_slippery_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_slippery_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_slippery.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 2,
+				"y": 3,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_building_slippery.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "f092e8b5-4b10-48be-8ad1-2ac5625f49b8",
+			"name": "obj_building_plunger",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_plunger_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_plunger_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_plunger_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_plunger.fbx"
+					}
+				]
+			},
+			"color": "9a3535",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_building_plunger.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "0ebf382a-e2e4-4c46-a48e-87808308c1e3",
+			"name": "obj_building_sink",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_sink_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_sink_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_building_sink_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_building_sink.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"hull": {
+				"x": 3,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_building_sink.obj"
+			},
+			"rotationSet": "PropZY",
+			"sticky": "-Y-X+X-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0c077288-d15d-45d6-8439-3dabe7144034",
+			"name": "obj_office_waterdispenser",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_waterdispenser_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_waterdispenser.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 3,
+				"y": 4,
+				"z": 3
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "239c9c71-e5c7-4ccb-ad40-7bdbb32f3cc9",
+			"name": "obj_office_mugholder",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_mugholder_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_mugholder.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "b43320",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_mugholder.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "+Y+X-X+Z-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "e7eae129-9e3f-45d2-997c-637865c60a5e",
+			"name": "obj_office_waterdispensertank",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_waterdispensertank_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_waterdispensertank_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_waterdispensertank_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_waterdispensertank.fbx"
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "PropYmmNegYmmZ",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "b627c533-f0e7-4fa7-83e6-5c3d517568e0",
+			"name": "obj_office_cubicle",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_cubicle_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_cubicle.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"hull": {
+				"x": 8,
+				"y": 8,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_cubicle.obj"
+			},
+			"rotationSet": "PropYmZX",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3526de39-dcf4-484b-84ec-3336538be192",
+			"name": "obj_office_cubiclefastener",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_cubiclefastener_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_cubiclefastener.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_cubiclefastener.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "47d33078-a9b0-4e30-9610-ad0556be5fa2",
+			"name": "obj_office_desk",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_desk_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_desk.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"hull": {
+				"x": 8,
+				"y": 1,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_desk.obj"
+			},
+			"rotationSet": "PropZY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1991e0c6-4dd8-4e44-9da8-7fdf4d938fdc",
+			"name": "obj_office_deskextension",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_desk_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_deskextension.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"hull": {
+				"x": 8,
+				"y": 1,
+				"z": 4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_deskextension.obj"
+			},
+			"rotationSet": "PropYmNegYmZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3de61f00-5782-40ca-923d-7efabe334572",
+			"name": "obj_office_deskleg",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_atlas_office_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_desk_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_deskleg.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_office_deskleg.obj"
+			},
+			"rotationSet": "PropYNegY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4c93de5a-72ab-40d0-a081-c41e3aa87e86",
+			"name": "obj_office_officechair",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_officechair.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 3
+			},
+			"seat": {
+				"bones": [
+					{
+						"name": "Hips",
+						"offset": {
+							"x": 0.0,
+							"y": 0.8,
+							"z": 0.5
+						}
+					},
+					{
+						"name": "LeftForeArm",
+						"offset": {
+							"x": 1.0,
+							"y": 1.5,
+							"z": 1.5
+						},
+						"freeRotation": true
+					},
+					{
+						"name": "RightForeArm",
+						"offset": {
+							"x": -1.0,
+							"y": 1.5,
+							"z": 1.5
+						},
+						"freeRotation": true
+					}
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "1f343b76-3622-4e4b-9de4-238d43d60734",
+			"name": "obj_office_officechairbottom",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/building/obj_office_officechair_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/building/obj_office_officechairbottom.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "8c9c3f",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 3
+			},
+			"rotationSet": "PropYNegY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		}
+	]
+}

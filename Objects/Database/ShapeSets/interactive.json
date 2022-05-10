@@ -1,0 +1,473 @@
+{
+	"partList": [
+		{
+			"uuid": "f08d772f-9851-400f-a014-d847900458a7",
+			"name": "obj_interactive_fridge",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_fridge.rend",
+			"color": "3e9ffe",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/containers/ConsumableContainer.lua",
+				"classname": "FoodContainer",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-X+X-Y+Y-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			}
+		},
+		{
+			"uuid": "d0afb527-e786-4a22-a907-6da7e7cba8cb",
+			"name": "obj_interactive_locker",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_locker.rend",
+			"color": "3e9ffe",
+			"box": {
+				"x": 3,
+				"y": 7,
+				"z": 2
+			},
+			"chest": {
+				"slots": 4
+			},
+			"rotationSet": "PropY",
+			"sticky": "-X+X-Y+Y-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8",
+			"name": "obj_interactive_filecabinet",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_filecabinet.rend",
+			"color": "beb16c",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_interactive_filecabinet.obj"
+			},
+			"chest": {
+				"slots": 3
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y+X-X-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
+			"name": "obj_container_smallchest",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_smallchest.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 3
+			},
+			"chest": {
+				"slots": 20
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 8,
+				"durability": 6,
+				"friction": 5,
+				"buoyancy": 8
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c",
+			"name": "obj_interactive_encryptor_destruction",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_destruction_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_destruction_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_destruction_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_encryptor_destruction.fbx"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 5,
+				"y": 4,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Encryptor.lua",
+				"classname": "Encryptor",
+				"data": {
+					"encryptions": [
+						"erasable",
+						"buildable",
+						"paintable",
+						"usable",
+						"liftable"
+					]
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 3,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"restrictions": {
+				"erasable": false,
+				"usable": false,
+				"destructable": false
+			}
+		},
+		{
+			"uuid": "8fd2cf31-70b3-499a-bfb0-7e3d2c580258",
+			"name": "obj_interactive_encryptor_connection",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_connection_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_connection_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_encryptor_connection_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_encryptor_connection.fbx"
+					}
+				]
+			},
+			"color": "2f97df",
+			"box": {
+				"x": 5,
+				"y": 4,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Encryptor.lua",
+				"classname": "Encryptor",
+				"data": {
+					"encryptions": [
+						"connectable"
+					]
+				}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 3,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"restrictions": {
+				"erasable": false,
+				"usable": false,
+				"destructable": false
+			}
+		},
+		{
+			"uuid": "8694192c-d91b-444c-a184-910911bbb354",
+			"name": "obj_interactive_stafftoilet",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_stafftoilet.rend",
+			"color": "d37676",
+			"hull": {
+				"x": 3,
+				"y": 2,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_interactive_stafftoilet.obj"
+			},
+			"seat": {
+				"bones": [
+					{
+						"name": "Hips",
+						"offset": {
+							"x": 0.0,
+							"y": 1.5,
+							"z": 0.5
+						}
+					},
+					{
+						"name": "LeftForeArm",
+						"offset": {
+							"x": 1.0,
+							"y": 1.5,
+							"z": 1.5
+						},
+						"freeRotation": true
+					},
+					{
+						"name": "RightForeArm",
+						"offset": {
+							"x": -1.0,
+							"y": 1.5,
+							"z": 1.5
+						},
+						"freeRotation": true
+					}
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Toilet seated",
+				"exitAudio": "Toilet unseated"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 1,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "767a3121-2c31-473c-a5ab-27e188fdd55a",
+			"name": "obj_craftbot_dressbot",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_dressbot_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_nor.tga"
+								],
+								"material": "SkelAnimDifAsgNor"
+							}
+						},
+						"animationList": [
+							{
+								"name": "Unfold",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_unfold.dae"
+							},
+							{
+								"name": "Idle",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_idle.dae"
+							},
+							{
+								"name": "Craft_start",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_start.dae"
+							},
+							{
+								"name": "Craft_loop01",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_loop01.dae"
+							},
+							{
+								"name": "Craft_loop02",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_loop02.dae"
+							},
+							{
+								"name": "Control_doors",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_opendoors_add.dae"
+							},
+							{
+								"name": "Craft_finish",
+								"file": "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_finish.dae"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Character/Char_Dressbot/char_dressbot.dae",
+						"maxViewDistance": 1000.0
+					}
+				]
+			},
+			"color": "df7f01",
+			"box": {
+				"x": 8,
+				"y": 8,
+				"z": 5
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Wardrobe.lua",
+				"classname": "Wardrobe",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"carryItem": true
+		},
+		{
+			"uuid": "454ad69d-bac2-4b06-9386-6267bcbfece2",
+			"name": "obj_interactive_mountablespudgun",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"barrel_basic": {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_on.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 4,
+				"col": "$GAME_DATA/Objects/Collision/obj_interactive_mountablespudgun_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/MountedPotatoGun.lua",
+				"classname": "MountedPotatoGun"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z-Y+Y-X+X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7",
+			"name": "obj_interactive_comfybed",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_comfybed.rend",
+			"color": "3e9ffe",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 7
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Bed.lua",
+				"classname": "Bed",
+				"data": {},
+				"seat": {
+					"bones": [
+						{
+							"name": "root_jnt",
+							"offset": {
+								"x": 0.0,
+								"y": 1.0,
+								"z": 0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.5,
+								"y": 1.1,
+								"z": 1.1
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.5,
+								"y": 1.1,
+								"z": 1.1
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$SURVIVAL_DATA/Character/bed_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"rotationSet": "PropFullMinusNegY",
+			"sticky": "-Z+Z-Y-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true,
+			"restrictions": {
+				"usable": true
+			}
+		},
+		{
+			"box" : {
+			   "x" : 4,
+			   "y" : 1,
+			   "z" : 3
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_builderguideblock.rend",
+			"rotationSet" : "PropFull",
+			"scripted" : {
+			   "classname" : "BuilderGuide",
+			   "data" : { "filepath":"$SURVIVAL_DATA/BuilderGuides/builderguide_startercar.json" },
+			   "filename" : "$CONTENT_DATA/Scripts/game/interactables/BuilderGuide.lua"
+			},
+			"uuid" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
+			"carryItem": true
+		 }
+	]
+}

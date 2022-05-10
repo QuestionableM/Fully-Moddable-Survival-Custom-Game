@@ -1,0 +1,94 @@
+{
+	"partList": [
+		{
+			"uuid": "85fc5f11-722b-4723-91f2-293a81ad0800",
+			"name": "obj_tool_connect",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		},
+		{
+			"uuid": "731c6a84-7ae7-439d-a620-128076f9985c",
+			"name": "obj_tool_paint",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_painttool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		},
+		{
+			"uuid": "836e98a2-8c8c-4a6b-9239-54acdd4f4736",
+			"name": "obj_tool_weld",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_weldtool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		},
+		{
+			"uuid": "2d7f1278-ac93-4039-9eb2-d31715ea10ff",
+			"name": "obj_tool_spudgun",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		},
+		{
+			"uuid": "b633c3ee-2cda-4096-989a-60e90cd220aa",
+			"name": "obj_tool_spudling",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_spinner_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		},
+		{
+			"uuid": "3faf624b-0a95-452f-b6cd-9930ad1731c5",
+			"name": "obj_tool_frier",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"showInInventory": false
+		}
+	]
+}

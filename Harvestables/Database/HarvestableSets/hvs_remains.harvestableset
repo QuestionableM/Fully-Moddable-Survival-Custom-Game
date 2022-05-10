@@ -1,0 +1,24 @@
+{
+	"harvestableList": [
+		{
+			"name": "hvs_remains_glowstick",
+			"showInEditor": false,
+			"type": "remains",
+			"uuid": "6757b211-f50c-42c5-bd7c-648dcbe3ed52",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Remains/hvs_remains_col.obj",
+			"color":"ffffffff",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": false,
+				"melee": false
+			},
+			"removable": true,
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/GlowstickRemains.lua", 
+				"class": "GlowstickRemains", 
+				"data": {} 
+			}
+		}
+	]
+}

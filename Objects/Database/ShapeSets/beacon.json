@@ -1,0 +1,30 @@
+{
+	"partList": [
+		{
+			"uuid": "a5985971-1f95-4373-a5d9-4ce0a3e74851",
+			"name": "obj_interactive_beacon",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_beacon.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 3,
+				"y": 8,
+				"z": 4
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Beacon.lua",
+				"classname": "Beacon",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X-Z+Z",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 3,
+				"durability": 6,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": false
+		}
+	]
+}

@@ -1,0 +1,256 @@
+{
+	"harvestableList": [
+		{
+			"name": "harvestable_tree_birch01",
+			"uuid": "c4ea19d3-2469-4059-9f13-3ddb4f7e0b79",
+			"color":["db9819ff","fb843cff" ,"dabd5cff", "d5bc36ff","d0db18ff","ffe224ff","e8b743ff" ],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch01.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch01_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "small",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Birch01.blueprint",
+					"offset": { "x": -0.125 , "y": 0.250,  "z": -0.125 },
+					"crownHeight": 11.0
+				} 
+			},
+			"size": 1,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 5000
+		},
+		{
+			"name": "harvestable_tree_birch02",
+			"uuid": "711c3e72-7ba1-4424-ae70-c13d23afe818",
+			"color":["db9819ff","fb843cff" ,"dabd5cff", "d5bc36ff","d0db18ff","ffe224ff","e8b743ff" ],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch02.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "small",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Birch02.blueprint",
+					"offset": { "x": -0.125 , "y": 0.250,  "z": -0.125 },
+					"crownHeight": 13.0
+				} 
+			},
+			"size": 1,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 5000
+		},
+		{
+			"name": "harvestable_tree_birch03",
+			"uuid": "a7aa52af-4276-4b2d-af44-36bc41864e04", 
+			"color":["db9819ff","fb843cff" ,"dabd5cff", "d5bc36ff","d0db18ff","ffe224ff","e8b743ff" ],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_birch03.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_birch03_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "small",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Birch03.blueprint",
+					"offset": { "x": -0.125 , "y": 0.250,  "z": -0.125 },
+					"crownHeight": 13.0
+				} 
+			},
+			"size": 1,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 5000
+		},
+		{
+			"name": "harvestable_tree_leafy01",
+			"uuid": "91ec04ea-9bf7-4a9d-bb7f-3d0125ff78c7",
+			"color": ["54c51eff","54c51eff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","065437ff","541805ff","7c5e2080"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy01.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy01_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Leafy01.blueprint",
+					"offset": { "x": -0.375 , "y": 0.0,  "z": -0.375 },
+					"crownHeight": 9.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		},
+		{
+			"name": "harvestable_tree_leafy02",
+			"uuid": "4d482999-98b7-4023-a149-d47be709b8f7",
+			"color": ["54c51eff","54c51eff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","065437ff","541805ff","7c5e2080"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy02.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Leafy02.blueprint",
+					"offset": { "x": -0.375 , "y": 0.0,  "z": -0.375 },
+					"crownHeight": 15.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		},
+		{
+			"name": "harvestable_tree_leafy03",
+			"uuid": "3db0a60d-8668-4c8a-8dd2-f5ceb294977e",
+			"color": ["54c51eff","54c51eff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","68cf37ff", "9ebe2bff","4a8725ff", "68cf37ff", "0c7638ff","065437ff","541805ff","7c5e2080"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_leafy03.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_leafy03_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Leafy03.blueprint",
+					"offset": { "x": -0.375 , "y": 0.0,  "z": -0.375 },
+					"crownHeight": 19.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		},
+		{
+			"name": "harvestable_tree_pine01",
+			"uuid": "8411caba-63db-4b93-ad67-7ae8e350d360",
+			"color": ["005705ff","005705ff", "146137ff",  "7f882fff", "4e7108ff","1a6822ff" ,"1a6822ff", "1a6822ff","005b1fff","8f4d00ff","005b2aff","1a6822ff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine01.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine01_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "large",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Pine01.blueprint",
+					"offset": { "x": -0.625, "y": -0.250, "z": -0.625 },
+					"crownHeight": 23.0
+				} 
+			},
+			"size": 3,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 15000
+		},
+		{
+			"name": "harvestable_tree_pine02",
+			"uuid": "1cb503a4-9306-412f-9e13-371bc634af60",
+			"color": ["005705ff","005705ff", "146137ff",  "7f882fff", "4e7108ff","1a6822ff" ,"1a6822ff", "1a6822ff","005b1fff","8f4d00ff","005b2aff","1a6822ff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine02.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "large",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Pine02.blueprint",
+					"offset": { "x": -0.625, "y": -0.250, "z": -0.625 },
+					"crownHeight": 21.0
+				} 
+			},
+			"size": 3,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 15000
+		},
+		{
+			"name": "harvestable_tree_pine03",
+			"uuid": "fa864e51-67db-4ac9-823b-cfbdf523375d",
+			"color": ["005705ff","005705ff", "146137ff",  "7f882fff", "4e7108ff","1a6822ff" ,"1a6822ff", "1a6822ff","005b1fff","8f4d00ff","005b2aff","1a6822ff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_pine03.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_pine03_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "large",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Pine03.blueprint",
+					"offset": { "x": -0.625, "y": -0.250, "z": -0.625 },
+					"crownHeight": 21.0
+				} 
+			},
+			"size": 3,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 15000
+		},
+		{
+			"name": "harvestable_tree_spruce01",
+			"uuid": "73f968f0-d3a3-4334-86a8-a90203a3a56d",
+			"color": ["016401ff","016401ff","016401ff","00763eff", "147900ff", "368f00ff","368f00ff","368f00ff","4e7600ff", "646200ff","00640aff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce01.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Spruce01.blueprint",
+					"offset": { "x": -0.375 , "y": -0.5,  "z": -0.375 },
+					"crownHeight": 11.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		},
+		{
+			"name": "harvestable_tree_spruce02",
+			"uuid": "86324c5b-e97a-41f6-aa2c-7c6462f1f2e7",
+			"color": ["016401ff","016401ff","016401ff","00763eff", "147900ff", "368f00ff","368f00ff","368f00ff","4e7600ff", "646200ff","00640aff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce02.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Spruce02.blueprint",
+					"offset": { "x": -0.375 , "y": -0.5,  "z": -0.375 },
+					"crownHeight": 11.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		},
+		{
+			"name": "harvestable_tree_spruce03",
+			"uuid": "27aa53ea-1e09-4251-a284-437f93850409",
+			"color": ["016401ff","016401ff","016401ff","00763eff", "147900ff", "368f00ff","368f00ff","368f00ff","4e7600ff", "646200ff","00640aff"],
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Trees/hvs_trees_spruce03.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Trees/hvs_trees_spruce02_col.obj",
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/WoodHarvestable.lua", 
+				"class": "WoodHarvestable", 
+				"data": { 
+					"type": "medium",
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Wood_Spruce03.blueprint",
+					"offset": { "x": -0.375 , "y": -0.5,  "z": -0.375 },
+					"crownHeight": 11.0
+				} 
+			},
+			"size": 2,
+			"type": "tree",
+			"material": "Wood",
+			"mass": 10000
+		}
+	]
+}

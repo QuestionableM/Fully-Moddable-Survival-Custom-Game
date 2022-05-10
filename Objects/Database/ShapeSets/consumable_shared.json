@@ -1,0 +1,306 @@
+{
+	"partList": [
+		{
+			"uuid": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
+			"name": "obj_consumable_gas",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_gas.fbx"
+					}
+				]
+			},
+			"color": "981e11",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "910a7f2c-52b0-46eb-8873-ad13255539af",
+			"name": "obj_consumable_battery",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_battery.fbx"
+					}
+				]
+			},
+			"color": "f1a400",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "869d4736-289a-4952-96cd-8a40117a2d28",
+			"name": "obj_consumable_water",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_water_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_water_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_water_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_water.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+			"name": "obj_plantables_potato",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_plantables_ammo.rend",
+			"color": "505c30",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 50
+		},
+		{
+			"uuid": "f74c2891-79a9-45e0-982e-4896651c2e25",
+			"name": "obj_consumable_chemical",
+			"renderable": {
+				"lodList": [
+					{
+						"maxViewDistance": 1500,
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_chemical.fbx",
+						"subMeshMap": {
+							"chemicalconsumable": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_nor.tga"
+								]
+							},
+							"glass": {
+								"material": "Glass",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/Obj_consumable_chemical_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"color": "495975",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7",
+			"name": "obj_consumable_inkammo",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_dif.tga",
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_asg.tga",
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/consumable/obj_consumable_inkammo.mesh"
+					}
+				]
+			},
+			"color": "1c8687",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 50,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "3a3280e4-03b6-4a4d-9e02-e348478213c9",
+			"name": "obj_consumable_glowstick",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"Glass": {
+								"material": "Glass",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+								]
+							},
+							"Flare": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_glowstick.fbx"
+					}
+				]
+			},
+			"color": "ccffcc",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			},
+			"autoTool": "9506abb9-e415-4229-a824-28a479cca788"
+		}
+	]
+}

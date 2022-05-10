@@ -1,0 +1,804 @@
+{
+	"partList": [
+		{
+			"uuid": "1b927252-ee6d-420e-8bb4-ae42fcb43ba8",
+			"name": "obj_construction_brick",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_brick.fbx"
+					}
+				]
+			},
+			"color": "82847e",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c3a520b3-8d0e-435c-8070-e0ef58d028be",
+			"name": "obj_construction_rebarsmall",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarsmall.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ac59ef69-95a7-4907-a8ba-e5c83ef83112",
+			"name": "obj_construction_rebarmedium",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarmedium.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0f638bd7-0c0d-4ba3-9ba2-af0b523ddff4",
+			"name": "obj_construction_rebarbig",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarbig.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c2078bfe-fa3d-4c2b-8d97-6b5308ff624b",
+			"name": "obj_construction_signcone",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_signcone.fbx"
+					}
+				]
+			},
+			"color": "f15814",
+			"hull": {
+				"x": 2,
+				"y": 5,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_signcone.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "6232b62a-f3e0-4609-a159-ab08abf8125f",
+			"name": "obj_construction_bucket",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_bucket.fbx"
+					}
+				]
+			},
+			"color": "50612d",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 3,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 8,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b0329961-7ac0-4a83-aabc-6701e516de7b",
+			"name": "obj_construction_mould",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_mould.fbx"
+					}
+				]
+			},
+			"color": "50612d",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_mould.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X+Z-Z",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "0e695319-afd0-405b-85c8-289df8614c52",
+			"name": "obj_construction_carpetroll",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_carpetroll.fbx"
+					}
+				]
+			},
+			"color": "368085",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 8,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropYZNegX",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "9f909330-869e-468b-822a-204876118c0a",
+			"name": "obj_construction_carpetrollstand",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_carpetrollstand.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 4,
+				"y": 4,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_carpetrollstand.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Z-Y",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "82625879-3a0a-4ab8-9895-575d38ec4420",
+			"name": "obj_construction_wall02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wall02.fbx"
+					}
+				]
+			},
+			"color": "1999eb",
+			"box": {
+				"x": 8,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "93e32c6b-b9de-4fed-ad9d-49f0850ee634",
+			"name": "obj_construction_wallpillar",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallpillar.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 1,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "094ceb5a-995b-431f-87f4-aac091494ae4",
+			"name": "obj_construction_wallfondation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallfondation.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 8,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYmNegYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "87a3bc6b-5eb3-43a3-871a-0cb42a415d64",
+			"name": "obj_construction_wallplank",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallplank.fbx"
+					}
+				]
+			},
+			"color": "3a3a40",
+			"box": {
+				"x": 1,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "PropYmZm",
+			"sticky": "+Y-Y+Z-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "ec757a7d-a27b-4688-ae85-46167659bf00",
+			"name": "obj_construction_ramp01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_ramp01.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 5,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "StaticYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "26119eb4-0e0e-4730-85ad-8a8c44f3d18c",
+			"name": "obj_construction_ramp02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_ramp02.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_ramp02.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "68db6d52-00fb-441a-ab34-a79341acde32",
+			"name": "obj_construction_soundisolationsmall",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_soundisolationsmall.fbx"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 5,
+				"y": 1,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_soundisolationsmall.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4369132a-40d8-47e7-ac45-e390c0ea6597",
+			"name": "obj_construction_soundisolation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_soundisolation.fbx"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 6,
+				"y": 1,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_soundisolation.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "da6e54df-a223-4a0e-b42f-ddeddd33f5b3",
+			"name": "obj_construction_light",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"constructionlight": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"constructionlight02": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"flare": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							},
+							"beam": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_light_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_light_on.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 3,
+				"y": 4,
+				"z": 3
+			},
+			"spotlight": {
+				"defaultLuminance": 50,
+				"effect": "ConstructionLight"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+Y-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "dac97219-d076-41db-8bbb-2509facf0eb4",
+			"name": "obj_construction_paintcan",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_paintcan.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "de7a75db-207d-48fe-a385-fc4c61b40cf6",
+			"name": "obj_construction_stairs",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_stairs.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 8,
+				"y": 1,
+				"z": 1,
+				"margin": 0.05,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_stairs.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y-X+X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"partList": [
+		{
+			"uuid": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
+			"name": "obj_container_chest",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_chest.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 5,
+				"y": 3,
+				"z": 4
+			},
+			"chest": {
+				"slots": 30
+			},
+			"rotationSet": "PropFullMinusNegY",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "-X",
+						"x": -2.5,
+						"y": 0,
+						"z": -0.5
+					},
+					{
+						"side": "+X",
+						"x": 2.5,
+						"y": 0,
+						"z": -0.5
+					},
+					{
+						"side": "+Y",
+						"x": 0.0,
+						"y": 1.5,
+						"z": -0.5
+					}
+				]
+			}
+		},
+		{
+			"uuid": "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c",
+			"name": "obj_craftbot_refinery",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Refinery/char_refinery.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 11,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_refinery_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Refinery.lua",
+				"classname": "Refinery"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"usable": true
+			},
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -4.0,
+						"z": 0.5
+					}
+				]
+			},
+			"carryItem": true
+		},
+		{
+			"uuid": "a930a42f-63ed-4fb0-933e-56ce8a889cc5",
+			"name": "obj_craftbot_resourcecontainer",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_resourcecontainer.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 6,
+				"y": 8,
+				"z": 6
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/ResourceContainer.lua",
+				"classname": "ResourceContainer",
+				"data": {}
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"restrictions": {
+				"usable": true
+			},
+			"carryItem": true
+		}
+	]
+}

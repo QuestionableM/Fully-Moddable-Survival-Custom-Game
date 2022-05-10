@@ -1,0 +1,758 @@
+{
+	"partList": [
+		{
+			"uuid": "7feba511-4910-429d-a0e3-f1727259ae5c",
+			"name": "obj_industrial_rooftankslice",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_rooftankslice.mesh"
+					}
+				]
+			},
+			"color": "909090",
+			"hull": {
+				"x": 6,
+				"y": 3,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_rooftankslice.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+Y-Y-Z-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "23572f75-03c0-4c33-b643-70250d0e4ae0",
+			"name": "obj_industrial_rooftankslicetop",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_rooftankslice_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_rooftankslicetop.fbx"
+					}
+				]
+			},
+			"color": "909090",
+			"hull": {
+				"x": 6,
+				"y": 6,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_rooftankslicetop.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "7237080a-676b-4be1-bb7f-2fb1a9f6f274",
+			"name": "obj_industrial_windowframe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_windowframe_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_windowframe_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_windowframe_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_windowframe.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 8,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "PropYXmNegXm",
+			"sticky": "+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "6f699ce5-4955-4725-9829-2b6e1dd6eee9",
+			"name": "obj_industrial_generatorfoothinge",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_generator7_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_generator7_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_generator7_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_generatorfoothinge.fbx"
+					}
+				]
+			},
+			"color": "73adb7",
+			"hull": {
+				"x": 1,
+				"y": 4,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_generatorfoothinge.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Y-Z-X+X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "916cbfc2-776f-49d4-838a-eb946136be3e",
+			"name": "obj_industrial_encryptstandbase",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandbase.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 7,
+				"y": 2,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandbase.obj"
+			},
+			"rotationSet": "PropYmNegYmZX",
+			"sticky": "-Y+Y-X+X-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ddaa82ea-22c5-4a2c-8367-c2ee12d5ea5b",
+			"name": "obj_industrial_encryptstandfoundation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandfoundation.mesh"
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 7,
+				"y": 1,
+				"z": 3
+			},
+			"rotationSet": "PropYmZmXm",
+			"sticky": "-Y+Y-X+X-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3cbf5f08-14da-4db5-8360-de5078e7c4c1",
+			"name": "obj_industrial_encryptstandframe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandframe.mesh"
+					}
+				]
+			},
+			"color": "ebb600",
+			"hull": {
+				"x": 5,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandframe.obj"
+			},
+			"rotationSet": "PropYmNegYmZ",
+			"sticky": "-Y+Y-X+X-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f1831414-735f-4323-834a-85d5953fc160",
+			"name": "obj_industrial_encryptstandhinge",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandhinge.fbx"
+					}
+				]
+			},
+			"color": "79859c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandhinge.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "3b47a99f-85c4-4490-8dc5-3560b7c4c863",
+			"name": "obj_industrial_encryptstandpillar",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandpillar.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"hull": {
+				"x": 1,
+				"y": 4,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandpillar.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0ee4fc0a-9f69-4d67-b5c2-09ea5a22712f",
+			"name": "obj_industrial_encryptstandpipe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandpipe.mesh"
+					}
+				]
+			},
+			"color": "a2a2a2",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.2,
+				"axis": "Y"
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "fff76292-79aa-4f0d-814f-72e51159d6d7",
+			"name": "obj_industrial_encryptstandside",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_broholder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_encryptstandside.fbx"
+					}
+				]
+			},
+			"color": "79859c",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandside.obj"
+			},
+			"rotationSet": "PropZNegY",
+			"sticky": "+Y+X-X+Z-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8ca9a4f2-c8c8-439d-9945-e2e95dafbc21",
+			"name": "obj_industrial_powergenerator5",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergenerator5.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 8
+			},
+			"rotationSet": "PropYmZmm",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "7997f4a5-6f5f-492e-95cb-65a5e2a0f2f2",
+			"name": "obj_industrial_powergenerator4",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergenerator4.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 5,
+				"y": 3,
+				"z": 8
+			},
+			"rotationSet": "PropYXmNegXm",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "af389b10-a31b-46f7-bbe9-0bfad8181e97",
+			"name": "obj_industrial_powergenerator2",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergenerator2.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 3,
+				"y": 4,
+				"z": 8
+			},
+			"rotationSet": "PropYmNegYmZX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "5cd67a6e-52cc-4eb0-9f44-275d366516c5",
+			"name": "obj_industrial_powergenerator1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergenerator1.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 5,
+				"y": 4,
+				"z": 8
+			},
+			"rotationSet": "PropYZNegZNegX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "38934d9d-69a8-4a1f-8137-892ede148cb4",
+			"name": "obj_industrial_powergeneratorside",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergeneratorside.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 8,
+				"y": 7,
+				"z": 1
+			},
+			"rotationSet": "PropYZmNegZmX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "684002ad-3218-4dd0-a6dd-53e6dfdec562",
+			"name": "obj_industrial_powergeneratortank",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergeneratortank.mesh"
+					}
+				]
+			},
+			"color": "529374",
+			"box": {
+				"x": 5,
+				"y": 4,
+				"z": 8
+			},
+			"rotationSet": "PropYZNegZX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c349afdf-aded-47bc-9a5c-606372bc535b",
+			"name": "obj_industrial_powergenerator7",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powergenerator_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powergenerator7.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 5,
+				"y": 4,
+				"z": 8,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_powergenerator7.obj"
+			},
+			"rotationSet": "PropYZNegZX",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "346a4ea9-d360-4133-b62f-4c188000c60b",
+			"name": "obj_industrial_powerswitch",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powerswitchv2.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_powerswitch.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "+Z-Z+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 6,
+				"durability": 5,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ad9f6357-b0b4-4dab-b84e-fb20df54d1ac",
+			"name": "obj_industrial_powerholders",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_powerswitch_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/industrial/obj_industrial_powerholders.mesh"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_powerholders.obj"
+			},
+			"rotationSet": "PropZmX",
+			"sticky": "-X+X-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 3
+			},
+			"flammable": false
+		}
+	]
+}

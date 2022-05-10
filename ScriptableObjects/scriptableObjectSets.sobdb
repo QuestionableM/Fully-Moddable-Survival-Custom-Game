@@ -1,0 +1,10 @@
+{
+	"scriptableObjectSetList": [ 
+		{
+			"scriptableObjectSet": "$CONTENT_DATA/ScriptableObjects/ScriptableObjectSets/sob_quests.sobset"
+		},
+		{
+			"scriptableObjectSet": "$CONTENT_DATA/ScriptableObjects/ScriptableObjectSets/sob_managers.sobset"
+		}
+	]
+}

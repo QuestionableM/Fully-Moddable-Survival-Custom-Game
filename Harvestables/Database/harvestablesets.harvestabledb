@@ -1,0 +1,44 @@
+{
+   "harvestableSetList" : [
+      {
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_trees.harvestableset",
+			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Meadow","Environment/Survival/Forest"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.harvestableset",
+			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Burntforerst"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_stones.harvestableset",
+			"categories": ["HVS/Resources/Rocks","Environment/Survival/Meadow"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_fences.harvestableset",
+			"categories": ["HVS/Fences"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_fillers.harvestableset",
+			"categories": ["HVS/Fillers"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_farmables.harvestableset",
+			"categories": ["HVS/Resources/Farmables","HVS/Resources/All"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_plantables.harvestableset",
+			"categories": ["HVS/Plantables"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_loot.harvestableset",
+			"categories": ["HVS/Loot"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_remains.harvestableset",
+			"categories": ["HVS/Remains"]
+		},
+		{
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_questitems.harvestableset",
+			"categories": ["HVS/QuestItems"]
+		}
+   ]
+}

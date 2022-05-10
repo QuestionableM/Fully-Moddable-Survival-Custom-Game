@@ -1,0 +1,298 @@
+{
+    "harvestableList": [
+		{
+            "name": "hvs_farmables_beehive",
+            "uuid": "7261bb49-9c63-4097-999a-4dcab9645eb0",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_beehive.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_beehive_col.obj",
+            "color":"c5a100",
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BeeHive.lua",
+                "class": "BeeHive",
+				"data": {}
+            }
+        },
+		{
+            "name": "hvs_farmables_beehive_broken",
+			"showInEditor": false,
+            "uuid": "3f1507bc-fc48-4b77-b87a-687cb1f4b787",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_beehive_broken.rend",
+            "col": null,
+            "color":"c5a100",
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenBeeHive.lua",
+                "class": "BrokenBeeHive",
+				"data": {}
+            }
+        },
+        {
+            "name": "hvs_farmables_slimyclam",
+            "uuid": "046a8ac8-300b-4e52-91f7-0912d53b2955",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_slimyclam.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_col.obj",
+            "color":"a0253e",
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/SlimyClam.lua",
+                "class": "SlimyClam",
+                "data": {}
+            }
+        },
+        {
+            "name": "hvs_farmables_slimyclam_broken",
+            "showInEditor": false,
+            "uuid": "8c95cede-25a5-48b4-be97-6c16dab31057",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_slimyclam_broken.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_broken_col.obj",
+            "color":"a0253e",
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenSlimyClam.lua",
+                "class": "BrokenSlimyClam",
+                "data": {}
+            }
+        },
+        {
+            "uuid": "c591d94b-d7d1-4305-a9dd-76ef06d6fb49",
+            "name": "hvs_farmables_cottonplant",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cottonplant.fbx",
+                        "subMeshMap": {
+                             "Cotton_plant": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_defaultcollision.obj",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": false,
+				"melee": true
+			},
+            "removable": true,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/CottonPlant.lua", 
+                "class": "CottonPlant", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "062d34ac-d7ed-44ef-b523-e5b3ad70fdac",
+			"showInEditor": false,
+            "name": "hvs_farmables_growing_cottonplant",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cottonplant_broken.fbx",
+                        "subMeshMap": {
+                             "Cotton_plant": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+			"col": null,
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": false
+			},
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingCottonPlant.lua", 
+                "class": "GrowingCottonPlant", 
+                "data": {} 
+            }
+        },
+       	{
+            "uuid": "39a5aeba-a021-4117-8cad-e08ad159281d",
+            "name": "hvs_farmables_cornplant",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cornplant.fbx",
+                        "subMeshMap": {
+                             "corn_plant": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_cornplants_col.obj",
+            "collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/CornPlant.lua", 
+                "class": "CornPlant", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "0f74d3a4-ade0-4054-8207-21f6be7903be",
+			"showInEditor": false,
+            "name": "hvs_farmables_growing_cornplant",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cornplant_broken.fbx",
+                        "subMeshMap": {
+                             "corn_plant": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+			"col": null,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenCornPlant.lua", 
+                "class": "BrokenCornPlant", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "2ab8edca-9cfe-4b1c-9f57-5092f94ea890",
+            "name": "hvs_farmables_oilgeyser",
+            "color": "51584dff",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_oilgeyser.fbx",
+                        "subMeshList": [
+							{
+								"custom": {
+									"color": "rock",
+									"textureTiling" : [1,1,1,8] 
+								},
+								"material": "DifAsgNorNorD",
+								"textureList": [
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_nor.tga",
+									"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_waterrock_nor.tga"
+								]
+							}
+						]
+                    }
+                ]
+            },
+            "collides": {
+				"character": false,
+				"body": false,
+				"projectile": false,
+				"melee": true
+			},
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_oilgeyser_col.obj",
+            "removable": true,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/OilGeyser.lua", 
+                "class": "OilGeyser", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "b6a26689-d803-49cc-a6e8-7f2b66dfb54d",
+            "name": "hvs_farmables_growing_oilgeyser",
+            "showInEditor": false,
+            "color": "51584dff",
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_oilgeyser.fbx",
+                        "subMeshList": [
+							{
+								"custom": {
+									"color": "rock",
+									"textureTiling" : [1,1,1,8] 
+								},
+								"material": "DifAsgNorNorD",
+								"textureList": [
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_nor.tga",
+									"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_waterrock_nor.tga"
+								]
+							}
+						]
+                    }
+                ]
+            },
+            "collides": {
+				"character": false,
+				"body": false,
+				"projectile": false,
+				"melee": true
+			},
+			"col": null,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingOilGeyser.lua", 
+                "class": "GrowingOilGeyser", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "f7567939-d170-437e-b5c4-352ee9d5850d",
+            "name": "hvs_farmables_pigmentflower",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_pigmentflower.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_defaultcollision.obj",
+            "collides": {
+                "character": false,
+                "body": false,
+                "projectile": false,
+                "melee": true
+            },
+            "removable": true,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/PigmentFlower.lua", 
+                "class": "PigmentFlower", 
+                "data": {} 
+            }
+        },
+        {
+            "uuid": "1c5bdfa2-e28f-4ccd-8a4e-be52d812f18a",
+            "showInEditor": false,
+            "name": "hvs_farmables_growing_pigmentflower",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_pigmentflower_broken.rend",
+            "col": null,
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingPigmentFlower.lua", 
+                "class": "GrowingPigmentFlower", 
+                "data": {} 
+            }
+        }
+    ]
+}

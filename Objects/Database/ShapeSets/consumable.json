@@ -1,0 +1,312 @@
+{
+	"partList": [
+		{
+			"uuid": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+			"name": "obj_consumable_fertilizer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_fertilizer_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_fertilizer_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_fertilizer_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_fertilizer.fbx"
+					}
+				]
+			},
+			"color": "a5ca11",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"restrictions": {
+				"erasable": true
+			},
+			"autoTool": "f26a26bf-b9be-4e59-83e4-da2e9e6dd285"
+		},
+		{
+			"uuid": "cb7305b2-d8b5-4302-aff3-6cdd9212ca64",
+			"name": "obj_consumable_sunshake",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_sunshake_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_sunshake_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_sunshake_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_sunshake.fbx"
+					}
+				]
+			},
+			"color": "fe878c",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"edible": {
+				"hpGain": 10,
+				"foodGain": 25,
+				"waterGain": 35
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "54d84731-d9ec-435d-bc9d-d48e0763b1bf",
+			"name": "obj_consumable_pizzaburger",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/obj_consumable_pizzaburger.rend",
+			"color": "3e9ffe",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_consumable_pizzaburger.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"edible": {
+				"hpGain": 100,
+				"foodGain": 100,
+				"waterGain": 100
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "54d8ef21-357d-48a3-a66d-40446f6bb686",
+			"name": "obj_consumable_carrotburger",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Tools/Char_carrotburger/obj_consumable_carrotburger.rend",
+			"color": "ccffcc",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_consumable_carrotburger.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"edible": {
+				"hpGain": 100,
+				"foodGain": 100,
+				"waterGain": 100
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "e243f642-6934-42bb-8cdd-f8ff1704d411",
+			"name": "obj_consumable_longsandwich",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"burger_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/char_longsandwich_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/char_longsandwich_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/char_longsandwich_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"pizza_burger_lettuce": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/char_longsandwich.fbx"
+					}
+				]
+			},
+			"color": "3e9ffe",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 6
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"autoTool": "87cf94fa-a52a-47bd-8d62-47a2e10fe2af"
+		},
+		{
+			"uuid": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8",
+			"name": "obj_consumable_milk",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"obj_consumable_milk_mat": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_nor.tga"
+								]
+							},
+							"glass_mat": {
+								"material": "Glass",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_milk.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 2,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 10,
+				"waterGain": 40
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "9a3e478c-2224-44fa-887c-239965bd05ad",
+			"name": "obj_consumable_soilbag",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_soilbag.fbx"
+					}
+				]
+			},
+			"color": "3a9c51",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 5,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_consumable_soilbag.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Sand",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true,
+			"stackSize": 5,
+			"restrictions": {
+				"erasable": true
+			},
+			"autoTool": "3ef5412a-7044-45ae-9592-9ce86bd99081"
+		}
+	]
+}

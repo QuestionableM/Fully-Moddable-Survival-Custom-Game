@@ -1,0 +1,26 @@
+{
+	"harvestableList": [
+		{
+			"name": "hvs_questitem_water_bucket",
+			"uuid": "7745d036-ed25-4559-9eb2-47b6da8d007e",
+			"color": "0b9ade",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_empty.rend",
+			"collides": {
+				"character": true,
+				"body": true,
+				"projectile": true,
+				"melee": true
+			},
+			"removable": true,
+			"destroyTime": 0.35,
+			"col_box": { "x": 2, "y": 2, "z": 2 },
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/QuestItemWaterBucket.lua", 
+				"class": "QuestItemWaterBucket", 
+				"data": {}
+			},
+			"material": "Plastic",
+			"mass": 1000
+		}
+	]
+}

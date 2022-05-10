@@ -1,0 +1,248 @@
+{
+	"partList": [
+		{
+			"uuid": "bd597ac9-6640-43ba-9bd8-ed584a794f13",
+			"name": "obj_scrap_driverseat",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_worn_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_worn_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_worn_nor.tga"
+								],
+								"material": "SkelAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_worn.dae",
+						"animationList": [
+							{
+								"name": "j_ratt",
+								"file": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_worn.dae"
+							}
+						]
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 4,
+				"y": 4,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_scrap_driverseat.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/DriverSeat.lua",
+				"classname": "DriverSeat",
+				"data": {},
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.064,
+								"z": -0.544
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.172,
+								"y": 0.968,
+								"z": 0.968
+							},
+							"freeRotation": true,
+							"steers": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.172,
+								"y": 0.968,
+								"z": 0.968
+							},
+							"freeRotation": true,
+							"steers": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"steering": {
+					"steerAngle": 45.0
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "wood",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "847daf20-02bf-4170-8699-9ab106acd29a",
+			"name": "obj_scrap_seat",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftseat_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftseat_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftseat_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_makeshiftseat.fbx"
+					}
+				]
+			},
+			"color": "2f7847",
+			"box": {
+				"x": 4,
+				"y": 4,
+				"z": 4
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Seat.lua",
+				"classname": "Seat",
+				"data": {},
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.2,
+								"z": 0.0
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.0,
+								"y": -0.25,
+								"z": 1.5
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.0,
+								"y": -0.25,
+								"z": 1.5
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "59f6951a-a450-42bf-ad03-54567cb70245",
+			"name": "obj_scrap_smallwheel",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_worn_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_worn_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_worn_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel_worn.fbx"
+					}
+				]
+			},
+			"color": "9f5223",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"margin": 0.4,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_scrap_smallwheel.obj"
+			},
+			"rotationSet": "PropZNegZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c96ab903-f238-4bae-a614-28a758716d00",
+			"name": "obj_scrap_gasengine",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_makeshiftengine.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_makeshiftengine.fbx"
+					}
+				]
+			},
+			"color": "2f7847",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/GasEngine.lua",
+				"classname": "GasEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 3,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		}
+	]
+}

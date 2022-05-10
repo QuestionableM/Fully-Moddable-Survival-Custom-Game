@@ -1,0 +1,184 @@
+{
+    "harvestableList": [
+        {
+			"name": "hvs_stone_small01",
+            "uuid": "0d3362ae-4cb3-42ae-8a08-d3f9ed79e274",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_small01.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small01_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small01.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+		},
+		{
+			"name": "hvs_stone_small02",
+            "uuid": "f6b8e9b8-5592-46b6-acf9-86123bf630a9",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_small02.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small02_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small02.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+		},
+		{
+			"name": "hvs_stone_small03",
+            "uuid": "60ad4b7f-a7ef-4944-8a87-0844e6305513",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_small03.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_small03_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Small03.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+		},
+		{
+			"name": "hvs_stone_medium01",
+            "uuid": "ab5b947e-a223-4842-83dd-aa6b23ac2b86",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_medium01.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium01_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium01.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        },
+		{
+			"name": "hvs_stone_medium02",
+            "uuid": "5da6c862-8a5c-4b56-90d3-5f038d569c4a",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_medium02.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium02_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium02.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        },
+		{
+			"name": "hvs_stone_medium03",
+            "uuid": "90e0ef6a-8409-4459-8926-e5351d7da611",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_medium03.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_medium03_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_Medium03.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        },
+		{
+			"name": "hvs_stone_large01",
+            "uuid": "ab362045-0444-4749-9f24-f5e850162857",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_large01.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large01_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large01.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        },
+		{
+			"name": "hvs_stone_large02",
+            "uuid": "63fb92b3-e1dc-4b5c-9ed3-7b572bc01ca4",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_large02.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large02_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large02.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        },
+		{
+			"name": "hvs_stone_large03",
+            "uuid": "67111401-1ee1-4bfb-8780-fa878352f90d",
+            "color": "8c8c8cff",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Stones/hvs_stone_large03.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Stones/hvs_stone_large03_col.obj",    
+
+			"script": { 
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/StoneHarvestable.lua", 
+				"class": "StoneHarvestable", 
+				"data": { 
+					"blueprint": "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/Harvestable_Stone_large03.blueprint",
+					"offset": { "x": 0.0 , "y": 0.0,  "z": 0.0 }
+				} 
+		    },
+		    "size": 3,
+			"type": "stone",
+			"material": "Rock",
+			"mass": 15000
+        }
+    ]
+}

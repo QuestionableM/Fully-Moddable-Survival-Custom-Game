@@ -1,0 +1,45 @@
+{
+	"partList": [
+		{
+			"uuid": "f293a245-2415-4da5-b012-01134652611f",
+			"name": "obj_robotparts_tapebotshooter",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/robotparts/obj_robotparts_tapebotshooter.rend",
+			"color": "035cff",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 3,
+				"margin": 0.25,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebotshooter.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "shooter"
+				}
+			},
+			"rotationSet": "PropXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 10,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restitution": 0.75,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			},
+			"showInInventory": false
+		}
+	]
+}

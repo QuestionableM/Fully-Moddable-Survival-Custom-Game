@@ -1,0 +1,28 @@
+{
+	"partList": [
+		{
+			"uuid": "5530e6a0-4748-4926-b134-50ca9ecb9dcf",
+			"name": "obj_consumable_component",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_component.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 2,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 7,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": false,
+			"stackSize": 10,
+			"restrictions": {
+				"erasable": true
+			}
+		}
+	]
+}

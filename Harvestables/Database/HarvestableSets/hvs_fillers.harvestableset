@@ -1,0 +1,239 @@
+{
+    "harvestableList": [
+        {   
+            "uuid": "a1ee78c2-0b46-467c-927b-0b3c67cd9d90",
+            "name": "hvs_fillers_haypile_01",
+			"type": "filler",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_haypile_01.obj",
+            "color": "d18b17ff",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Grass"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Haypile - Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "includes": [
+                            "POSITION",
+                            "NORMAL",
+                            "UV0",
+                            "VERTEX_COLOR",
+                            "TANGENT"
+                        ],
+                        "maxViewDistance": 500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fillers/hvs_fillers_haypile_01.fbx",
+                        "subMeshMap": {
+                            "hay_mat": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {   
+            "uuid": "57bfa2f0-f949-467e-bb85-a9eed63e2c41",
+            "name": "hvs_fillers_haypile_02",
+			"type": "filler",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_haypile_02.obj",
+            "color": "d18b17ff",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Grass"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Haypile - Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "includes": [
+                            "POSITION",
+                            "NORMAL",
+                            "UV0",
+                            "VERTEX_COLOR",
+                            "TANGENT"
+                        ],
+                        "maxViewDistance": 500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fillers/hvs_fillers_haypile_02.fbx",
+                        "subMeshMap": {
+                            "hay_mat": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {   
+            "uuid": "e6e501ac-e1d8-4304-bd9f-e60383eeba4a",
+            "name": "hvs_fillers_haypile_03",
+			"type": "filler",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_haypile_03.obj",
+            "color": "d18b17ff",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Grass"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Haypile - Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "includes": [
+                            "POSITION",
+                            "NORMAL",
+                            "UV0",
+                            "VERTEX_COLOR",
+                            "TANGENT"
+                        ],
+                        "maxViewDistance": 500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fillers/hvs_fillers_haypile_03.fbx",
+                        "subMeshMap": {
+                            "hay_mat": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_haypile_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {   
+            "uuid": "6f9e92fd-07dd-4679-9b3c-4305b67e449f",
+			"name": "hvs_leafpile_01",
+			"type": "filler",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_leafpile_01.obj",
+            "color": "c55c1ead",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Grass"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Leafpile - Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "includes": [
+                            "POSITION",
+                            "NORMAL",
+                            "UV0",
+                            "VERTEX_COLOR",
+                            "TANGENT"
+                        ],
+                        "maxViewDistance": 500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fillers/hvs_fillers_leafpile_01.fbx",
+                        "subMeshMap": {
+                            "leafpile_mat": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {   
+            "uuid": "bf8902e7-f163-4bfc-bb54-c2f11bb84bf7",
+			"name": "hvs_leafpile_02",
+			"type": "filler",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_leafpile_02.obj",
+            "color": "c55c1ead",
+			"collides": {
+				"character": true,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+            "physics": {
+                "mass": 10000,
+                "material": "Grass"
+            },
+            "script": { 
+                "file": "$SURVIVAL_DATA/Scripts/game/harvestable/Fence.lua", 
+                "class": "Fence", 
+                "data": { "effectName": "Leafpile - Destruction" } 
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "includes": [
+                            "POSITION",
+                            "NORMAL",
+                            "UV0",
+                            "VERTEX_COLOR",
+                            "TANGENT"
+                        ],
+                        "maxViewDistance": 500,
+                        "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Fillers/hvs_fillers_leafpile_02.fbx",
+                        "subMeshMap": {
+                            "leafpile_mat": {
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Fillers/hvs_fillers_leafpile_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

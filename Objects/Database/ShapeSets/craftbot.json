@@ -1,0 +1,223 @@
+{
+	"partList": [
+		{
+			"uuid": "b63c6440-dfc2-4da7-acdb-3c385080b2e4",
+			"name": "obj_craftbot_craftbot1",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua",
+				"classname": "Craftbot"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true
+		},
+		{
+			"uuid": "b7571f6f-9d53-44ba-99d2-3b4f05e6fd0f",
+			"name": "obj_craftbot_craftbot2",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua",
+				"classname": "Craftbot"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true,
+			"showInInventory": false
+		},
+		{
+			"uuid": "1c83675f-7c77-4cbb-875b-79d4bd46100d",
+			"name": "obj_craftbot_craftbot3",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua",
+				"classname": "Craftbot"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true,
+			"showInInventory": false
+		},
+		{
+			"uuid": "c69a7855-d915-4784-af81-d0a8849e458f",
+			"name": "obj_craftbot_craftbot4",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua",
+				"classname": "Craftbot"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true,
+			"showInInventory": false
+		},
+		{
+			"uuid": "4fcb4cb8-7623-11ea-bc55-0242ac130003",
+			"name": "obj_craftbot_craftbot5",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/game/interactables/Crafter.lua",
+				"classname": "Craftbot"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true,
+			"showInInventory": false
+		}
+	]
+}

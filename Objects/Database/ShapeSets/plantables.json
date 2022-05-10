@@ -1,0 +1,941 @@
+{
+	"partList": [
+		{
+			"uuid": "22beade5-38ca-47b4-a2ee-32403f58a862",
+			"name": "obj_seed_banana",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_banana_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "83a633",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_banana.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "d3fdedca-7e1c-45cc-a1db-f0deee381a71"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2",
+			"name": "obj_seed_blueberry",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_blueberry_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "5d41d9",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_blueberry.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "bb600268-cd29-4715-babe-5fd02645eb1c"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "bee966b0-b5e5-41da-b992-5d363ab85ae4",
+			"name": "obj_seed_orange",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_orange_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "fd5d38",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_orange.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "b1a17952-b6a2-436d-81e4-df8ffb552166"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a",
+			"name": "obj_seed_pineapple",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_pineapple_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "23b777",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_pineapple.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "1337f492-aa23-42d0-af7a-fae45b47e55f"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "9c82a525-8a8b-4483-9595-505aaa042486",
+			"name": "obj_seed_carrot",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_carrot_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "3f7abc",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_carrot.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "6dd177f4-3312-4b1e-a986-4421b5e83bff"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "64051718-a3f1-422b-bda3-277efa0c4545",
+			"name": "obj_seed_redbeet",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_redbeet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "a42039",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_redbeet.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "18efedc5-8706-4ecb-afd4-e9294d3f1052"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "38e41fb5-dd50-4294-829d-a517f0282fed",
+			"name": "obj_seed_tomato",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_tomato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "e39c04",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_tomato.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "c6f80a93-5b16-45ef-a478-ca56a50f61ae"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "1c6756ca-3a60-4dcb-a5d1-353edf818308",
+			"name": "obj_seed_broccoli",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_broccoli_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "7c862c",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_broccoli.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "1675314b-0dfc-4d34-b854-0bdf0476221d"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "eb1ef696-5c05-4662-9e47-fe1e0875ff84",
+			"name": "obj_seed_potato",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_potato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "52662e",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_potato.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "ec1cf82f-e8f3-4ca6-8e35-a4bdf0e8e259"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "93c27ab2-4930-4654-ba1c-bcfe35e966f6",
+			"name": "obj_seed_cotton",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_cotton_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_seedbag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_seed_tag_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_seed.fbx"
+					}
+				]
+			},
+			"color": "ff72bb",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_seed_blueberry.obj"
+			},
+			"itemStack": {},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 20,
+			"plantable": {
+				"harvestable": "779b5e09-7ce7-4a16-9817-02f5cb8e11f6"
+			},
+			"autoTool": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15"
+		},
+		{
+			"uuid": "aa4c9c5e-7fc6-4c27-967f-c550e551c872",
+			"name": "obj_plantables_banana",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_banana.fbx"
+					}
+				]
+			},
+			"color": "f0c909",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_banana.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-X+X-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 40,
+				"waterGain": 15
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "6a43fff2-8c6d-4460-9f44-e5483b5267dd",
+			"name": "obj_plantables_blueberry",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_nor.tga"
+								]
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_blueberry.fbx"
+					}
+				]
+			},
+			"color": "032ea8",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYmmZ",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 30,
+				"waterGain": 30
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "f5098301-1693-457b-8efc-83b3504105ac",
+			"name": "obj_plantables_orange",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"material": "Leaves",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_orange_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_orange_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_orange_nor.tga"
+								]
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_orange.fbx"
+					}
+				]
+			},
+			"color": "ffad1f",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_orange.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-X+X-Z+Z-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 15,
+				"waterGain": 40
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "4ec64cda-1a5b-4465-88b4-5ea452c4a556",
+			"name": "obj_plantables_pineapple",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"pineapple": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_nor.tga"
+								]
+							},
+							"leaves": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_pineapple_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_pineapple.fbx"
+					}
+				]
+			},
+			"color": "e9ec0e",
+			"hull": {
+				"x": 2,
+				"y": 3,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_pineapple.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-X+X-Z+Z-Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 20,
+				"waterGain": 50
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "47ece75a-bfca-4e8a-b618-4f609fcea0da",
+			"name": "obj_plantables_carrot",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"material": "DifAsgNorAlphaFlip",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_nor.tga"
+								]
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_carrot.fbx"
+					}
+				]
+			},
+			"color": "ef650b",
+			"box": {
+				"x": 3,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Z-Y+Y",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 30,
+				"waterGain": 10
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "4ce00048-f735-4fab-b978-5f405e60f48f",
+			"name": "obj_plantables_redbeet",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"redbeet": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_nor.tga"
+								]
+							},
+							"leaves": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_redbeet.fbx"
+					}
+				]
+			},
+			"color": "a6274d",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_redbeet.obj"
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 20,
+				"waterGain": 20
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "6d92d8e7-25e9-4698-b83d-a64dc97978c8",
+			"name": "obj_plantables_tomato",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"tomato": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_nor.tga"
+								]
+							},
+							"leaves": {
+								"material": "DifAsgNorAlpha",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_tomato_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_tomato.fbx"
+					}
+				]
+			},
+			"color": "f80600",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_tomato.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-X+X-Y+Z-Z",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 10,
+				"waterGain": 30
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		},
+		{
+			"uuid": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f",
+			"name": "obj_plantables_broccoli",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"broccoli": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_broccoli_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_broccoli_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_broccoli_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/plantables/obj_plantables_broccoli.fbx"
+					}
+				]
+			},
+			"color": "31880b",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_plantables_broccoli.obj"
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Fruit",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true,
+			"consumable": true,
+			"stackSize": 10,
+			"edible": {
+				"hpGain": 0,
+				"foodGain": 50,
+				"waterGain": 20
+			},
+			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
+		}
+	]
+}

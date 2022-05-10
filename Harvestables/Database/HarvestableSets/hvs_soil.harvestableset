@@ -1,0 +1,28 @@
+{
+	"harvestableList": [
+		{
+			"name": "hvs_farming_soil_neglected",
+			"type": "mature",
+			"uuid": "f68f163d-d4c1-448c-865d-4ebb2826b6ce",
+			"renderable": "$SURVIVAL_DATA/Harvestables/Renderable/Plantables/hvs_farming_soil_neglected_growing.rend",
+			"col": "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_maturetall.obj",
+			"color":"c5a100",
+			"collides": {
+				"character": false,
+				"body": false,
+				"projectile": true,
+				"melee": true
+			},
+			"removable": true,
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/harvestable/MatureHarvestable.lua",
+				"class": "MatureHarvestable",
+				"data": {
+					"harvest": "6a43fff2-8c6d-4460-9f44-e5483b5267dd", //blueberry part
+					"amount": 1,
+					"seed": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2" //blueberry seed
+				}
+			}
+		}
+	]
+}
