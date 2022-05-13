@@ -5,7 +5,7 @@
 			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Meadow","Environment/Survival/Forest"]
 		},
 		{
-			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.json",
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.harvestableset",
 			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Burntforerst"]
 		},
 		{
