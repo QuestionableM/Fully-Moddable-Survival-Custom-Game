@@ -297,7 +297,7 @@ end
 
 function HideoutTrader.cl_updateTradeGrid( self )
 	self.cl.guiInterface:clearGrid( "TradeGrid" )
-	self.cl.guiInterface:addGridItemsFromFile( "TradeGrid", "$SURVIVAL_DATA/CraftingRecipes/hideout.json" )
+	self.cl.guiInterface:addGridItemsFromFile( "TradeGrid", "$CONTENT_DATA/CraftingRecipes/hideout.json" )
 end
 
 function HideoutTrader.cl_n_addVacuumItem( self, params )

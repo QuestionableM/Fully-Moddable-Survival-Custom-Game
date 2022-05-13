@@ -308,6 +308,7 @@ function EffectManager.cl_handleNamedWorldEffects( self, worldSelf )
 		cutsceneCameraData.lockedControls = true
 	end
 	local player = sm.localPlayer.getPlayer()
+	player.clientPublicData = player.clientPublicData or {}
 	player.clientPublicData.cutsceneCameraData = cutsceneCameraData
 
 	self.currentCinematicEffect = closestCameraEffect

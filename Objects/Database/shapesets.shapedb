@@ -1,16 +1,5 @@
 {
-   "shapeSetList" : [
-		"$GAME_DATA/Objects/Database/ShapeSets/blocks.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/interactive.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/lights.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/vehicle.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/industrial.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/spaceship.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/fittings.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/containers.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/decor.json",
-		"$GAME_DATA/Objects/Database/ShapeSets/plants.json",
-		
+	"shapeSetList": [
 		"$CONTENT_DATA/Objects/Database/ShapeSets/blocks.json",
 		"$CONTENT_DATA/Objects/Database/ShapeSets/blocks_blueprint.json",
 		"$CONTENT_DATA/Objects/Database/ShapeSets/interactive.json",
@@ -53,5 +42,5 @@
 		"$CONTENT_DATA/Objects/Database/ShapeSets/vacumpipe.json",
 		"$CONTENT_DATA/Objects/Database/ShapeSets/outfitpackage.json",
 		"$CONTENT_DATA/Objects/Database/ShapeSets/effect_proxies.json"
-   ]
+	]
 }

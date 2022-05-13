@@ -1,10 +1,8 @@
 {
-   "toolSetList" : [ 
-      "$CONTENT_DATA/Tools/Database/ToolSets/core.toolset",
-
+   "toolSetList": [
       "$CONTENT_DATA/Tools/Database/ToolSets/carry.toolset",
       "$CONTENT_DATA/Tools/Database/ToolSets/spudguns.toolset",
-      "$CONTENT_DATA/Tools/Database/ToolSets/tools.toolset",
-      "$CONTENT_DATA/Tools/Database/ToolSets/tools_shared.toolset"
+      "$CONTENT_DATA/Tools/Database/ToolSets/tools_shared.toolset",
+      "$CONTENT_DATA/Tools/Database/ToolSets/tools.toolset"
    ]
 }

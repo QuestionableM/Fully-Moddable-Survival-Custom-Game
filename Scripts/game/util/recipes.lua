@@ -42,7 +42,7 @@ function LoadCraftingRecipes( recipePaths )
 
 	-- Preload refinery recipes
 	if not g_refineryRecipes then
-		g_refineryRecipes = sm.json.open( "$SURVIVAL_DATA/CraftingRecipes/refinery.json" )
+		g_refineryRecipes = sm.json.open( "$CONTENT_DATA/CraftingRecipes/refinery.json" )
 		for _,recipe in pairs( g_refineryRecipes ) do
 			recipe.itemId = sm.uuid.new( recipe.itemId ) -- Prepare uuid
 		end

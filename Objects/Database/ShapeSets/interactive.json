@@ -466,8 +466,10 @@
 			   "data" : { "filepath":"$SURVIVAL_DATA/BuilderGuides/builderguide_startercar.json" },
 			   "filename" : "$CONTENT_DATA/Scripts/game/interactables/BuilderGuide.lua"
 			},
+			"name": "obj_interactive_builderguideblock",
 			"uuid" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
-			"carryItem": true
+			"carryItem": true,
+			"showInInventory": false
 		 }
 	]
 }

@@ -1,11 +1,11 @@
 {
-   "harvestableSetList" : [
-      {
+	"harvestableSetList": [
+		{
 			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_trees.harvestableset",
 			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Meadow","Environment/Survival/Forest"]
 		},
 		{
-			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.harvestableset",
+			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.json",
 			"categories": ["HVS/Resources/Trees","HVS/Resources/All","Environment/Survival/Burntforerst"]
 		},
 		{
@@ -40,5 +40,5 @@
 			"name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_questitems.harvestableset",
 			"categories": ["HVS/QuestItems"]
 		}
-   ]
+	]
 }

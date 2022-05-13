@@ -137,7 +137,7 @@ function Wardrobe.cl_init( self )
 	self.cl.guiDressbotInterface = sm.gui.createDressBotGui()
 	self.cl.guiDressbotInterface:setGridButtonCallback( "CraftButton", "cl_onCraft" )
 	self.cl.guiDressbotInterface:setButtonCallback( "UnboxButton", "cl_onUnbox" )
-	self.cl.guiDressbotInterface:addGridItemsFromFile( "BoxGrid", "$SURVIVAL_DATA/CraftingRecipes/dressbot.json" )
+	self.cl.guiDressbotInterface:addGridItemsFromFile( "BoxGrid", "$CONTENT_DATA/CraftingRecipes/dressbot.json" )
 
 	-- Setup animations
 	local animations = {}

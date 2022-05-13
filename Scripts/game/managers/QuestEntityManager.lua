@@ -42,7 +42,8 @@ function QuestEntityManager.sv_onWorldCellLoaded( self, worldSelf, x, y )
 	for _, node in ipairs( areaTriggerNodes ) do
 		if node.params.name then
 			-- Create the areatrigger
-			local areaTrigger = sm.areaTrigger.createBox( node.scale * 0.5, node.position, node.rotation )
+			local filter = sm.areaTrigger.filter.character
+			local areaTrigger = sm.areaTrigger.createBox( node.scale * 0.5, node.position, node.rotation, filter )
 			self.sv.bindRequests[#self.sv.bindRequests+1] = areaTrigger
 			local areaTriggerData = {
 				areaTrigger = areaTrigger,

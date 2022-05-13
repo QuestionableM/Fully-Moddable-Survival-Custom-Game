@@ -340,12 +340,16 @@ function FireManager.cl_addFire( self, cellKey, fireId, position, rotation, effe
 end
 
 function FireManager.cl_removeFire( self, cellKey, fireId )
-	local fireObj = self.cl.fireCells[cellKey][fireId]
-	fireObj.effect:stop()
-	if fireObj.putout then
-		sm.effect.playEffect( fireObj.putout.effectName, fireObj.putout.position, sm.vec3.zero(), fireObj.putout.rotation )
+	if self.cl.fireCells[cellKey] then
+		local fireObj = self.cl.fireCells[cellKey][fireId]
+		if fireObj then
+			fireObj.effect:stop()
+			if fireObj.putout then
+				sm.effect.playEffect( fireObj.putout.effectName, fireObj.putout.position, sm.vec3.zero(), fireObj.putout.rotation )
+			end
+		end
+		self.cl.fireCells[cellKey][fireId] = nil
 	end
-	self.cl.fireCells[cellKey][fireId] = nil
 end
 
 function FireManager.cl_removeFireCell( self, cellKey )

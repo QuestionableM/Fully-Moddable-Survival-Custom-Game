@@ -85,8 +85,10 @@ function QuestManager.client_onDestroy( self )
 end
 
 function QuestManager.Sv_ActivateQuest( questName )
-	print( "QuestManager - ActivateQuest:", questName )
-	sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_activateQuest", questName )
+	if g_questManager then
+		print( "QuestManager - ActivateQuest:", questName )
+		sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_activateQuest", questName )
+	end
 end
 
 function QuestManager.Sv_TryActivateQuest( questName )
@@ -96,8 +98,10 @@ function QuestManager.Sv_TryActivateQuest( questName )
 end
 
 function QuestManager.Sv_AbandonQuest( questName )
-	print( "QuestManager - AbandonQuest:", questName )
-	sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_abandonQuest", questName )
+	if g_questManager then
+		print( "QuestManager - AbandonQuest:", questName )
+		sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_abandonQuest", questName )
+	end
 end
 
 function QuestManager.Sv_TryAbandonQuest( questName )
@@ -107,32 +111,46 @@ function QuestManager.Sv_TryAbandonQuest( questName )
 end
 
 function QuestManager.Sv_CompleteQuest( questName )
-	print( "QuestManager - CompleteQuest:", questName )
-	sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_completeQuest", questName )
+	if g_questManager then
+		print( "QuestManager - CompleteQuest:", questName )
+		sm.event.sendToScriptableObject( g_questManager.scriptableObject, "sv_e_completeQuest", questName )
+	end
 end
 
 function QuestManager.Sv_IsQuestActive( questName )
-	return g_questManager:sv_isQuestActive( questName )
+	if g_questManager then
+		return g_questManager:sv_isQuestActive( questName )
+	end
 end
 
 function QuestManager.Sv_IsQuestComplete( questName )
-	return g_questManager:sv_isQuestComplete( questName )
+	if g_questManager then
+		return g_questManager:sv_isQuestComplete( questName )
+	end
 end
 
 function QuestManager.Sv_GetQuest( questName )
-	return g_questManager:sv_getQuest( questName )
+	if g_questManager then
+		return g_questManager:sv_getQuest( questName )
+	end
 end
 
 function QuestManager.Sv_SubscribeEvent( event, subscriber, methodName )
-	g_questManager:sv_subscribeEvent( event, subscriber, methodName )
+	if g_questManager then
+		g_questManager:sv_subscribeEvent( event, subscriber, methodName )
+	end
 end
 
 function QuestManager.Sv_UnsubscribeEvent( event, subscriber )
-	g_questManager:sv_unsubscribeEvent( event, subscriber )
+	if g_questManager then
+		g_questManager:sv_unsubscribeEvent( event, subscriber )
+	end
 end
 
 function QuestManager.Sv_UnsubscribeAllEvents( subscriber )
-	g_questManager:sv_unsubscribeAllEvents( subscriber )
+	if g_questManager then
+		g_questManager:sv_unsubscribeAllEvents( subscriber )
+	end
 end
 
 function QuestManager.Sv_OnEvent( event, params )
@@ -142,19 +160,27 @@ function QuestManager.Sv_OnEvent( event, params )
 end
 
 function QuestManager.Cl_IsQuestActive( questName )
-	return g_questManager:cl_isQuestActive( questName )
+	if g_questManager then
+		return g_questManager:cl_isQuestActive( questName )
+	end
 end
 
 function QuestManager.Cl_IsQuestComplete( questName )
-	return g_questManager:cl_isQuestComplete( questName )
+	if g_questManager then
+		return g_questManager:cl_isQuestComplete( questName )
+	end
 end
 
 function QuestManager.Cl_GetQuest( questName )
-	return g_questManager:cl_getQuest( questName )
+	if g_questManager then
+		return g_questManager:cl_getQuest( questName )
+	end
 end
 
 function QuestManager.Cl_UpdateQuestTracker()
-	g_questManager.cl.questTrackerDirty = true
+	if g_questManager then
+		g_questManager.cl.questTrackerDirty = true
+	end
 end
 
 function QuestManager.sv_e_activateQuest( self, questName )
