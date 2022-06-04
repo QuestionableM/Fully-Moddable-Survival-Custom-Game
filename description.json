@@ -1,4 +1,5 @@
 {
+   "allow_add_mods" : true,
    "custom_icons" : false,
    "description" : "A survival mod template that is fully customizeable!",
    "localId" : "78f6b90b-198c-4707-999d-956ea94007ed",
