@@ -80,6 +80,19 @@ function MechanicCharacter.client_onGraphicsLoaded( self )
 		weight = 0
 	}
 
+	self.animations.dramatics_victory_in = {
+		info = self.character:getAnimationInfo( "dramatics_victory_in" ),
+		time = 0,
+		weight = 0
+	}
+
+	self.animations.dramatics_victory_loop = {
+		info = self.character:getAnimationInfo( "dramatics_victory_loop" ),
+		time = 0,
+		weight = 0,
+		looping = true
+	}
+
 	self.cutsceneAnimations = { "dramatics_standup" }
 
 	self.blendSpeed = 5.0
@@ -361,6 +374,12 @@ function MechanicCharacter.cl_handleEvent( self, event )
 	elseif event == "dramatics_standup" then
 		self.currentAnimation = "dramatics_standup"
 		self.animations.dramatics_standup.time = 0
+	elseif event == "dramatics_victory_in" then
+		self.currentAnimation = "dramatics_victory_in"
+		self.animations.dramatics_victory_in.time = 0
+	elseif event == "dramatics_victory_loop" then
+		self.currentAnimation = "dramatics_victory_loop"
+		self.animations.dramatics_victory_loop.time = 0
 	end
 end
 

@@ -30,7 +30,6 @@ function BaseCharacter.server_onCreate( self )
 end
 
 function BaseCharacter.server_onFixedUpdate( self, timeStep )
-
 	-- Transfer server public data of water movement to client
 	self.cl.waterMovementSpeedFraction = 1.0
 	if self.character.publicData and self.character.publicData.waterMovementSpeedFraction then
@@ -75,6 +74,16 @@ function BaseCharacter.client_onCreate( self )
 	self.character.clientPublicData = {}
 	self.cl = {}
 	self.cl.waterMovementSpeedFraction = 1.0
+
+	local player = self.character:getPlayer()
+	if sm.exists( player ) then
+		if player ~= sm.localPlayer.getPlayer() then
+			local name = player:getName()
+			self.character:setNameTag( name )
+		else
+			-- if setNameTag is called here you will be able to see your own name, can be changed during runtime
+		end
+	end
 
 
 

@@ -6,8 +6,11 @@ end
 function QuestItemWaterBucket.client_onCreate( self )
 end
 
-function QuestItemWaterBucket.client_canInteract( self )
+function QuestItemWaterBucket.client_canInteract( self, character )
 	sm.gui.setInteractionText( "", sm.gui.getKeyBinding( "Attack", true ), "#{INTERACTION_PICK_UP}" )
+	if sm.exists( character ) and character:getPlayer() then
+		sm.event.sendToPlayer( character:getPlayer(), "cl_e_tryPickupItemTutorial" )
+	end
 	return true
 end
 

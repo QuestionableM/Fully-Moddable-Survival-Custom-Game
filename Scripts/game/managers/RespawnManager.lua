@@ -194,10 +194,10 @@ function RespawnManager.sv_destroyBed( self, shape )
 	local updatedPlayerBeds = {}
 	local playersUsingBed = {}
 	for playerBedKey, playerBed in pairs( self.sv.playerBeds ) do
-		if sm.exists( playerBed.player ) then
-			playersUsingBed[#playersUsingBed+1] = playerBed.player
-		end
 		if playerBed.shape and playerBed.shape == shape then
+			if sm.exists( playerBed.player ) then
+				playersUsingBed[#playersUsingBed+1] = playerBed.player
+			end
 			updatedPlayerBeds[playerBedKey] = nil
 		else
 			updatedPlayerBeds[playerBedKey] = playerBed
@@ -342,7 +342,6 @@ function RespawnManager.sv_requestRespawnCharacter( self, player )
 	local playerBed = self:sv_getPlayerBed( player )
 	if playerBed then
 		-- Load the bed's position if it exists, otherwise use its last known position.
-		spawnPosition = SURVIVAL_DEV_SPAWN_POINT
 		if playerBed.shape and sm.exists( playerBed.shape ) then
 			spawnPosition = playerBed.shape.worldPosition
 			respawnWorld = playerBed.shape.body:getWorld()

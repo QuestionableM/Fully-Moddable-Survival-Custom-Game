@@ -89,6 +89,8 @@ function MechanicStationQuest.client_onCreate( self )
 	self.cl = {}
 	self.scriptableObject.clientPublicData = {}
 	self.scriptableObject.clientPublicData.progressString = ""
+	self.scriptableObject.clientPublicData.isMainQuest = true
+	self.scriptableObject.clientPublicData.title = "#{Q_MECHANICSTATION_TITLE}"
 end
 
 function MechanicStationQuest.client_onRefresh( self )
@@ -115,11 +117,9 @@ end
 
 function MechanicStationQuest.cl_updateProgress( self, stage )
 	if stage == Stages.to_station then
-		self.scriptableObject.clientPublicData.progressString = "Find the Mechanic Station"
-	elseif stage == Stages.find_battery then
-		self.scriptableObject.clientPublicData.progressString = "Find Master Battery"
-	elseif stage == Stages.activate_station then
-		self.scriptableObject.clientPublicData.progressString = "Activate Mechanic Station"
+		self.scriptableObject.clientPublicData.progressString = "#{Q_MECHANICSTATION_GO_STATION}"
+	elseif isAnyOf( stage, { Stages.find_battery, Stages.activate_station } ) then
+		self.scriptableObject.clientPublicData.progressString = "#{Q_MECHANICSTATION_ACTIVATE_STATION}"
 	else
 		self.scriptableObject.clientPublicData.progressString = ""
 	end

@@ -11,7 +11,7 @@ ElectricEngine.colorNormal = sm.color.new( 0xff8000ff )
 ElectricEngine.colorHighlight = sm.color.new( 0xff9f3aff )
 ElectricEngine.poseWeightCount = 1
 
-local PoweringUpFactor = 0.75
+local PoweringUpFactor = 4.5
 
 local Gears = {
 	{ power = 1000, velocity = math.rad( 0 ) },

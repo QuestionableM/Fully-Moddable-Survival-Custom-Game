@@ -520,6 +520,7 @@ function CarryTool.client_onEquippedUpdate( self, primaryState, secondaryState )
 			end
 		end
 
+		params.shapePlacement = sm.visualization.getShapePlacementVisualization()
 		self.network:sendToServer( "sv_n_dropCarry", params )
 		return true, true
 	end
@@ -571,8 +572,13 @@ function CarryTool.sv_n_dropCarry( self, params )
 						spawnPosition, rotation, -- Global transform
 						sm.vec3.new(0,0,0), meshRot ) -- Local transform
 				else
-					local body = sm.body.createBody( spawnPosition, rotation )
-					shape = body:createPart( params.itemA, sm.vec3.new( 0, 0, 0), sm.vec3.new( 0, -1, 0 ), sm.vec3.new( 1, 0, 0 ), true )
+					if params.shapePlacement then
+						local spawnWorldPosition = params.shapePlacement.worldPosition - params.shapePlacement.worldRotation * shapeOffset
+						shape = sm.shape.createPart( params.itemA, spawnWorldPosition, params.shapePlacement.worldRotation, true, true )
+					else
+						local body = sm.body.createBody( spawnPosition, rotation )
+						shape = body:createPart( params.itemA, sm.vec3.new( 0, 0, 0 ), sm.vec3.new( 0, -1, 0 ), sm.vec3.new( 1, 0, 0 ), true )
+					end
 				end
 				assert(shape)
 				shape:setColor( params.color )

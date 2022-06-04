@@ -152,6 +152,8 @@ function TutorialQuest.client_onCreate( self )
 	self.cl = {}
 	self.scriptableObject.clientPublicData = {}
 	self.scriptableObject.clientPublicData.progressString = ""
+	self.scriptableObject.clientPublicData.title = "#{Q_TUTORIAL_TITLE}"
+	self.scriptableObject.clientPublicData.isMainQuest = true
 end
 
 function TutorialQuest.client_onRefresh( self )
@@ -213,15 +215,9 @@ end
 function TutorialQuest.cl_updateProgress( self, stage, stageData )
 	if stage == Stages.go_crashsite then
 		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_GO_CRASHSITE}"
-	elseif stage == Stages.find_bucket then
-		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_FIND_BUCKET}"
-	elseif stage == Stages.fill_bucket then
-		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_FILL_BUCKET}"
-	elseif isAnyOf( stage, { Stages.return_to_ship, Stages.putout_fire } ) then
-		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_PUTOUT_FIRE}"..#stageData.dousedFires.."/"..#FireNames
-	elseif isAnyOf( stage, { Stages.find_ruin, Stages.find_battery } ) then
-		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_FIND_BATTERY}"
-	elseif stage == Stages.activate_ship then
+	elseif isAnyOf( stage, { Stages.find_bucket, Stages.fill_bucket, Stages.return_to_ship, Stages.putout_fire } ) then
+		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_EXTINGUISH_FIRE}"
+	elseif isAnyOf( stage, { Stages.find_ruin, Stages.find_battery, Stages.activate_ship } ) then
 		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_ACTIVATE_SHIP}"
 	elseif stage == Stages.pickup_intel then
 		self.scriptableObject.clientPublicData.progressString = "#{Q_TUTORIAL_DOWNLOAD_INTEL}"

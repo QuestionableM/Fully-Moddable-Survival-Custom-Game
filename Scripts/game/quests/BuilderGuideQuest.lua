@@ -95,6 +95,8 @@ function BuilderGuideQuest.client_onCreate( self )
 	self.cl = {}
 	self.scriptableObject.clientPublicData = {}
 	self.scriptableObject.clientPublicData.progressString = ""
+	self.scriptableObject.clientPublicData.title = "#{Q_SCRAPCAR_TITLE}"
+	self.scriptableObject.clientPublicData.isMainQuest = false
 end
 
 function BuilderGuideQuest.client_onClientDataUpdate( self, data )
@@ -112,41 +114,34 @@ function BuilderGuideQuest.cl_updateProgress( self, stage, stageData )
 	local text = ""--"Builder Guide (optional)\n"
 
 	if stage == Stages.place_on_lift then
-		text = text.."Place the Builder Guide on the Lift.";
+		text = text.."#{Q_SCRAPCAR_PLACE_ON_LIFT}";
 
 	elseif stage == Stages.complete_builder_guide and stageData and stageData.stageIndex then
 		local index = stageData.stageIndex
 		--text = text.."Stage "..index.."\n";
 
 		if index == 0 then
-			text = text.."Place blocks in the highlighed area.\n\z
-You can rotate blocks and parts using <"..sm.gui.getKeyBinding( "NextCreateRotation" )..">."
+			text = text..string.format( sm.gui.translateLocalizationTags( "#{Q_SCRAPCAR_BUILD_00}" ), sm.gui.getKeyBinding( "NextCreateRotation" ) )
 		elseif index == 1 then
-			text = text.."Place blocks in the highlighed area.\nHold and drag to create larger blocks."
+			text = text.."#{Q_SCRAPCAR_BUILD_01}"
 		elseif index == 2 then
-			text = text.."Place blocks in the highlighed area.\n\z
-Use <"..sm.gui.getKeyBinding( "LiftUp" ).."> and <"..sm.gui.getKeyBinding( "LiftDown" ).."> to move the lift up and down."
+			text = text..string.format( sm.gui.translateLocalizationTags( "#{Q_SCRAPCAR_BUILD_02}" ), sm.gui.getKeyBinding( "LiftUp" ), sm.gui.getKeyBinding( "LiftDown" ) )
 		elseif index == 3 then
-			text = text.."Place Bearings to use as steering.\nBearings can crafted by the Mini Craftbot in the ship."
+			text = text.."#{Q_SCRAPCAR_BUILD_03}"
 		elseif index == 4 then
-			text = text.."Place blocks in the highlighed area."
+			text = text.."#{Q_SCRAPCAR_BUILD_04}"
 		elseif index == 5 then
-			text = text.."Place Bearings to put Wheels on."
+			text = text.."#{Q_SCRAPCAR_BUILD_05}"
 		elseif index == 6 then
-			text = text.."Place Wheels on the Bearings."
+			text = text.."#{Q_SCRAPCAR_BUILD_06}"
 		elseif index == 7 then
-			text = text.."Add a A Driver's Seat. Rotate if needed by pressing <"..sm.gui.getKeyBinding( "NextCreateRotation" )..">.\n\z
-Connect the Driver's Seat to the steering using the Connect Tool.\n\z
-Flip the rotational direction of the Bearing with the Connect Tool."
-		elseif index == 8 then
-			text = text.."Place a Gas Engine.\n\z
-Connect the Gas Engine to the Wheels and the Driver's Seat using the Connect Tool.\n\z
-Flip the rotational direction of the left wheel using the Connect Tool."
+			text = text..string.format( sm.gui.translateLocalizationTags( "#{Q_SCRAPCAR_BUILD_07A}" ), sm.gui.getKeyBinding( "NextCreateRotation" ) ).." #{Q_SCRAPCAR_BUILD_07B}"
+		elseif index == 6 then
+			text = text.."#{Q_SCRAPCAR_BUILD_08}"
 		end
 		
 	elseif stage == Stages.add_fuel then
-		text = text.."Add Gasoline to the Gas Engine.\n\z
-Gasoline can be found in ruins and later also be created from Crude Oil."
+		text = text.."#{Q_SCRAPCAR_ADD_FUEL}"
 	end
 
 	self.scriptableObject.clientPublicData.progressString = text;

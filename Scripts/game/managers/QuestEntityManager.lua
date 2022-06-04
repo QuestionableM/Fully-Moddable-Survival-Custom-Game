@@ -40,7 +40,7 @@ function QuestEntityManager.sv_onWorldCellLoaded( self, worldSelf, x, y )
 	self.sv.worldCellAreaTriggers[worldId][cellKey] = {}
 	local areaTriggers = self.sv.worldCellAreaTriggers[worldId][cellKey]
 	for _, node in ipairs( areaTriggerNodes ) do
-		if node.params.name then
+		if node.params and node.params.name then
 			-- Create the areatrigger
 			local filter = sm.areaTrigger.filter.character
 			local areaTrigger = sm.areaTrigger.createBox( node.scale * 0.5, node.position, node.rotation, filter )
@@ -64,7 +64,7 @@ function QuestEntityManager.sv_onWorldCellLoaded( self, worldSelf, x, y )
 	self.sv.worldCellWaypoints[worldId][cellKey] = {}
 	local waypoints = self.sv.worldCellWaypoints[worldId][cellKey]
 	for _, node in ipairs( waypointNodes ) do
-		if node.params.name then
+		if node.params and node.params.name then
 			local waypointData = {
 				position = node.position,
 				rotation = node.rotation,
@@ -103,10 +103,14 @@ function QuestEntityManager.sv_onWorldCellUnloaded( self, worldSelf, x, y )
 	local areaTriggers = self.sv.worldCellAreaTriggers[worldId] and self.sv.worldCellAreaTriggers[worldId][cellKey] or nil
 	if areaTriggers then
 		for _, areaTriggerData in ipairs( areaTriggers ) do
-			self.sv.namedAreaTriggers[areaTriggerData.name] = nil
-			self.sv.namedAreaTriggersById[areaTriggerData.areaTrigger.id] = nil
-			if sm.exists( areaTriggerData.areaTrigger ) then
-				sm.areaTrigger.destroy( areaTriggerData.areaTrigger )
+			if areaTriggerData.name then
+				self.sv.namedAreaTriggers[areaTriggerData.name] = nil
+			end
+			if areaTriggerData.areaTrigger then
+				self.sv.namedAreaTriggersById[areaTriggerData.areaTrigger.id] = nil
+				if sm.exists( areaTriggerData.areaTrigger ) then
+					sm.areaTrigger.destroy( areaTriggerData.areaTrigger )
+				end
 			end
 		end
 		self.sv.worldCellAreaTriggers[worldId][cellKey] = nil
@@ -116,7 +120,9 @@ function QuestEntityManager.sv_onWorldCellUnloaded( self, worldSelf, x, y )
 	local waypoints = self.sv.worldCellWaypoints[worldId] and self.sv.worldCellWaypoints[worldId][cellKey] or nil
 	if waypoints then
 		for _, waypointData in ipairs( waypoints ) do
-			self.sv.namedAreaTriggers[waypointData.name] = nil
+			if waypointData.name then
+				self.sv.namedAreaTriggers[waypointData.name] = nil
+			end
 		end
 		self.sv.worldCellWaypoints[worldId][cellKey] = nil
 	end
@@ -258,7 +264,7 @@ function QuestEntityManager.cl_onWorldCellLoaded( self, worldSelf, x, y )
 	self.cl.worldCellQuestMarkers[worldId][cellKey] = {}
 	local questMarkers = self.cl.worldCellQuestMarkers[worldId][cellKey]
 	for _, node in ipairs( questMarkerNodes ) do
-		if node.params.name then
+		if node.params and node.params.name then
 			local questMarkerGui = sm.gui.createWorldIconGui( 60, 60, "$GAME_DATA/Gui/Layouts/Hud/Hud_WorldIcon.layout", false )
 			questMarkerGui:setImage( "Icon", "icon_questmarker.png" )
 			questMarkerGui:setWorldPosition( node.position )
@@ -293,11 +299,12 @@ function QuestEntityManager.cl_onWorldCellUnloaded( self, worldSelf, x, y )
 	local questMarkers = self.cl.worldCellQuestMarkers[worldId] and self.cl.worldCellQuestMarkers[worldId][cellKey] or nil
 	if questMarkers then
 		for _, questMarkerData in ipairs( questMarkers ) do
-			local questMarkerData = self.cl.namedQuestMarkers[questMarkerData.name]
-			if questMarkerData and questMarkerData.questMarkerGui then
+			if questMarkerData.questMarkerGui then
 				questMarkerData.questMarkerGui:destroy()
 			end
-			self.cl.namedQuestMarkers[questMarkerData.name] = nil
+			if questMarkerData.name then
+				self.cl.namedQuestMarkers[questMarkerData.name] = nil
+			end
 		end
 		self.cl.worldCellQuestMarkers[worldId][cellKey] = nil
 	end

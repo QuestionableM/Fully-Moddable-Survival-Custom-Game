@@ -70,17 +70,13 @@ function QuestManager.client_onCreate( self )
 	self.cl = {}
 	self.cl.completedQuests = {}
 	self.cl.activeQuests = {}
-
-	self.cl.trackerHud = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Quest/Quest_Tracker.layout", true, { isHud = true, isInteractive = false, needsCursor = false } )
+	self.cl.trackerHud = sm.gui.createQuestTrackerGui()
 	self.cl.trackerHud:open()
-
 	self.cl.questTrackerDirty = true
 end
 
 function QuestManager.client_onDestroy( self )
 	g_questManager = nil
-	self.cl.trackerHud:close()
-	self.cl.trackerHud:destroy()
 	self.cl.trackerHud = nil
 end
 
@@ -299,19 +295,19 @@ function QuestManager.cl_updateQuestTracker( self )
 	if not self.cl.trackerHud then
 		return
 	end
-	local questTrackerText = ""
+
 	for questName, object in pairs( self.cl.activeQuests ) do
 		if sm.exists( object ) then
 			if object.clientPublicData and object.clientPublicData.progressString then
-				questTrackerText = questTrackerText..object.clientPublicData.progressString
-			else
-				questTrackerText = questTrackerText..questName.." is missing objectives"
+				local isMainQuest = object.clientPublicData.isMainQuest
+				local title = object.clientPublicData.title
+				self.cl.trackerHud:trackQuest( questName, title, isMainQuest, {
+					{ name = "step1", text = object.clientPublicData.progressString },
+				} )
 			end
 		end
 
-		questTrackerText = questTrackerText.."\n\n"
 	end
-	self.cl.trackerHud:setText( "QuestTrackerTextBox", questTrackerText )
 	self.cl.questTrackerDirty = false
 end
 
@@ -344,4 +340,7 @@ end
 
 function QuestManager.cl_n_questCompleted( self, questName )
 	sm.gui.displayAlertText( "Quest completed!" )
+	if self.cl.trackerHud then
+			self.cl.trackerHud:untrackQuest( questName )
+	end
 end

@@ -58,12 +58,12 @@ function SurvivalPlayer.server_onCreate( self )
 		water = 100, maxwater = 100,
 		breath = 100, maxbreath = 100
 	}
-	self.sv.saved.isConscious = self.sv.saved.isConscious or true
-	self.sv.saved.hasRevivalItem = self.sv.saved.hasRevivalItem or false
-	self.sv.saved.isNewPlayer = self.sv.saved.isNewPlayer or true
-	self.sv.saved.inChemical = self.sv.saved.inChemical or false
-	self.sv.saved.inOil = self.sv.saved.inOil or false
-	self.sv.saved.tutorialsWatched = self.sv.saved.tutorialsWatched or {}
+	if self.sv.saved.isConscious == nil then self.sv.saved.isConscious = true end
+	if self.sv.saved.hasRevivalItem == nil then self.sv.saved.hasRevivalItem = false end
+	if self.sv.saved.isNewPlayer == nil then self.sv.saved.isNewPlayer = true end
+	if self.sv.saved.inChemical == nil then self.sv.saved.inChemical = false end
+	if self.sv.saved.inOil == nil then self.sv.saved.inOil = false end
+	if self.sv.saved.tutorialsWatched == nil then self.sv.saved.tutorialsWatched = {} end
 	self.storage:save( self.sv.saved )
 
 	self:sv_init()
@@ -195,7 +195,8 @@ function SurvivalPlayer.client_onClientDataUpdate( self, data )
 						self.cl.tutorialGui = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Tutorial/PopUp_Tutorial.layout", true, { isHud = true, isInteractive = false, needsCursor = false } )
 						self.cl.tutorialGui:setText( "TextTitle", "#{TUTORIAL_HUNGER_AND_THIRST_TITLE}" )
 						self.cl.tutorialGui:setText( "TextMessage", "#{TUTORIAL_HUNGER_AND_THIRST_MESSAGE}" )
-						self.cl.tutorialGui:setText( "TextDismiss", "#{TUTORIAL_DISMISS}" )
+						local dismissText = string.format( sm.gui.translateLocalizationTags( "#{TUTORIAL_DISMISS}" ), sm.gui.getKeyBinding( "Use" ) )
+						self.cl.tutorialGui:setText( "TextDismiss", dismissText )
 						self.cl.tutorialGui:setImage( "ImageTutorial", "gui_tutorial_image_hunger.png" )
 						self.cl.tutorialGui:setOnCloseCallback( "cl_onCloseTutorialHungerGui" )
 						self.cl.tutorialGui:open()
@@ -206,9 +207,32 @@ function SurvivalPlayer.client_onClientDataUpdate( self, data )
 	end
 end
 
+function SurvivalPlayer.cl_e_tryPickupItemTutorial( self )
+	if not g_disableTutorialHints then
+		if not self.cl.tutorialsWatched["pickupitem"] then
+			if not self.cl.tutorialGui then
+				self.cl.tutorialGui = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Tutorial/PopUp_Tutorial.layout", true, { isHud = true, isInteractive = false, needsCursor = false } )
+				self.cl.tutorialGui:setText( "TextTitle", "#{TUTORIAL_PICKUP_ITEM_TITLE}" )
+				self.cl.tutorialGui:setText( "TextMessage", "#{TUTORIAL_PICKUP_ITEM_MESSAGE}" )
+				local dismissText = string.format( sm.gui.translateLocalizationTags( "#{TUTORIAL_DISMISS}" ), sm.gui.getKeyBinding( "Use" ) )
+				self.cl.tutorialGui:setText( "TextDismiss", dismissText )
+				self.cl.tutorialGui:setImage( "ImageTutorial", "gui_tutorial_image_pickup_items.png" )
+				self.cl.tutorialGui:setOnCloseCallback( "cl_onCloseTutorialPickupItemGui" )
+				self.cl.tutorialGui:open()
+			end
+		end
+	end
+end
+
 function SurvivalPlayer.cl_onCloseTutorialHungerGui( self )
 	self.cl.tutorialsWatched["hunger"] = true
 	self.network:sendToServer( "sv_e_watchedTutorial", { tutorialKey = "hunger" } )
+	self.cl.tutorialGui = nil
+end
+
+function SurvivalPlayer.cl_onCloseTutorialPickupItemGui( self )
+	self.cl.tutorialsWatched["pickupitem"] = true
+	self.network:sendToServer( "sv_e_watchedTutorial", { tutorialKey = "pickupitem" } )
 	self.cl.tutorialGui = nil
 end
 
@@ -420,10 +444,7 @@ function SurvivalPlayer.sv_e_staminaSpend( self, stamina )
 	if not g_godMode then
 		if stamina > 0 then
 			self.sv.staminaSpend = self.sv.staminaSpend + stamina
-			print( "SurvivalPlayer spent:", stamina, "stamina" )
 		end
-	else
-		print( "SurvivalPlayer resisted", stamina, "stamina spend" )
 	end
 end
 
