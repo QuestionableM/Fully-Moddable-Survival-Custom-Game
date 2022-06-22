@@ -15,6 +15,7 @@ function EffectManager.cl_onCreate( self )
 	self.worldEffectsNextIds = {}
 	self.worldSphereGroups = {}
 
+	self.loadingScreenLifted = false
 end
 
 function EffectManager.createEffect( self, world, effectNode )
@@ -135,8 +136,15 @@ function EffectManager.cl_onWorldCellUnloaded( self, worldSelf, x, y )
 	end
 end
 
+function EffectManager.cl_onLoadingScreenLifted( self )
+	self.loadingScreenLifted = true
+end
+
 function EffectManager.cl_onWorldUpdate( self, worldSelf )
-	--print(worldSelf.world)
+	if not self.loadingScreenLifted then
+		return
+	end
+
 	self:cl_handleNamedWorldEffects( worldSelf )
 	local worldId = worldSelf.world.id
 

@@ -1297,6 +1297,8 @@ function Crafter.cl_n_upgrade( self, upgrade )
 			self.cl.guiInterface:setData( "UpgradeInfo", nil )
 		end
 	end
+
+	sm.effect.playHostedEffect( "Part - Upgrade", self.interactable )
 end
 
 function Crafter.cl_n_onMessage( self, msg )

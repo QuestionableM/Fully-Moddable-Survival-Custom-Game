@@ -68,7 +68,7 @@ function LostItems.client_onClientDataUpdate( self, clientData )
 	
 	if sm.localPlayer.getPlayer() == self.cl.owner then
 		self.cl.iconGui = sm.gui.createWorldIconGui( 32, 32, "$GAME_DATA/Gui/Layouts/Hud/Hud_WorldIcon.layout", false )
-		self.cl.iconGui:setImage( "Icon", "gui_icon_kobag.png" )
+		self.cl.iconGui:setImage( "Icon", "icon_lostitem_large.png" )
 		self.cl.iconGui:setHost( self.shape )
 		self.cl.iconGui:setRequireLineOfSight( false )
 		self.cl.iconGui:open()

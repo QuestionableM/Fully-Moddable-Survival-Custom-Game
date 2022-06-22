@@ -438,6 +438,8 @@ function SurvivalPlayer.server_onInventoryChanges( self, container, changes )
 		--	QuestManager.Sv_TryActivateQuest( "quest_acquire_test" )
 		--end
 	end
+	self.network:sendToClient( self.player, "cl_n_onInventoryChanges", { container = container, changes = changes } )
+			
 end
 
 function SurvivalPlayer.sv_e_staminaSpend( self, stamina )
@@ -591,6 +593,16 @@ function SurvivalPlayer.sv_e_onSpawnCharacter( self )
 	self.sv.spawnparams = {}
 
 	sm.event.sendToGame( "sv_e_onSpawnPlayerCharacter", self.player )
+end
+
+function SurvivalPlayer.cl_n_onInventoryChanges( self, params )
+	if params.container == sm.localPlayer.getInventory() then
+		for i, item in ipairs( params.changes ) do
+			if item.difference > 0 then
+				g_survivalHud:addToPickupDisplay( item.uuid, item.difference )
+			end
+		end
+	end
 end
 
 function SurvivalPlayer.cl_seatCharacter( self, params )

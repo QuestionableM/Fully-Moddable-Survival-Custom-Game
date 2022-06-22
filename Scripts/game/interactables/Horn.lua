@@ -6,34 +6,36 @@ Horn.connectionInput = sm.interactable.connectionType.logic
 Horn.connectionOutput = sm.interactable.connectionType.none
 Horn.poseWeightCount = 1
 
-function Horn:server_onCreate(  )
+function Horn.server_onCreate( self )
 	self.saved = self.storage:load()
 	if self.saved == nil then
-		self.saved = {}
+		self.saved = { sliderPos = 5 }
 	end
 
-	self.dirtySliderPos = false;
+	self.storage:save( self.saved )
+	self.dirtySliderPos = false
+	self.network:setClientData(	{ sliderPos = self.saved.sliderPos} )
 end
 
-function Horn:sv_setSlider( newSliderPos )
+function Horn.sv_setSlider( self, newSliderPos )
 	self.saved.sliderPos = newSliderPos
 	self.dirtySliderPos = true;
-	self.network:sendToClients("cl_setSlider", newSliderPos);
+	self.network:sendToClients( "cl_setSlider", newSliderPos );
 end
 
-function Horn:server_onFixedUpdate( timeStep ) 
+function Horn.server_onFixedUpdate( self, timeStep )
 
 	if self.dirtySliderPos then
 		self.storage:save( self.saved )
 		self.dirtySliderPos = false
-		self.network:setClientData(	{ sliderPos = self.saved.sliderPos} )
+		self.network:setClientData(	{ sliderPos = self.saved.sliderPos } )
 	end
 
 end
 
-function Horn:client_onCreate(  )
+function Horn.client_onCreate( self  )
 	self.cl = {}
-	self.effect = sm.effect.createEffect("Horn - Honk", self.interactable)
+	self.effect = sm.effect.createEffect( "Horn - Honk", self.interactable )
 
 	self.timer = 0.2
 	self.animWeight = 0
@@ -44,7 +46,7 @@ function Horn:client_onCreate(  )
 	self.sliderRange = 11;
 end
 
-function Horn:client_onFixedUpdate(dt)
+function Horn.client_onFixedUpdate( self, dt )
 	local b_parentIsActive = self:inputActive()
 
 	if b_parentIsActive and not self.parentActive then
@@ -65,25 +67,27 @@ function Horn:client_onFixedUpdate(dt)
 		self.animWeight = self.animWeight - self.animationSpeed*dt
 	end
 
-	self.animWeight = clamp(self.animWeight, 0, 1)
-	self.interactable:setPoseWeight(0,self.animWeight)
+	self.animWeight = clamp( self.animWeight, 0, 1 )
+	self.interactable:setPoseWeight( 0, self.animWeight )
 
 end
 
-function Horn.client_onClientDataUpdate( self, params ) 
+function Horn.client_onClientDataUpdate( self, params )
 	if self.cl.guiInterface then
 		if self.cl.guiInterface:isActive() then
-			self.cl.guiInterface:setSliderPosition("Slider", params.sliderPos)
+			self.cl.guiInterface:setSliderPosition( "Slider", params.sliderPos )
 		end
 	end
 	self.currentSliderPos = params.sliderPos
+	local newPitch = self.currentSliderPos / ( self.sliderRange-1 )
+	self.effect:setParameter("pitch", newPitch)
 end
 
-function Horn:inputActive()
+function Horn.inputActive( self )
 	local parent = self.interactable:getSingleParent();
 
 	if parent then
-		if parent:hasOutputType(sm.interactable.connectionType.logic) then
+		if parent:hasOutputType( sm.interactable.connectionType.logic ) then
 			return parent:isActive()
 		end
 	end
@@ -94,17 +98,17 @@ end
 
 --GUI
 
-function Horn:client_onInteract( character, state )
+function Horn.client_onInteract( self, character, state )
 	if state == true then
-		self.cl.guiInterface = sm.gui.createGuiFromLayout("$GAME_DATA/Gui/Layouts/Interactable/Interactable_Horn.layout")
-		self.cl.guiInterface:createHorizontalSlider("Slider", self.sliderRange, self.currentSliderPos, "cl_updateSliderValue")
-		self.cl.guiInterface:setOnCloseCallback("cl_onClose")
-		self.cl.guiInterface:setIconImage("Icon", obj_interactive_horn)
+		self.cl.guiInterface = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Interactable/Interactable_Horn.layout" )
+		self.cl.guiInterface:createHorizontalSlider( "Slider", self.sliderRange, self.currentSliderPos, "cl_updateSliderValue" )
+		self.cl.guiInterface:setOnCloseCallback( "cl_onClose" )
+		self.cl.guiInterface:setIconImage( "Icon", obj_interactive_horn )
 		self.cl.guiInterface:open()
 	end
 end
 	
-function Horn:cl_onClose( )
+function Horn.cl_onClose( self )
 	if self.cl.guiInterface then
 		self.cl.guiInterface:close()
 		self.cl.guiInterface:destroy()
@@ -112,17 +116,17 @@ function Horn:cl_onClose( )
 	end
 end
 
-function Horn:cl_updateSliderValue(newSliderPos)
-	self.network:sendToServer("sv_setSlider", newSliderPos)
+function Horn.cl_updateSliderValue( self, newSliderPos )
+	self.network:sendToServer( "sv_setSlider", newSliderPos )
 	
 end
 
-function Horn:cl_setSlider(newSliderPos) 
+function Horn.cl_setSlider( self, newSliderPos )
 	if self.cl.guiInterface then
-		self.cl.guiInterface:setSliderPosition("Slider", newSliderPos)	
+		self.cl.guiInterface:setSliderPosition( "Slider", newSliderPos )
 	end
 	self.currentSliderPos = newSliderPos
 
-	local newPitch = self.currentSliderPos / (self.sliderRange-1)
-	self.effect:setParameter("pitch", newPitch)
+	local newPitch = self.currentSliderPos / ( self.sliderRange-1 )
+	self.effect:setParameter( "pitch", newPitch )
 end

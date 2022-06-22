@@ -858,7 +858,9 @@ local ToolItems = {
 	[tostring( tool_weld )] = obj_tool_weld,
 	[tostring( tool_spudgun )] = obj_tool_spudgun,
 	[tostring( tool_shotgun )] = obj_tool_frier,
-	[tostring( tool_gatling )] = obj_tool_spudling
+	[tostring( tool_gatling )] = obj_tool_spudling,
+	[tostring( tool_handbook )] = obj_tool_handbook,
+	["ed185725-ea12-43fc-9cd7-4295d0dbf88b"] = obj_tool_sledgehammer, --Creative sledgehammer
 }
 function GetToolProxyItem( toolUuid )
 	return ToolItems[tostring( toolUuid )]

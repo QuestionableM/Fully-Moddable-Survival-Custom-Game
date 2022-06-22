@@ -6,7 +6,6 @@ LootHarvestable = class( nil )
 
 function LootHarvestable.server_onCreate( self )
 	self.sv = {}
-
 	self.sv.saved = self.storage:load()
 	if self.sv.saved == nil then
 		self.sv.saved = {}
@@ -132,7 +131,7 @@ function LootHarvestable.client_onClientDataUpdate( self, params )
 	self.cl.itemEffect:setRotation( sm.vec3.getRotation( forward, forward:rotateZ( self.cl.rotation ) ) )
 	if effectUuid then
 		self.cl.itemEffect:setParameter( "uuid", effectUuid )
-		self.cl.itemEffect:setParameter( "Color", sm.shape.getShapeTypeColor( effectUuid ) )
+		self.cl.itemEffect:setParameter( "Color", sm.shape.getShapeTypeColor( params.uuid ) )
 	end
 	
 	-- Set the effect scale and offset

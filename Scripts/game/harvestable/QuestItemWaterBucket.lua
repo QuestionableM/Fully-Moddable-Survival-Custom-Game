@@ -29,6 +29,7 @@ function QuestItemWaterBucket.server_onRemoved( self, player )
 			if sm.container.endTransaction() then
 				self.harvestable:destroy()
 				self.removed = true
+				sm.effect.playEffect( "Part - Removed", self.harvestable.worldPosition )
 			end
 		end
 	end

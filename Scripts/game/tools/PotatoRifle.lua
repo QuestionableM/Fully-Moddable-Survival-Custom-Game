@@ -261,7 +261,7 @@ function PotatoRifle.client_onUpdate( self, dt )
 	local blockSprint = self.aiming or self.sprintCooldownTimer > 0.0
 	self.tool:setBlockSprint( blockSprint )
 
-	local playerDir = self.tool:getDirection()
+	local playerDir = self.tool:getSmoothDirection()
 	local angle = math.asin( playerDir:dot( sm.vec3.new( 0, 0, 1 ) ) ) / ( math.pi / 2 )
 	local linareAngle = playerDir:dot( sm.vec3.new( 0, 0, 1 ) )
 

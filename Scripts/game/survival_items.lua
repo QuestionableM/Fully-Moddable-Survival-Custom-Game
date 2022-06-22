@@ -743,12 +743,14 @@ obj_survivalobject_ruinchest = sm.uuid.new( "79cc711e-7094-4029-8419-bbbf8f08c6f
 ----------------------------------------
 -- toolparts.json
 ----------------------------------------
+obj_tool_sledgehammer = sm.uuid.new( "cf41bd2d-8bd3-432b-8a92-a36eda7e7740" )
 obj_tool_connect = sm.uuid.new( "85fc5f11-722b-4723-91f2-293a81ad0800" )
 obj_tool_paint = sm.uuid.new( "731c6a84-7ae7-439d-a620-128076f9985c" )
 obj_tool_weld = sm.uuid.new( "836e98a2-8c8c-4a6b-9239-54acdd4f4736" )
 obj_tool_spudgun = sm.uuid.new( "2d7f1278-ac93-4039-9eb2-d31715ea10ff" )
 obj_tool_spudling = sm.uuid.new( "b633c3ee-2cda-4096-989a-60e90cd220aa" )
 obj_tool_frier = sm.uuid.new( "3faf624b-0a95-452f-b6cd-9930ad1731c5" )
+obj_tool_handbook = sm.uuid.new( "1226cfd3-4fc8-4f9e-b21a-0c9576e2ef2f" )
 
 ----------------------------------------
 -- tools.json

@@ -630,6 +630,7 @@ function SurvivalGame.cl_n_onJoined( self, params )
 end
 
 function SurvivalGame.client_onLoadingScreenLifted( self )
+	g_effectManager:cl_onLoadingScreenLifted()
 	self.network:sendToServer( "sv_n_loadingScreenLifted" )
 	if self.cl.playIntroCinematic then
 		local callbacks = {}
@@ -637,7 +638,7 @@ function SurvivalGame.client_onLoadingScreenLifted( self )
 		g_effectManager:cl_playNamedCinematic( "cinematic.survivalstart01", callbacks )
 	end
 end
-
+	
 function SurvivalGame.sv_n_loadingScreenLifted( self, _, player )
 	if not g_survivalDev then
 		QuestManager.Sv_TryActivateQuest( "quest_tutorial" )
