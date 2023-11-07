@@ -211,7 +211,6 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/spawn", { { "string", "unitName", true }, { "int", "amount", true } }, "cl_onChatCommand", "Spawn a unit: 'woc', 'tapebot', 'totebot', 'haybot'" )
 		sm.game.bindChatCommand( "/harvestable", { { "string", "harvestableName", true } }, "cl_onChatCommand", "Create a harvestable: 'tree', 'stone'" )
 		sm.game.bindChatCommand( "/cleardebug", {}, "cl_onChatCommand", "Clear debug draw objects" )
-		sm.game.bindChatCommand( "/export", { { "string", "name", false } }, "cl_onChatCommand", "Exports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/import", { { "string", "name", false } }, "cl_onChatCommand", "Imports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/starterkit", {}, "cl_onChatCommand", "Spawn a starter kit" )
 		sm.game.bindChatCommand( "/mechanicstartkit", {}, "cl_onChatCommand", "Spawn a starter kit for starting at mechanic station" )
@@ -527,15 +526,6 @@ function SurvivalGame.cl_onChatCommand( self, params )
 		end
 	elseif params[1] == "/cleardebug" then
 		sm.debugDraw.clear()
-	elseif params[1] == "/export" then
-		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
-		if rayCastValid and rayCastResult.type == "body" then
-			local importParams = {
-				name = params[2],
-				body = rayCastResult:getBody()
-			}
-			self.network:sendToServer( "sv_exportCreation", importParams )
-		end
 	elseif params[1] == "/import" then
 		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
 		if rayCastValid then
@@ -748,11 +738,6 @@ function SurvivalGame.sv_spawnHarvestable( self, params )
 	sm.event.sendToWorld( params.world, "sv_spawnHarvestable", params )
 end
 
-function SurvivalGame.sv_exportCreation( self, params )
-	local obj = sm.json.parseJsonString( sm.creation.exportToString( params.body ) )
-	sm.json.save( obj, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint" )
-end
-
 function SurvivalGame.sv_importCreation( self, params )
 	sm.creation.importFromFile( params.world, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint", params.position )
 end
@@ -805,11 +790,6 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 	elseif params[1] == "/respawn" then
 		sm.event.sendToPlayer( player, "sv_e_respawn" )
 
-	elseif params[1] == "/printglobals" then
-		print( "Globals:" )
-		for k,_ in pairs(_G) do
-			print( k )
-		end
 
 	elseif params[1] == "/activatequest" then
 		local questName = params[2]
