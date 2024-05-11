@@ -5,61 +5,97 @@
 			"uuid": "bb641a4f-e391-441c-bc6d-0ae21a069476",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
 			"previewRotation": [  -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Sledgehammer.lua", "class": "Sledgehammer" }
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Sledgehammer.lua",
+				"class": "Sledgehammer",
+				"data": {}
+			}
 		},
 		{
 			"uuid": "8f190ce2-3a59-423e-8483-a7aa67bd5bc0",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/SurvivalLift.lua", "class": "SurvivalLift" }
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/SurvivalLift.lua",
+				"class": "SurvivalLift",
+				"data": {}
+			}
 		},
 		{
 			"uuid": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
 			"previewRotation": [  -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Planter.lua", "class": "Planter" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Planter.lua",
+				"class": "Planter",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "f26a26bf-b9be-4e59-83e4-da2e9e6dd285",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Fertilizer.lua", "class": "Fertilizer" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Fertilizer.lua",
+				"class": "Fertilizer",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "2bff990a-0e74-43c7-b7dc-889b3a086fa3",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Eat.lua", "class": "Eat" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Eat.lua",
+				"class": "Eat",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "87cf94fa-a52a-47bd-8d62-47a2e10fe2af",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Feeder.lua", "class": "Feeder" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Feeder.lua",
+				"class": "Feeder",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "3ef5412a-7044-45ae-9592-9ce86bd99081",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/SoilBag.lua", "class": "SoilBag" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/SoilBag.lua",
+				"class": "SoilBag",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "59a3469c-d7cd-4784-aa5b-316749abc2b6",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/KeyTool.lua", "class": "KeyTool" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/KeyTool.lua",
+				"class": "KeyTool",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "a6113860-f4d4-42df-b8f9-129efdbaf777",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/LogBook.lua", "class": "LogBook" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/LogBook.lua",
+				"class": "LogBook",
+				"data": {}
+			},
 			"showInInventory": false
 		}
 	]

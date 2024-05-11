@@ -5,14 +5,22 @@
 			"uuid": "52c1d933-5ba0-47da-b107-477b6c211a5d",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Bucket.lua", "class": "Bucket" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Bucket.lua",
+				"class": "Bucket",
+				"data": {}
+			},
 			"autoTool": true
 		},
 		{
 			"uuid": "9506abb9-e415-4229-a824-28a479cca788",
 			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
 			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
-			"script": { "file": "$CONTENT_DATA/Scripts/game/tools/Glowstick.lua", "class": "Glowstick" },
+			"script": {
+				"file": "$CONTENT_DATA/Scripts/game/tools/Glowstick.lua",
+				"class": "Glowstick",
+				"data": {}
+			},
 			"autoTool": true
 		}
 	]
